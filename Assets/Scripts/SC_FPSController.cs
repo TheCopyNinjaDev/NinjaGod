@@ -70,10 +70,24 @@ public class SC_FPSController : MonoBehaviour
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
+        //
+        if (canMove)
+        {
+            Crouch(characterController.isGrounded);
+        }
     }
 
-    void Crawl()
+    void Crouch(bool isGrounded)
     {
-
+        if (Input.GetButtonDown("Crouch") && isGrounded)
+        {
+            gameObject.GetComponent<CharacterController>().height = 1;
+            playerCamera.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+        }   
+        else if (Input.GetButtonUp("Crouch"))
+        {
+            gameObject.GetComponent<CharacterController>().height = 2;
+            playerCamera.transform.position = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
+        }
     }
 }

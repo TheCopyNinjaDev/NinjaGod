@@ -79,15 +79,59 @@ public class SC_FPSController : MonoBehaviour
 
     void Crouch(bool isGrounded)
     {
+        RaycastHit hit;
+        Ray rayUP = new Ray(transform.position, Vector3.up);
+        Physics.Raycast(rayUP, out hit);
+        float timer = 0;
+        float timeToWait = 0.002f;
+        bool checkingTime = true;
+        bool timerDone = false;
+
         if (Input.GetButtonDown("Crouch") && isGrounded)
         {
             gameObject.GetComponent<CharacterController>().height = 1;
             playerCamera.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         }   
-        else if (Input.GetButtonUp("Crouch"))
+        else if (!Input.GetButton("Crouch"))
         {
-            gameObject.GetComponent<CharacterController>().height = 2;
-            playerCamera.transform.position = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
+            if (hit.distance == 0 || hit.distance >= 2)
+            {
+                
+
+
+                if (checkingTime)
+                {
+                    timer += Time.deltaTime;
+                    if (timer >= timeToWait)
+                    {
+                        timerDone = true;
+                        checkingTime = false;
+                        timer = 0;
+                    }
+                }
+
+                if (timerDone)
+                {
+                    //DoSomething()
+                    Stand();
+                    timerDone = false;
+                }
+
+            }
         }
+
     }
+
+    void Stand()
+    {
+        gameObject.GetComponent<CharacterController>().height = 2;
+        playerCamera.transform.position = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
+    }
+
+    /*IEnumerator Stand()
+    {
+        yield return new WaitForSeconds(0.01f);
+        gameObject.GetComponent<CharacterController>().height = 2;
+        playerCamera.transform.position = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
+    }*/
 }

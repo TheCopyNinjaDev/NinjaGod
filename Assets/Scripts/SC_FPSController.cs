@@ -13,17 +13,23 @@ public class SC_FPSController : MonoBehaviour
     public Camera playerCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
+    public ParticleSystem runEffects;
 
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
-    bool isRunning = false;
     bool isCrouching = false;
+    
+
 
 
 
     [HideInInspector]
     public bool canMove = true;
+    [HideInInspector]
+    public Vector3 characterVelocity;
+    [HideInInspector]
+    public bool isRunning = false;
 
     void Start()
     {
@@ -39,13 +45,23 @@ public class SC_FPSController : MonoBehaviour
         // We are grounded, so recalculate move direction based on axes
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
-        // Press Left Shift to run
-        /*bool isRunning = Input.GetKey(KeyCode.LeftShift);*/
         
+
+        //Prevents running while crouching
+        if (Input.GetButtonDown("Crouch"))
+        {
+            isRunning = false;
+            runEffects.Stop();
+            playerCamera.fieldOfView = 60;
+        }
+
+        // Press Left Shift to run
         if (canMove && !isCrouching)
         {
             Run();
         }
+
+        
 
 
         float curSpeedX = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Vertical") : 0;
@@ -60,6 +76,16 @@ public class SC_FPSController : MonoBehaviour
         else
         {
             moveDirection.y = movementDirectionY;
+        }
+
+
+        if (isRunning)
+        {
+            characterVelocity.x = runningSpeed;
+        }
+        else
+        {
+            characterVelocity.x = walkingSpeed;
         }
 
         // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
@@ -123,14 +149,13 @@ public class SC_FPSController : MonoBehaviour
 
                 if (timerDone)
                 {
-                    //return from crouching
+                    //returns from crouching
                     Stand();
                     isCrouching = false;
                 }
 
             }
         }
-        else if (Input.GetButtonDown("Crouch")) isRunning = false;
 
     }
 
@@ -145,10 +170,15 @@ public class SC_FPSController : MonoBehaviour
         if (Input.GetButtonDown("Run"))
         {
             isRunning = true;
+            runEffects.Play();
+            playerCamera.fieldOfView = 65;
+            
         }
         else if (Input.GetButtonUp("Run"))
         {
             isRunning = false;
+            runEffects.Stop();
+            playerCamera.fieldOfView = 60;
         }
     }
 }

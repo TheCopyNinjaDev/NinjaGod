@@ -17,6 +17,10 @@ public class SC_FPSController : MonoBehaviour
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
+    bool isRunning = false;
+    bool isCrouching = false;
+
+
 
     [HideInInspector]
     public bool canMove = true;
@@ -36,7 +40,14 @@ public class SC_FPSController : MonoBehaviour
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
         // Press Left Shift to run
-        bool isRunning = Input.GetKey(KeyCode.LeftShift);
+        /*bool isRunning = Input.GetKey(KeyCode.LeftShift);*/
+        
+        if (canMove && !isCrouching)
+        {
+            Run();
+        }
+
+
         float curSpeedX = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Vertical") : 0;
         float curSpeedY = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Horizontal") : 0;
         float movementDirectionY = moveDirection.y;
@@ -70,7 +81,7 @@ public class SC_FPSController : MonoBehaviour
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
-        //
+        //Press Left Ctrl to crouch
         if (canMove)
         {
             Crouch(characterController.isGrounded);
@@ -91,12 +102,14 @@ public class SC_FPSController : MonoBehaviour
         {
             gameObject.GetComponent<CharacterController>().height = 1;
             playerCamera.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-        }   
+            isRunning = false;
+            isCrouching = true;
+        }
         else if (!Input.GetButton("Crouch"))
         {
             if (hit.distance == 0 || hit.distance >= 2)
             {
-                
+
 
 
                 if (checkingTime)
@@ -105,20 +118,19 @@ public class SC_FPSController : MonoBehaviour
                     if (timer >= timeToWait)
                     {
                         timerDone = true;
-                        checkingTime = false;
-                        timer = 0;
                     }
                 }
 
                 if (timerDone)
                 {
-                    //DoSomething()
+                    //return from crouching
                     Stand();
-                    timerDone = false;
+                    isCrouching = false;
                 }
 
             }
         }
+        else if (Input.GetButtonDown("Crouch")) isRunning = false;
 
     }
 
@@ -128,10 +140,15 @@ public class SC_FPSController : MonoBehaviour
         playerCamera.transform.position = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
     }
 
-    /*IEnumerator Stand()
+    void Run()
     {
-        yield return new WaitForSeconds(0.01f);
-        gameObject.GetComponent<CharacterController>().height = 2;
-        playerCamera.transform.position = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
-    }*/
+        if (Input.GetButtonDown("Run"))
+        {
+            isRunning = true;
+        }
+        else if (Input.GetButtonUp("Run"))
+        {
+            isRunning = false;
+        }
+    }
 }

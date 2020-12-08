@@ -19,6 +19,8 @@ public class SC_FPSController : MonoBehaviour
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
     bool isCrouching = false;
+    Vector3 forward = Vector3.zero;
+    Vector3 right = Vector3.zero;
     
 
 
@@ -43,8 +45,8 @@ public class SC_FPSController : MonoBehaviour
     void Update()
     {
         // We are grounded, so recalculate move direction based on axes
-        Vector3 forward = transform.TransformDirection(Vector3.forward);
-        Vector3 right = transform.TransformDirection(Vector3.right);
+        forward = transform.TransformDirection(Vector3.forward);
+        right = transform.TransformDirection(Vector3.right);
         
 
         //Prevents running while crouching
@@ -55,11 +57,7 @@ public class SC_FPSController : MonoBehaviour
             playerCamera.fieldOfView = 60;
         }
 
-        // Press Left Shift to run
-        if (canMove && !isCrouching)
-        {
-            Run();
-        }
+        
 
         
 
@@ -68,6 +66,12 @@ public class SC_FPSController : MonoBehaviour
         float curSpeedY = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Horizontal") : 0;
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
+
+        // Press Left Shift to run
+        if (canMove && !isCrouching)
+        {
+            Run();
+        }
 
         if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
         {
@@ -167,14 +171,14 @@ public class SC_FPSController : MonoBehaviour
 
     void Run()
     {
-        if (Input.GetButtonDown("Run"))
+        if (Input.GetButton("Run") && moveDirection.normalized == forward)
         {
             isRunning = true;
             runEffects.Play();
             playerCamera.fieldOfView = 65;
             
         }
-        else if (Input.GetButtonUp("Run"))
+        else if (Input.GetButtonUp("Run") || moveDirection.normalized != forward)
         {
             isRunning = false;
             runEffects.Stop();

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\spark\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\spark\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_NinjaGod.1762378837.00" t="ExcludeRecursive" />
+    <e p="D:\Games\NinjaGod" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="BOXOPHOBIC" t="Include">
+          <e p="Skybox Cubemap Extended" t="Include">
+            <e p="Core" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Boxophobic.SkyboxCubemapExtended.Editor.asmdef" t="Include" />
+                <e p="SkyboxExtendedHub.cs" t="Include" />
+                <e p="SkyboxExtendedWindows.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="Skybox Cubemap Extended.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Utils" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Boxophobic.Utils.Editor.asmdef" t="Include" />
+              <e p="Constants" t="Include">
+                <e p="Constants.cs" t="Include" />
+              </e>
+              <e p="SettingsUtils" t="Include">
+                <e p="LoadSettingsData.cs" t="Include" />
+                <e p="SaveSettingsData.cs" t="Include" />
+              </e>
+              <e p="StyledGUI" t="Include">
+                <e p="DrawInspectorBanner.cs" t="Include" />
+                <e p="DrawInspectorCategory.cs" t="Include" />
+                <e p="DrawWindowBanner.cs" t="Include" />
+                <e p="DrawWindowCategory.cs" t="Include" />
+              </e>
+              <e p="StyledInspector" t="Include">
+                <e p="StyledBannerDrawer.cs" t="Include" />
+                <e p="StyledButtonDrawer.cs" t="Include" />
+                <e p="StyledCategoryDrawer.cs" t="Include" />
+                <e p="StyledIndentDrawer.cs" t="Include" />
+                <e p="StyledInteractiveDrawer.cs" t="Include" />
+                <e p="StyledMessageDrawer.cs" t="Include" />
+                <e p="StyledPopupArrayDrawer.cs" t="Include" />
+                <e p="StyledPopupLayersDrawer.cs" t="Include" />
+                <e p="StyledRangeOptionsDrawer.cs" t="Include" />
+                <e p="StyledSpaceDrawer.cs" t="Include" />
+                <e p="StyledTextDrawer.cs" t="Include" />
+                <e p="StyledTexturePreviewDrawer.cs" t="Include" />
+              </e>
+              <e p="StyledMaterial" t="Include">
+                <e p="StyledBannerDrawer.cs" t="Include" />
+                <e p="StyledButtonDrawer.cs" t="Include" />
+                <e p="StyledCategoryDrawer.cs" t="Include" />
+                <e p="StyledDiffusionMaterialDrawer.cs" t="Include" />
+                <e p="StyledIndentDrawer.cs" t="Include" />
+                <e p="StyledInteractiveDrawer.cs" t="Include" />
+                <e p="StyledMessageDrawer.cs" t="Include" />
+                <e p="StyledSpaceDrawer.cs" t="Include" />
+                <e p="StyledTextDrawer.cs" t="Include" />
+                <e p="StyledToggleDrawer.cs" t="Include" />
+              </e>
+              <e p="StyledMono" t="Include">
+                <e p="StyledMonoBehaviourEditor.cs" t="Include" />
+                <e p="StyledScriptableObjectEditor.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Boxophobic.Utils.Scripts.asmdef" t="Include" />
+              <e p="SettingsUtils" t="Include">
+                <e p="SettingsData.cs" t="Include" />
+              </e>
+              <e p="StyledInspector" t="Include">
+                <e p="StyledBanner.cs" t="Include" />
+                <e p="StyledButton.cs" t="Include" />
+                <e p="StyledCategory.cs" t="Include" />
+                <e p="StyledIndent.cs" t="Include" />
+                <e p="StyledInteractive.cs" t="Include" />
+                <e p="StyledMessage.cs" t="Include" />
+                <e p="StyledPopupArray.cs" t="Include" />
+                <e p="StyledPopupLayers.cs" t="Include" />
+                <e p="StyledRangeOptions.cs" t="Include" />
+                <e p="StyledSpace.cs" t="Include" />
+                <e p="StyledText.cs" t="Include" />
+                <e p="StyledTexturePreview.cs" t="Include" />
+              </e>
+              <e p="StyledMono" t="Include">
+                <e p="StyledMonoBehaviour.cs" t="Include" />
+                <e p="StyledScriptableObject.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="JMO Assets" t="Include">
+          <e p="Cartoon FX" t="Include">
+            <e p="CartoonFX Free.txt" t="Include" />
+            <e p="Demo" t="Include">
+              <e p="Assets" t="Include">
+                <e p="CFX_AutoStopLoopedEffect.cs" t="Include" />
+                <e p="CFX_Demo_New.cs" t="Include" />
+                <e p="CFX_Demo_RandomDir.cs" t="Include" />
+                <e p="CFX_Demo_RandomDirectionTranslate.cs" t="Include" />
+                <e p="CFX_Demo_RotateCamera.cs" t="Include" />
+                <e p="CFX_Demo_Translate.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="CFX_AutoDestructShuriken.cs" t="Include" />
+              <e p="CFX_AutoRotate.cs" t="Include" />
+              <e p="CFX_LightFlicker.cs" t="Include" />
+              <e p="CFX_LightIntensityFade.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="CFX3 Multiply Color.shader" t="Include" />
+              <e p="CFXM_MobileParticleAdd_Alpha8.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Cartoon FX Easy Editor" t="Include">
+            <e p="CartoonFX Easy Editor Readme.txt" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="CFXEasyEditor.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="KriptoFX" t="Include">
+          <e p="MeshEffect" t="Include">
+            <e p="DemoResources" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="ME_DemoGUI.cs" t="Include" />
+                <e p="ME_MouseOrbit.cs" t="Include" />
+                <e p="ME_RealtimeReflection.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Readme.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Editor" t="Include">
+                <e p="MeshRendererEditor.cs" t="Include" />
+              </e>
+              <e p="Helpers" t="Include">
+                <e p="ME_AnimatorEvents.cs" t="Include" />
+                <e p="ME_ColorHelper.cs" t="Include" />
+                <e p="ME_EffectSettingColor.cs" t="Include" />
+              </e>
+              <e p="ME_CustomLight.cs" t="Include" />
+              <e p="ME_FixParticlesAligment.cs" t="Include" />
+              <e p="ME_LightCurves.cs" t="Include" />
+              <e p="ME_MeshMaterialEffect.cs" t="Include" />
+              <e p="ME_ParticleCollisionDecal.cs" t="Include" />
+              <e p="ME_ParticleGravityPoint.cs" t="Include" />
+              <e p="ME_ParticleTrails.cs" t="Include" />
+              <e p="ME_Reflection.cs" t="Include" />
+              <e p="ME_TrailRendererNoise.cs" t="Include" />
+              <e p="PSMeshRendererUpdater.cs" t="Include" />
+              <e p="Rendering" t="Include">
+                <e p="ME_PerPlatformSettings.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="Editor" t="Include">
+                <e p="ME_CustomShaderGUI.cs" t="Include" />
+                <e p="ME_UberParticleGUI.cs" t="Include" />
+              </e>
+              <e p="ME_DistortionPasses.cginc" t="Include" />
+              <e p="ME_DistortionPerlin.shader" t="Include" />
+              <e p="ME_DistortionSlime.shader" t="Include" />
+              <e p="ME_GlowCutout.shader" t="Include" />
+              <e p="ME_GlowCutoutGradient.shader" t="Include" />
+              <e p="ME_Gold.shader" t="Include" />
+              <e p="ME_LightningParticles.shader" t="Include" />
+              <e p="ME_UberDistortionStandard.shader" t="Include" />
+              <e p="ME_UberParticleShader.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="GitHub" t="Include">
+            <e p="Editor" t="Include">
+              <e p="credits.txt" t="Include" />
+              <e p="eula.txt" t="Include" />
+              <e p="ExtensionLoader.cs" t="Include" />
+              <e p="UnityAPIWrapper.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ScFPSController.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Boxophobic.SkyboxCubemapExtended.Editor.csproj" t="IncludeRecursive" />
+      <e p="Boxophobic.Utils.Editor.csproj" t="IncludeRecursive" />
+      <e p="Boxophobic.Utils.Scripts.csproj" t="IncludeRecursive" />
+      <e p="NinjaGod.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -137,14 +137,14 @@ public class ScFPSController : MonoBehaviour
             if (timerDone)
             {
                 //returns from crouching
-                Stand();
+                StandUp();
                 _isCrouching = false;
             }
         }
 
     }
 
-    void Stand()
+    void StandUp()
     {
         _characterController.height = 2;
         var position = transform.position;
@@ -153,14 +153,14 @@ public class ScFPSController : MonoBehaviour
 
     void Run()
     {
-        if (Input.GetButton("Run") && _moveDirection.normalized == _forward)
+        if (Input.GetButtonDown("Run") && _moveDirection.normalized == _forward)
         {
             isRunning = true;
             runEffects.Play();
             playerCamera.fieldOfView = 65;
             
         }
-        else if (Input.GetButtonUp("Run") || _moveDirection.normalized != _forward)
+        else if (Input.GetButtonUp("Run") || _moveDirection.normalized != _forward || _isCrouching)
         {
             isRunning = false;
             runEffects.Stop();

@@ -11,6 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Downloads/WallRunTutorial.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WallRunnig.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -63,7 +64,7 @@
       <updated>1608900602063</updated>
       <workItem from="1608900616996" duration="3559000" />
       <workItem from="1609087168696" duration="2949000" />
-      <workItem from="1609104851991" duration="1047000" />
+      <workItem from="1609104851991" duration="3865000" />
     </task>
     <servers />
   </component>

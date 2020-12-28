@@ -14,17 +14,19 @@ public class WallRunnig : MonoBehaviour
     private void Start()
     {
         _characterController = GetComponent<CharacterController>();
-        _wallChecker = new Ray(transform.position, Vector3.right);
+        
         _scFPSController = GetComponent<ScFPSController>();
     }
 
     private void Update()
     {
-        Physics.Raycast(_wallChecker, out var hit, 1f, wall);
-        if (hit.distance == 0 && !_characterController.isGrounded)
+        _wallChecker = new Ray(transform.position, transform.right);
+        Physics.Raycast(_wallChecker, out var hit, 10f, wall);    
+        if (hit.distance > 0 && hit.distance <= 1f && !_characterController.isGrounded)
         {
             _scFPSController.gravity = 0;
         }
+        
     }
 }
 

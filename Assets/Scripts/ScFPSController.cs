@@ -9,6 +9,7 @@ public class ScFPSController : MonoBehaviour
     public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
     public Camera playerCamera;
+    public Camera armCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
     public ParticleSystem runEffects;
@@ -53,6 +54,7 @@ public class ScFPSController : MonoBehaviour
             isRunning = false;
             runEffects.Stop();
             playerCamera.fieldOfView = 60;
+            armCamera.fieldOfView = 60;
         }
 
         
@@ -158,13 +160,15 @@ public class ScFPSController : MonoBehaviour
             isRunning = true;
             runEffects.Play();
             playerCamera.fieldOfView = 65;
-            
+            armCamera.fieldOfView = 65;
+
         }
         else if (Input.GetButtonUp("Run") || _moveDirection.normalized != _forward || _isCrouching)
         {
             isRunning = false;
             runEffects.Stop();
             playerCamera.fieldOfView = 60;
+            armCamera.fieldOfView = 60;
         }
     }
 }

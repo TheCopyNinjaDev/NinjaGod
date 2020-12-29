@@ -13,9 +13,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Wall
+  - Arm
+  - Ground
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Arm
+    uniqueID: 3688635227
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

@@ -186,7 +186,9 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="HandsMovement.cs" t="Include" />
           <e p="ScFPSController.cs" t="Include" />
+          <e p="WallRunnig.cs" t="Include" />
         </e>
       </e>
       <e p="Boxophobic.SkyboxCubemapExtended.Editor.csproj" t="IncludeRecursive" />

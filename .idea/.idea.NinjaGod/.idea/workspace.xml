@@ -10,10 +10,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Downloads/WallRunTutorial.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WallRunnig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HandsMovement.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/SC_FPSController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_FPS Player/Scripts/CameraMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WallRunnig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HandsMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScFPSController.cs" />
       </list>
     </option>
@@ -59,6 +67,11 @@
       <updated>1608900602063</updated>
       <workItem from="1608900616996" duration="3559000" />
       <workItem from="1609087168696" duration="2949000" />
+      <workItem from="1609104851991" duration="4507000" />
+      <workItem from="1609162676202" duration="2268000" />
+      <workItem from="1609195226281" duration="767000" />
+      <workItem from="1609243649057" duration="8017000" />
+      <workItem from="1609273963306" duration="2960000" />
     </task>
     <servers />
   </component>

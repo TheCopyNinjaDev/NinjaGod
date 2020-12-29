@@ -8,49 +8,6 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="__Global" t="Include">
-          <e p="Editor" t="Include">
-            <e p="TransformDataDrawer.cs" t="Include" />
-            <e p="TransformDataHolder.cs" t="Include" />
-            <e p="TransformInspector.cs" t="Include" />
-          </e>
-          <e p="FloatHelper.cs" t="Include" />
-          <e p="GameObjectHelper.cs" t="Include" />
-          <e p="TransformHelper.cs" t="Include" />
-        </e>
-        <e p="_FPS Player" t="Include">
-          <e p="FixedInterpolation" t="Include">
-            <e p="InterpolatedTransform.cs" t="Include" />
-            <e p="InterpolatedTransformFull.cs" t="Include" />
-            <e p="InterpolatedTransformUpdater.cs" t="Include" />
-            <e p="InterpolationController.cs" t="Include" />
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="Animate" t="Include">
-              <e p="AnimateCameraLevel.cs" t="Include" />
-              <e p="AnimateLean.cs" t="Include" />
-            </e>
-            <e p="CameraMovement.cs" t="Include" />
-            <e p="Helpers" t="Include">
-              <e p="TeleportBackHelper.cs" t="Include" />
-              <e p="WaterHelper.cs" t="Include" />
-            </e>
-            <e p="Movements" t="Include">
-              <e p="ClimbLedgeMovement.cs" t="Include" />
-              <e p="GrabLedgeMovement.cs" t="Include" />
-              <e p="LadderMovement.cs" t="Include" />
-              <e p="SlidingMovement.cs" t="Include" />
-              <e p="SurfaceSwimmingMovement.cs" t="Include" />
-              <e p="UnderwaterSwimmingMovement.cs" t="Include" />
-              <e p="VaultMovement.cs" t="Include" />
-              <e p="WallrunMovement.cs" t="Include" />
-            </e>
-            <e p="MovementType.cs" t="Include" />
-            <e p="PlayerController.cs" t="Include" />
-            <e p="PlayerInput.cs" t="Include" />
-            <e p="PlayerMovement.cs" t="Include" />
-          </e>
-        </e>
         <e p="BOXOPHOBIC" t="Include">
           <e p="Skybox Cubemap Extended" t="Include">
             <e p="Core" t="Include">
@@ -137,7 +94,6 @@
             </e>
           </e>
         </e>
-        <e p="Hands.shader" t="Include" />
         <e p="JMO Assets" t="Include">
           <e p="Cartoon FX" t="Include">
             <e p="CartoonFX Free.txt" t="Include" />
@@ -230,6 +186,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="HandsMovement.cs" t="Include" />
           <e p="ScFPSController.cs" t="Include" />
           <e p="WallRunnig.cs" t="Include" />
         </e>

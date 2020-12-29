@@ -13,6 +13,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Downloads/WallRunTutorial.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WallRunnig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HandsMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -20,6 +21,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SC_FPSController.cs" />
         <option value="$PROJECT_DIR$/Assets/_FPS Player/Scripts/CameraMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WallRunnig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HandsMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScFPSController.cs" />
       </list>
     </option>
@@ -69,6 +71,7 @@
       <workItem from="1609162676202" duration="2268000" />
       <workItem from="1609195226281" duration="767000" />
       <workItem from="1609243649057" duration="8017000" />
+      <workItem from="1609273963306" duration="2960000" />
     </task>
     <servers />
   </component>

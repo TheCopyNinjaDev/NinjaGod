@@ -19,8 +19,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/SC_FPSController.cs" />
         <option value="$PROJECT_DIR$/Assets/_FPS Player/Scripts/CameraMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScFPSController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WallRunnig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScFPSController.cs" />
       </list>
     </option>
   </component>
@@ -68,7 +68,7 @@
       <workItem from="1609104851991" duration="4507000" />
       <workItem from="1609162676202" duration="2268000" />
       <workItem from="1609195226281" duration="767000" />
-      <workItem from="1609243649057" duration="7189000" />
+      <workItem from="1609243649057" duration="8017000" />
     </task>
     <servers />
   </component>

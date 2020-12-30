@@ -11,6 +11,8 @@ public class WallRunnig : MonoBehaviour
     private Ray _wallChecker;
     private ScFPSController _scFPSController;
 
+    [HideInInspector] public int zRotation;
+
 
     private void Start()
     {
@@ -23,19 +25,20 @@ public class WallRunnig : MonoBehaviour
 
     private void Update()
     {
+
         _wallChecker = new Ray(transform.position, transform.right);
         Physics.Raycast(_wallChecker, out var hit, 10f, wall);    
         if (hit.distance > 0 && hit.distance <= 2f && !_characterController.isGrounded && _scFPSController.isRunning)
         {
             _scFPSController.gravity = 5f;
-            _scFPSController.playerCamera.transform.Rotate(new Vector3(0, 0, 25));
-
-
+            zRotation = 25;
+            _scFPSController.playerCamera.transform.Rotate(new Vector3(0, 0, zRotation));
         }
         else if (hit.distance > 2f || _characterController.isGrounded || !_scFPSController.isRunning)
         {
             _scFPSController.gravity = 20f;
-            _scFPSController.playerCamera.transform.Rotate(new Vector3(0, 0, 0));
+            zRotation = 0;
+            _scFPSController.playerCamera.transform.Rotate(new Vector3(0, 0, zRotation));
             
         }
 

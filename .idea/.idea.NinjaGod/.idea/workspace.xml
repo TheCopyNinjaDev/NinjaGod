@@ -13,7 +13,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Downloads/WallRunTutorial.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WallRunnig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HandsMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -21,8 +20,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SC_FPSController.cs" />
         <option value="$PROJECT_DIR$/Assets/_FPS Player/Scripts/CameraMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HandsMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScFPSController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WallRunnig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScFPSController.cs" />
       </list>
     </option>
   </component>
@@ -74,6 +73,7 @@
       <workItem from="1609273963306" duration="3234000" />
       <workItem from="1609287340059" duration="384000" />
       <workItem from="1609289303486" duration="718000" />
+      <workItem from="1609327809552" duration="931000" />
     </task>
     <servers />
   </component>
@@ -90,5 +90,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="536" y="165" key="#Inspection_severity/0.0.1920.1040@0.0.1920.1040" timestamp="1608901368664" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609328513138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609328513138" />
   </component>
 </project>

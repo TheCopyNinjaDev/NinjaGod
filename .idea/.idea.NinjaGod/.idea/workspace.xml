@@ -20,9 +20,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/SC_FPSController.cs" />
         <option value="$PROJECT_DIR$/Assets/_FPS Player/Scripts/CameraMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WallRunnig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HandsMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScFPSController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WallRunnig.cs" />
       </list>
     </option>
   </component>
@@ -71,7 +71,9 @@
       <workItem from="1609162676202" duration="2268000" />
       <workItem from="1609195226281" duration="767000" />
       <workItem from="1609243649057" duration="8017000" />
-      <workItem from="1609273963306" duration="2960000" />
+      <workItem from="1609273963306" duration="3234000" />
+      <workItem from="1609287340059" duration="384000" />
+      <workItem from="1609289303486" duration="363000" />
     </task>
     <servers />
   </component>

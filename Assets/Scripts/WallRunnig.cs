@@ -29,7 +29,8 @@ public class WallRunnig : MonoBehaviour
         {
             _scFPSController.gravity = 5f;
             _scFPSController.playerCamera.transform.Rotate(new Vector3(0, 0, 25));
-            
+
+
         }
         else if (hit.distance > 2f || _characterController.isGrounded || !_scFPSController.isRunning)
         {
@@ -37,7 +38,8 @@ public class WallRunnig : MonoBehaviour
             _scFPSController.playerCamera.transform.Rotate(new Vector3(0, 0, 0));
             
         }
-        
+
+
     }
 }
 

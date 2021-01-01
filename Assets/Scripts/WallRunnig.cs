@@ -10,6 +10,7 @@ public class WallRunnig : MonoBehaviour
     private CharacterController _characterController;
     private Ray _wallChecker;
     private ScFPSController _scFPSController;
+    private bool _isInAir;
 
     [HideInInspector] public int zRotation;
 
@@ -28,13 +29,17 @@ public class WallRunnig : MonoBehaviour
 
         _wallChecker = new Ray(transform.position, transform.right);
         Physics.Raycast(_wallChecker, out var hit, 10f, wall);    
-        if (hit.distance > 0 && hit.distance <= 2f && !_characterController.isGrounded && _scFPSController.isRunning)
+        if (hit.distance > 0 && hit.distance <= 2f && !_characterController.isGrounded && _scFPSController.isRunning && !_isInAir)
         {
             _scFPSController.gravity = 5f;
             zRotation = 25;
             _scFPSController.playerCamera.transform.Rotate(new Vector3(0, 0, zRotation));
+            if (Input.GetButton("Jump") && _scFPSController.canMove)
+            {
+                WallJump();
+            }
         }
-        else if (hit.distance > 2f || _characterController.isGrounded || !_scFPSController.isRunning)
+        else
         {
             _scFPSController.gravity = 20f;
             zRotation = 0;
@@ -42,7 +47,14 @@ public class WallRunnig : MonoBehaviour
             
         }
 
+        if (_characterController.isGrounded)
+            _isInAir = false;
+    }
 
+    private void WallJump()
+    {
+        _isInAir = true;
+        _scFPSController.Jump();
     }
 }
 

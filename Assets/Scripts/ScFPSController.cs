@@ -22,8 +22,7 @@ public class ScFPSController : MonoBehaviour
     private bool _isCrouching;
     private Vector3 _forward = Vector3.zero;
     private Vector3 _right = Vector3.zero;
-    private WallRunnig _wallRunnig;
-    
+
 
 
 
@@ -80,7 +79,7 @@ public class ScFPSController : MonoBehaviour
 
         if (Input.GetButton("Jump") && canMove && _characterController.isGrounded)
         {
-            _moveDirection.y = jumpSpeed;
+            Jump();
         }
         else
         {
@@ -108,7 +107,6 @@ public class ScFPSController : MonoBehaviour
             _rotationX = Mathf.Clamp(_rotationX, -lookXLimit, lookXLimit);
             if (TryGetComponent<WallRunnig>(out WallRunnig got))
             {
-                _wallRunnig = got;
                 playerCamera.transform.localRotation = Quaternion.Euler(_rotationX, 0, got.zRotation);
             }
             else
@@ -184,5 +182,10 @@ public class ScFPSController : MonoBehaviour
             playerCamera.fieldOfView = initialFov;
             armCamera.fieldOfView = runFov;
         }
+    }
+
+    public void Jump()
+    {
+        _moveDirection.y = jumpSpeed;
     }
 }

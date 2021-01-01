@@ -8,9 +8,8 @@ public class WallRunnig : MonoBehaviour
     [SerializeField] private LayerMask wall;
     
     private CharacterController _characterController;
-    private Ray _wallChecker;
     private ScFPSController _scFPSController;
-    private bool _isInAir;
+    private bool _isOnWall;
 
     [HideInInspector] public int zRotation;
 
@@ -20,41 +19,57 @@ public class WallRunnig : MonoBehaviour
         _characterController = GetComponent<CharacterController>();
         
         _scFPSController = GetComponent<ScFPSController>();
-        
-        
     }
 
     private void Update()
     {
 
-        _wallChecker = new Ray(transform.position, transform.right);
-        Physics.Raycast(_wallChecker, out var hit, 10f, wall);    
-        if (hit.distance > 0 && hit.distance <= 2f && !_characterController.isGrounded && _scFPSController.isRunning && !_isInAir)
+        Ray rayOnRightSide = new Ray(transform.position, transform.right);
+        Ray rayOnLeftSide = new Ray(transform.position, -transform.right);
+        Physics.Raycast(rayOnRightSide, out var hitR, 10f, wall);
+        Physics.Raycast(rayOnLeftSide, out var hitL, 10f, wall);
+        if (hitR.distance > 0 && hitR.distance <= 2f && !_characterController.isGrounded && _scFPSController.isRunning &&
+            !_isOnWall)
         {
-            _scFPSController.gravity = 5f;
-            zRotation = 25;
-            _scFPSController.playerCamera.transform.Rotate(new Vector3(0, 0, zRotation));
-            if (Input.GetButton("Jump") && _scFPSController.canMove)
-            {
-                WallJump();
-            }
+            WallRun(25);
+        }
+        else if (hitL.distance > 0 && hitL.distance <= 2f && !_characterController.isGrounded && _scFPSController.isRunning &&
+                 !_isOnWall)
+        {
+            WallRun(-25);
         }
         else
         {
-            _scFPSController.gravity = 20f;
-            zRotation = 0;
-            _scFPSController.playerCamera.transform.Rotate(new Vector3(0, 0, zRotation));
-            
+            Restore();
         }
 
+        // Restores boolean 
         if (_characterController.isGrounded)
-            _isInAir = false;
+            _isOnWall = false;
     }
 
     private void WallJump()
     {
-        _isInAir = true;
+        _isOnWall = true;
         _scFPSController.Jump();
+    }
+
+    private void WallRun(int side)
+    {
+        _scFPSController.gravity = 5f;
+        zRotation = side;
+        _scFPSController.playerCamera.transform.Rotate(new Vector3(0, 0, zRotation));
+        if (Input.GetButton("Jump") && _scFPSController.canMove)
+        {
+            WallJump();
+        }
+    }
+
+    private void Restore()
+    {
+        _scFPSController.gravity = 20f;
+        zRotation = 0;
+        _scFPSController.playerCamera.transform.Rotate(new Vector3(0, 0, zRotation));
     }
 }
 

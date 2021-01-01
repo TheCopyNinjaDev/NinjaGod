@@ -22,7 +22,7 @@ public class ScFPSController : MonoBehaviour
     private bool _isCrouching;
     private Vector3 _forward = Vector3.zero;
     private Vector3 _right = Vector3.zero;
-    
+
 
 
 
@@ -37,6 +37,8 @@ public class ScFPSController : MonoBehaviour
     private void Start()
     {
         _characterController = GetComponent<CharacterController>();
+        
+         
 
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
@@ -77,7 +79,7 @@ public class ScFPSController : MonoBehaviour
 
         if (Input.GetButton("Jump") && canMove && _characterController.isGrounded)
         {
-            _moveDirection.y = jumpSpeed;
+            Jump();
         }
         else
         {
@@ -103,7 +105,15 @@ public class ScFPSController : MonoBehaviour
         {
             _rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
             _rotationX = Mathf.Clamp(_rotationX, -lookXLimit, lookXLimit);
-            playerCamera.transform.localRotation = Quaternion.Euler(_rotationX, 0, 0);
+            if (TryGetComponent<WallRunnig>(out WallRunnig got))
+            {
+                playerCamera.transform.localRotation = Quaternion.Euler(_rotationX, 0, got.zRotation);
+            }
+            else
+            {
+                playerCamera.transform.localRotation = Quaternion.Euler(_rotationX, 0, transform.rotation.z);
+            }
+            
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
         //Press Left Ctrl to crouch
@@ -172,5 +182,10 @@ public class ScFPSController : MonoBehaviour
             playerCamera.fieldOfView = initialFov;
             armCamera.fieldOfView = runFov;
         }
+    }
+
+    public void Jump()
+    {
+        _moveDirection.y = jumpSpeed;
     }
 }

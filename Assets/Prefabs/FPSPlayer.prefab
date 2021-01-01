@@ -958,7 +958,7 @@ GameObject:
   - component: {fileID: 5070063831878109091}
   - component: {fileID: 2724437448422191857}
   - component: {fileID: 1180415393946778555}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1096,15 +1096,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3570133598075906806}
-  m_LocalRotation: {x: -0.18181348, y: -0.000000029802322, z: -0.000000007450581, w: 0.9833331}
-  m_LocalPosition: {x: 0.15000014, y: -0.6769994, z: 0.64}
+  m_LocalRotation: {x: -0.26625258, y: 0.00000014901161, z: -0.040163986, w: 0.9630662}
+  m_LocalPosition: {x: 0.15000014, y: -0.7900009, z: 0.64}
   m_LocalScale: {x: -0.05081878, y: 0.050818767, z: 0.05081877}
   m_Children:
   - {fileID: 4340253797730694841}
   - {fileID: 6772263700682073832}
   m_Father: {fileID: 6000365127348410758}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -20.951, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -30.853, y: 1.428, z: -5.17}
 --- !u!1 &3580715215769470496
 GameObject:
   m_ObjectHideFlags: 0
@@ -1931,15 +1931,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7328778135169011841}
-  m_LocalRotation: {x: -0.18181348, y: -0.000000029802322, z: -0.000000007450581, w: 0.9833331}
-  m_LocalPosition: {x: -0.20799932, y: -0.6769994, z: 0.58199906}
+  m_LocalRotation: {x: -0.26625258, y: 0.00000014901161, z: -0.040163986, w: 0.9630662}
+  m_LocalPosition: {x: -0.20799932, y: -0.79, z: 0.58199906}
   m_LocalScale: {x: 0.05081878, y: 0.050818767, z: 0.05081877}
   m_Children:
   - {fileID: 6860435152847723016}
   - {fileID: 7835501495669442518}
   m_Father: {fileID: 6000365127348410758}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -20.951, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -30.853, y: 1.428, z: -5.17}
 --- !u!1 &7494961511016538407
 GameObject:
   m_ObjectHideFlags: 0
@@ -2345,7 +2345,7 @@ Camera:
   m_Depth: -2
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1335
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -2377,10 +2377,10 @@ GameObject:
   - component: {fileID: 8784973144022781201}
   - component: {fileID: 8784973144022781206}
   - component: {fileID: 8784973144022781207}
-  - component: {fileID: 1815861379}
+  - component: {fileID: 1200736855}
   m_Layer: 0
   m_Name: FPSPlayer
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2394,7 +2394,7 @@ Transform:
   m_GameObject: {fileID: 8784973144022781204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.07, y: 0.98, z: 2.46}
-  m_LocalScale: {x: 1, y: 1.5, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 8784973145684306138}
   - {fileID: 8784973145702811316}
@@ -2439,8 +2439,10 @@ MonoBehaviour:
   playerCamera: {fileID: 8784973143881640474}
   armCamera: {fileID: 5047344190481705398}
   lookSpeed: 1.5
-  lookXLimit: 45
+  lookXLimit: 90
   runEffects: {fileID: 8784973145702811322}
+  initialFov: 60
+  runFov: 65
   canMove: 1
   characterVelocity: {x: 0, y: 0, z: 0}
   isRunning: 0
@@ -2540,7 +2542,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1815861379
+--- !u!114 &1200736855
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2555,6 +2557,7 @@ MonoBehaviour:
   wall:
     serializedVersion: 2
     m_Bits: 256
+  zRotation: 0
 --- !u!1 &8784973145702811323
 GameObject:
   m_ObjectHideFlags: 0

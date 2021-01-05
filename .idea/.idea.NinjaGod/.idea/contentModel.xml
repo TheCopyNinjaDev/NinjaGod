@@ -186,6 +186,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="FPSSounds.cs" t="Include" />
           <e p="ScFPSController.cs" t="Include" />
           <e p="WallRunnig.cs" t="Include" />
         </e>

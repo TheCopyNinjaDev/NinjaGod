@@ -45,7 +45,7 @@ public class ScFPSController : MonoBehaviour
         Cursor.visible = false;
     }
 
-    void Update()
+    private void Update()
     {
         // We are grounded, so recalculate move direction based on axes
         _forward = transform.TransformDirection(Vector3.forward);

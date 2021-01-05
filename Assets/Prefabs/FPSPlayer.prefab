@@ -2376,6 +2376,7 @@ GameObject:
   - component: {fileID: 8784973144022781200}
   - component: {fileID: 8784973144022781201}
   - component: {fileID: 8784973144022781206}
+  - component: {fileID: 5712427962137874454}
   - component: {fileID: 8784973144022781207}
   - component: {fileID: 1200736855}
   m_Layer: 0
@@ -2446,6 +2447,19 @@ MonoBehaviour:
   canMove: 1
   characterVelocity: {x: 0, y: 0, z: 0}
   isRunning: 0
+--- !u!114 &5712427962137874454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8784973144022781204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 160fba47daf552442828e98d4d966d96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WalkingSound: {fileID: 8300000, guid: 81d9ba4a276686740b2fe2472f01e68f, type: 3}
 --- !u!82 &8784973144022781207
 AudioSource:
   m_ObjectHideFlags: 0

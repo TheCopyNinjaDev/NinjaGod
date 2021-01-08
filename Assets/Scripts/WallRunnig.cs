@@ -28,12 +28,12 @@ public class WallRunnig : MonoBehaviour
         Ray rayOnLeftSide = new Ray(transform.position, -transform.right);
         Physics.Raycast(rayOnRightSide, out var hitR, 10f, wall);
         Physics.Raycast(rayOnLeftSide, out var hitL, 10f, wall);
-        if (hitR.distance > 0 && hitR.distance <= 2f && !_characterController.isGrounded && _scFPSController.isRunning &&
+        if (hitR.distance > 0 && hitR.distance <= 8f && !_characterController.isGrounded && _scFPSController.isRunning &&
             !_isOnWall)
         {
             WallRun(25);
         }
-        else if (hitL.distance > 0 && hitL.distance <= 2f && !_characterController.isGrounded && _scFPSController.isRunning &&
+        else if (hitL.distance > 0 && hitL.distance <= 8f && !_characterController.isGrounded && _scFPSController.isRunning &&
                  !_isOnWall)
         {
             WallRun(-25);

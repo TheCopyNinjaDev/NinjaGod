@@ -57,8 +57,6 @@ public class ScFPSController : MonoBehaviour
         {
             isRunning = false;
             runEffects.Stop();
-            playerCamera.fieldOfView = initialFov;
-            armCamera.fieldOfView = initialFov;
         }
 
         

@@ -94,6 +94,47 @@
             </e>
           </e>
         </e>
+        <e p="ExplosiveLLC" t="Include">
+          <e p="RPG Character Animation Pack FREE" t="Include">
+            <e p="Code" t="Include">
+              <e p="AnimatorParentMoveFREE.cs" t="Include" />
+              <e p="CameraControllerFREE.cs" t="Include" />
+              <e p="GUIControlsFREE.cs" t="Include" />
+              <e p="IKHandsFREE.cs" t="Include" />
+              <e p="RPGCharacterAnimatorEventsFREE.cs" t="Include" />
+              <e p="RPGCharacterControllerFREE.cs" t="Include" />
+              <e p="RPGCharacterInputControllerFREE.cs" t="Include" />
+              <e p="RPGCharacterMovementControllerFREE.cs" t="Include" />
+              <e p="RPGCharacterWeaponControllerFREE.cs" t="Include" />
+            </e>
+            <e p="Inputs" t="Include">
+              <e p="RPGFREEInputs.cs" t="Include" />
+            </e>
+          </e>
+          <e p="SuperCharacterController" t="Include">
+            <e p="Code" t="Include">
+              <e p="Gravity.cs" t="Include" />
+              <e p="PlayerCamera.cs" t="Include" />
+              <e p="PlayerInputController.cs" t="Include" />
+              <e p="PlayerMachine.cs" t="Include" />
+              <e p="PlayerMachineDebug.cs" t="Include" />
+              <e p="SimpleStateMachine.cs" t="Include" />
+            </e>
+            <e p="SuperCharacterController" t="Include">
+              <e p="Core" t="Include">
+                <e p="BruteForceMesh.cs" t="Include" />
+                <e p="BSPTree.cs" t="Include" />
+                <e p="SuperCharacterController.cs" t="Include" />
+                <e p="SuperCollider.cs" t="Include" />
+                <e p="SuperCollisionType.cs" t="Include" />
+                <e p="SuperMath.cs" t="Include" />
+                <e p="SuperStateMachine.cs" t="Include" />
+              </e>
+              <e p="DebugDraw.cs" t="Include" />
+              <e p="Math3d.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="JMO Assets" t="Include">
           <e p="Cartoon FX" t="Include">
             <e p="CartoonFX Free.txt" t="Include" />

@@ -5,6 +5,27 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+    RecentlyUsedScenePath-0:
+      value: 224247031146467e151e002d032a49153a3b3b651b29342224260f7cd5e1262aebe824a9d73b3c377920fa320032047fa04a2f39d32e45201f07fa0605bf271203d711ca08883219c81812c7c05df0eddcdbd5fed1e4e998eedea3f9bbc0fcfdf3f0a7e8e583f2c9ada7eaf198c3d5d6c8c5a58ad9c8c0d3a3
+      flags: 0
+    RecentlyUsedScenePath-1:
+      value: 224247031146467e151e002d032a49153a3b3b651f3d36353f0a1532f0e1372ce7f515e6e92e2d33350eea2e4b0d023afc0f1a44c20e18191007f33a14ec045d04cb11d103
+      flags: 0
+    RecentlyUsedScenePath-2:
+      value: 224247031146467e151e002d032a49153a3b3b651b29342224260f7cd5e1262aebe824a9d73b3c377920fa320032047fa04a2f39d32e45595126fc0015fa145326c40ad713c70d5ce61c1fcfc314dca3f4d8dde7d9ffeed7d09f90f3f7fba1c8e7f4a3faa8bbb39282aef0b5aac687f3c0d8a5cdc3d487d2b4dbc5ca
+      flags: 0
+    RecentlyUsedScenePath-3:
+      value: 224247031146467e151e002d032a49153a3b3b651b29342224260f7cd5e1262aebe824a9d73b3c377920fa320032047fa04a2f39d32e45261009f84e26fe020118ca0a8537cd1c1dc510118eec13d8eed4c2dde5d6abd7d9ddd4efc2e6f5e8f9f7e2ead6abaff9809daeeca3a6cdd58ad4c4bed0d5
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 224247031146467e151e002d032a49153a3b3b651f3d36353f0a1532f0e1372ce7f515e6e92e2d33350eea2e4b0d023afc0f1a44c20e191f2b01f30b5fea1e1a05dc
+      flags: 0
+    RecentlyUsedScenePath-5:
+      value: 224247031146467e151e002d032a49153a3b3b651f3d36353f0a1532f0e1372ce7f515e6e92e2d33350eea2e4b0d023afc0f1a44c51b0b081434f20014b1051d18d101
+      flags: 0
+    RecentlyUsedScenePath-6:
+      value: 224247031146467e151e002d032a49153a3b3b651b29342224260f7cd5e1262aebe824a9d73b3c377920fa320032047fa04a2f39d32e452a030df50b03bf271203d711ca08883219c81812c7c05df0eddcdbd5fed1e4e998eedea3f9bbc0fcfdf3f0a7e8e589eec3a2aaecf198c3d5d6c8c5a58ad9c8c0d3a3
+      flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0
@@ -15,5 +36,7 @@ EditorUserSettings:
   m_SemanticMergeMode: 2
   m_VCShowFailedCheckout: 1
   m_VCOverwriteFailedCheckoutAssets: 1
-  m_VCOverlayIcons: 1
+  m_VCProjectOverlayIcons: 1
+  m_VCHierarchyOverlayIcons: 1
+  m_VCOtherOverlayIcons: 1
   m_VCAllowAsyncUpdate: 0

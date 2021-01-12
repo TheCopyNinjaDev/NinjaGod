@@ -15,6 +15,7 @@ public class ScFPSController : MonoBehaviour
     public ParticleSystem runEffects;
     public float initialFov = 60f;
     public float runFov = 65f;
+    public Animator rightHandAnimator;
 
     private CharacterController _characterController;
     private Vector3 _moveDirection = Vector3.zero;
@@ -59,9 +60,9 @@ public class ScFPSController : MonoBehaviour
             runEffects.Stop();
         }
 
-        
 
-        
+
+        rightHandAnimator.SetBool("isRunning", isRunning);
 
 
         float curSpeedX = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Vertical") : 0;

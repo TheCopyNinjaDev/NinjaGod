@@ -71,7 +71,7 @@ public class ScFPSController : MonoBehaviour
         _moveDirection = (_forward * curSpeedX) + (_right * curSpeedY);
 
         // Press Left Shift to run
-        if (canMove && !_isCrouching)
+        if (canMove && !_isCrouching && !FightSystem.isFighting)
         {
             Run();
         }

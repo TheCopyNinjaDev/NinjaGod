@@ -13,8 +13,8 @@ public class ScFPSController : MonoBehaviour
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
     public ParticleSystem runEffects;
-    public float initialFov = 60f;
-    public float runFov = 65f;
+    public float initialFov = 90f;
+    public float runFov = 95f;
     public Animator rightHandAnimator;
 
     private CharacterController _characterController;

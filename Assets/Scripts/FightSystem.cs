@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using UnityEngine;
+
 
 public class FightSystem : MonoBehaviour
 {
@@ -6,6 +8,11 @@ public class FightSystem : MonoBehaviour
     private Animator animator;
 
     private ScFPSController scFPS;
+
+    List<string> attackList = new List<string>(new string[] { "attack1, attack2, attack3" });
+    public int combonum;
+    public float reset;
+    public float resetTime;
 
     static public bool isFighting;
 
@@ -29,15 +36,31 @@ public class FightSystem : MonoBehaviour
         }
 
         //Attacking
-        if (Input.GetMouseButtonDown(0) && !scFPS.isRunning)
+        if(Input.GetButtonDown("Fire1") && combonum < 3)
         {
             isFighting = true;
-            animator.SetBool("isAttacking", true);
+            animator.SetTrigger(attackList[combonum]);
+            combonum++;
+            reset = 0f;
         }
-        else if (Input.GetMouseButtonUp(0))
+        if(combonum > 0)
         {
-            isFighting = false;
-            animator.SetBool("isAttacking", false);
+            reset += Time.deltaTime;
+            if(reset > resetTime)
+            {
+                animator.SetTrigger("Reset");
+                combonum = 0;
+                isFighting = false;
+            }
+        }
+        if(combonum == 3)
+        {
+            resetTime = 3f;
+            combonum = 0;
+        }
+        else
+        {
+            resetTime = 1f; 
         }
     }
 }

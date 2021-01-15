@@ -13,8 +13,9 @@ public class ScFPSController : MonoBehaviour
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
     public ParticleSystem runEffects;
-    public float initialFov = 60f;
-    public float runFov = 65f;
+    public float initialFov = 90f;
+    public float runFov = 95f;
+    public Animator rightHandAnimator;
 
     private CharacterController _characterController;
     private Vector3 _moveDirection = Vector3.zero;
@@ -57,13 +58,11 @@ public class ScFPSController : MonoBehaviour
         {
             isRunning = false;
             runEffects.Stop();
-            playerCamera.fieldOfView = initialFov;
-            armCamera.fieldOfView = initialFov;
         }
 
-        
 
-        
+
+        rightHandAnimator.SetBool("isRunning", isRunning);
 
 
         float curSpeedX = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Vertical") : 0;
@@ -72,7 +71,7 @@ public class ScFPSController : MonoBehaviour
         _moveDirection = (_forward * curSpeedX) + (_right * curSpeedY);
 
         // Press Left Shift to run
-        if (canMove && !_isCrouching)
+        if (canMove && !_isCrouching && !FightSystem.isFighting)
         {
             Run();
         }

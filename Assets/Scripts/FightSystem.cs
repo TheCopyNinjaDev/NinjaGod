@@ -9,7 +9,7 @@ public class FightSystem : MonoBehaviour
 
     private ScFPSController scFPS;
 
-    List<string> attackList = new List<string>(new string[] { "attack1, attack2, attack3" });
+    List<string> attackList = new List<string>(new string[] { "attack1", "attack2", "attack3" });
     public int combonum;
     public float reset;
     public float resetTime;
@@ -23,7 +23,7 @@ public class FightSystem : MonoBehaviour
 
     private void Update()
     {
-        //Blocking
+        // Blocking
         if (Input.GetMouseButtonDown(1) && !scFPS.isRunning)
         {
             isFighting = true;
@@ -35,27 +35,24 @@ public class FightSystem : MonoBehaviour
             animator.SetBool("isBlocking", false);
         }
 
-        //Attacking
+        // Attacking
         if(Input.GetButtonDown("Fire1") && combonum < 3)
         {
-            isFighting = true;
             animator.SetTrigger(attackList[combonum]);
             combonum++;
             reset = 0f;
+
         }
-        if(combonum > 0)
+        reset += Time.deltaTime;
+        if (reset > resetTime)
         {
-            reset += Time.deltaTime;
-            if(reset > resetTime)
-            {
-                animator.SetTrigger("Reset");
-                combonum = 0;
-                isFighting = false;
-            }
+            animator.SetTrigger("Reset");
+            combonum = 0;
+
         }
-        if(combonum == 3)
+        if (combonum == 3)
         {
-            resetTime = 3f;
+            resetTime = 0f;
             combonum = 0;
         }
         else

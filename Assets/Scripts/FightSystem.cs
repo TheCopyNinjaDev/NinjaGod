@@ -4,21 +4,31 @@ using UnityEngine;
 
 public class FightSystem : MonoBehaviour
 {
+    public GameObject kunai;
+    private GameObject spawnSpot;
+    private GameObject currentKunai;
+
     [SerializeField]
     private Animator animator;
-
+    
     private ScFPSController scFPS;
 
+    // Combo variables
     List<string> attackList = new List<string>(new string[] { "attack1", "attack2", "attack3" });
-    public int combonum;
-    public float reset;
+
+    private int combonum;
+    private float reset;
     public float resetTime;
 
     static public bool isFighting;
 
+    float cooldown = 1f;
+    float currentTime = 0;
+
     private void Start()
     {
         scFPS = FindObjectOfType<ScFPSController>();
+        spawnSpot = GameObject.FindGameObjectWithTag("Throwable thing");
     }
 
     private void Update()
@@ -58,6 +68,26 @@ public class FightSystem : MonoBehaviour
         else
         {
             resetTime = 1f; 
+        }
+
+        // Throwing Kunai
+        currentTime += Time.deltaTime;
+        if (Input.GetButton("Throw"))
+        {
+            if(currentTime > cooldown)
+            {
+                GameObject newKunai = Instantiate(kunai, spawnSpot.transform.position, spawnSpot.transform.rotation);
+                newKunai.gameObject.GetComponent<Rigidbody>().AddRelativeForce(Vector3.up * 1000);
+                currentKunai = newKunai;
+                currentTime = 0;
+                Destroy(newKunai, 30);
+            }
+        }
+
+        // Teleport Kunai
+        if (Input.GetKey("t") && currentKunai.gameObject.GetComponent<Kunai>())
+        {
+            transform.position = new Vector3(currentKunai.transform.position.x, currentKunai.transform.position.y + 1, currentKunai.transform.position.z);
         }
     }
 }

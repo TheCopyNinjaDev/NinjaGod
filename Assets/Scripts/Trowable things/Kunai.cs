@@ -6,7 +6,6 @@ using UnityEngine;
 public class Kunai : MonoBehaviour
 {
     private Rigidbody _rb;
-    private FixedJoint _fixedJoint;
     private bool _readyToStick = false;
     [HideInInspector]
     public bool _readyToTeleport;
@@ -36,13 +35,13 @@ public class Kunai : MonoBehaviour
     {
         if (_readyToStick)
         {
-            _rb.constraints = RigidbodyConstraints.FreezeAll;
+           _rb.constraints  = RigidbodyConstraints.FreezeAll;
             _readyToTeleport = true;
         }
-        if (collision.gameObject.CompareTag("Enemy"))
+        /*if (collision.gameObject.CompareTag("Enemy"))
         {
             Destroy(gameObject, 1);
-        }
+        }*/
     }
 
 }

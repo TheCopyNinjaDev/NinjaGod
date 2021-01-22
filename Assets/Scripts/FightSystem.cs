@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class FightSystem : MonoBehaviour
 {
+    static public bool isFighting;
+
     public GameObject kunai;
+    public float resetTime;
+
     private GameObject spawnSpot;
     private GameObject currentKunai;
 
@@ -18,17 +22,14 @@ public class FightSystem : MonoBehaviour
 
     private int combonum;
     private float reset;
-    public float resetTime;
-
-    static public bool isFighting;
-
-    float cooldown = 1f;
-    float currentTime = 0;
+    private float cooldown = 1f;
+    private float currentTime = 0;
 
     private void Start()
     {
         scFPS = FindObjectOfType<ScFPSController>();
         spawnSpot = GameObject.FindGameObjectWithTag("Throwable thing");
+        
     }
 
     private void Update()
@@ -84,10 +85,15 @@ public class FightSystem : MonoBehaviour
             }
         }
 
+        
+    }
+
+    private void LateUpdate()
+    {
         // Teleport Kunai
-        if (Input.GetKey("t") && currentKunai.gameObject.GetComponent<Kunai>())
+        if (Input.GetKey("t") && currentKunai.gameObject.GetComponentInChildren<Kunai>()._readyToTeleport)
         {
-            transform.position = new Vector3(currentKunai.transform.position.x, currentKunai.transform.position.y + 1, currentKunai.transform.position.z);
+            transform.position = new Vector3(currentKunai.transform.position.x, currentKunai.transform.position.y + 2, currentKunai.transform.position.z);
         }
     }
 }

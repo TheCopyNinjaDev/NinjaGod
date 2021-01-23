@@ -78,7 +78,6 @@ public class FightSystem : MonoBehaviour
             if(currentTime > cooldown)
             {
                 GameObject newKunai = Instantiate(kunai, spawnSpot.transform.position, spawnSpot.transform.rotation);
-                newKunai.gameObject.GetComponent<Rigidbody>().AddRelativeForce(Vector3.up * 5000);
                 currentKunai = newKunai;
                 currentTime = 0;
                 Destroy(newKunai, 30);

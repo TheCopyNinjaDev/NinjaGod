@@ -5,15 +5,28 @@ using UnityEngine;
 
 public class Kunai : MonoBehaviour
 {
-    private Rigidbody _rb;
-    private bool _readyToStick = false;
     [HideInInspector]
     public bool _readyToTeleport;
 
-    private void Start()
+    public float speed;
+
+    private Rigidbody _rb;
+    private bool _readyToStick = false;
+    
+
+    private void Awake()
     {
         _rb = GetComponent<Rigidbody>();
     }
+
+    private void Start()
+    {
+
+        _rb.AddRelativeForce(Vector3.up * speed);
+        //_rb.velocity = (Camera.main.transform.forward * speed);
+        //_rb.AddForce(Camera.main.transform.forward * speed);
+    }
+
 
     private void OnTriggerExit(Collider other)
     {
@@ -38,10 +51,10 @@ public class Kunai : MonoBehaviour
            _rb.constraints  = RigidbodyConstraints.FreezeAll;
             _readyToTeleport = true;
         }
-        /*if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Enemy"))
         {
             Destroy(gameObject, 1);
-        }*/
+        }
     }
 
 }

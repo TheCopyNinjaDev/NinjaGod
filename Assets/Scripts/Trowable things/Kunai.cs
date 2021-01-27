@@ -23,8 +23,6 @@ public class Kunai : MonoBehaviour
     {
 
         _rb.AddRelativeForce(Vector3.up * speed);
-        //_rb.velocity = (Camera.main.transform.forward * speed);
-        //_rb.AddForce(Camera.main.transform.forward * speed);
     }
 
 

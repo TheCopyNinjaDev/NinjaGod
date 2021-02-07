@@ -8,6 +8,9 @@ public class FightSystem : MonoBehaviour
 
     public GameObject kunai;
     public float resetTime;
+    public Transform attackPoint;
+    public LayerMask enemyLayer;
+    public float attackRange;
 
     private GameObject spawnSpot;
     private GameObject currentKunai;
@@ -24,6 +27,7 @@ public class FightSystem : MonoBehaviour
     private float reset;
     private float cooldown = 1f;
     private float currentTime = 0;
+    private float attackTime = 0f;
 
     private void Start()
     {
@@ -45,13 +49,30 @@ public class FightSystem : MonoBehaviour
             isFighting = false;
             animator.SetBool("isBlocking", false);
         }
-
+        attackTime += Time.deltaTime;
         // Attacking
-        if(Input.GetButtonDown("Fire1") && combonum < 3)
+        if (Input.GetButtonDown("Fire1") && combonum < 3)
         {
             animator.SetTrigger(attackList[combonum]);
             combonum++;
             reset = 0f;
+
+            //Detect enemies in range of attack
+            Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayer);
+
+            //Damage enemies
+            
+
+            if (attackTime >= 0.5f)
+            {
+                foreach (Collider enemy in hitEnemies)
+                {
+                    enemy.SendMessage("ApplyDamage", 5f);
+                    print("DealDamage");
+                    attackTime = 0f;
+                }
+            }
+
 
         }
         reset += Time.deltaTime;
@@ -59,7 +80,6 @@ public class FightSystem : MonoBehaviour
         {
             animator.SetTrigger("Reset");
             combonum = 0;
-
         }
         if (combonum == 3)
         {
@@ -94,5 +114,13 @@ public class FightSystem : MonoBehaviour
         {
             transform.position = new Vector3(currentKunai.transform.position.x, currentKunai.transform.position.y + 2, currentKunai.transform.position.z);
         }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+            return;
+
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }

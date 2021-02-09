@@ -26,14 +26,13 @@ public class FightSystem : MonoBehaviour
     private int combonum;
     private float reset;
     private float cooldown = 1f;
-    private float currentTime = 0;
+    private float kunaiTime = 0;
     private float attackTime = 0f;
 
     private void Start()
     {
         scFPS = FindObjectOfType<ScFPSController>();
         spawnSpot = GameObject.FindGameObjectWithTag("Throwable thing");
-        
     }
 
     private void Update()
@@ -41,66 +40,30 @@ public class FightSystem : MonoBehaviour
         // Blocking
         if (Input.GetMouseButtonDown(1) && !scFPS.isRunning)
         {
-            isFighting = true;
-            animator.SetBool("isBlocking", true);
+            Block();
         }
         else if(Input.GetMouseButtonUp(1))
         {
-            isFighting = false;
-            animator.SetBool("isBlocking", false);
+            UnBlock();
         }
-        attackTime += Time.deltaTime;
+
+
         // Attacking
-        if (Input.GetButtonDown("Fire1") && combonum < 3)
+        attackTime += Time.deltaTime;
+        if (Input.GetButtonDown("Fire1") && combonum < 3 && !scFPS.isRunning)
         {
-            animator.SetTrigger(attackList[combonum]);
-            combonum++;
-            reset = 0f;
-
-            //Detect enemies in range of attack
-            Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayer);
-
-            //Damage enemies
-            
-
-            if (attackTime >= 0.5f)
-            {
-                foreach (Collider enemy in hitEnemies)
-                {
-                    enemy.SendMessage("ApplyDamage", 5f);
-                    print("DealDamage");
-                    attackTime = 0f;
-                }
-            }
-
-
+            Attack();
         }
         reset += Time.deltaTime;
-        if (reset > resetTime)
-        {
-            animator.SetTrigger("Reset");
-            combonum = 0;
-        }
-        if (combonum == 3)
-        {
-            resetTime = 0f;
-            combonum = 0;
-        }
-        else
-        {
-            resetTime = 1f; 
-        }
+        ResetCombo();
 
         // Throwing Kunai
-        currentTime += Time.deltaTime;
+        kunaiTime += Time.deltaTime;
         if (Input.GetButton("Throw"))
         {
-            if(currentTime > cooldown)
+            if(kunaiTime > cooldown)
             {
-                GameObject newKunai = Instantiate(kunai, spawnSpot.transform.position, spawnSpot.transform.rotation);
-                currentKunai = newKunai;
-                currentTime = 0;
-                Destroy(newKunai, 30);
+                ThrowKunai();
             }
         }
 
@@ -122,5 +85,66 @@ public class FightSystem : MonoBehaviour
             return;
 
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
+
+    private void Block()
+    {
+        isFighting = true;
+        animator.SetBool("isBlocking", true);
+    }
+
+    private void UnBlock()
+    {
+        isFighting = false;
+        animator.SetBool("isBlocking", false);
+    }
+
+    private void Attack()
+    {
+        animator.SetTrigger(attackList[combonum]);
+        combonum++;
+        reset = 0f;
+
+        //Detect enemies in range of attack
+        Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayer);
+
+        //Damage enemies
+        if (attackTime >= animator.GetCurrentAnimatorStateInfo(0).length)
+        {
+            foreach (Collider enemy in hitEnemies)
+            {
+                enemy.SendMessage("ApplyDamage", 20f);
+                print("DealDamage");
+                attackTime = 0f;
+            }
+        }
+    }
+
+    // Resets the combo if time is up
+    private void ResetCombo()
+    {
+        if (reset > resetTime)
+        {   
+            animator.SetTrigger("Reset");
+            combonum = 0;
+        }
+        if (combonum == 3)
+        {
+            resetTime = 0f;
+            combonum = 0;
+        }
+        else
+        {
+            resetTime = 1f;
+        }
+    }
+
+    private void ThrowKunai()
+    {
+        GameObject newKunai = Instantiate(kunai, spawnSpot.transform.position, spawnSpot.transform.rotation);
+        currentKunai = newKunai;
+        kunaiTime = 0;
+        Destroy(newKunai, 30);
     }
 }

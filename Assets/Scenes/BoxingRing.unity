@@ -2014,18 +2014,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbbc2362fcc07084296f3faf58bbdaf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oppositeLeg: {fileID: 6622971154772782827}
-  target: {fileID: 1487502994}
-  body: {fileID: 1822564898}
-  groundTarget: {fileID: 84841756}
-  airTarget: {fileID: 719174345}
-  tip: {fileID: 1972395686}
   ground:
     serializedVersion: 2
     m_Bits: 1024
+  body: {fileID: 1822564898}
+  target: {fileID: 1487502995}
+  groundTarget: {fileID: 84841757}
+  airTarget: {fileID: 719174345}
+  tip: {fileID: 1972395687}
+  oppositeLeg: {fileID: 6622971154772782827}
   speed: 20
-  bodyPosX: 3.21
-  bodyPosZ: -2.5
   isGrounded: 1
 --- !u!114 &1100870988
 MonoBehaviour:
@@ -3281,18 +3279,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbbc2362fcc07084296f3faf58bbdaf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oppositeLeg: {fileID: 1977786314}
-  target: {fileID: 648102654}
-  body: {fileID: 1822564898}
-  groundTarget: {fileID: 1340251265}
-  airTarget: {fileID: 1610390480}
-  tip: {fileID: 928577712}
   ground:
     serializedVersion: 2
     m_Bits: 1024
+  body: {fileID: 1822564898}
+  target: {fileID: 648102655}
+  groundTarget: {fileID: 1340251266}
+  airTarget: {fileID: 1610390480}
+  tip: {fileID: 928577713}
+  oppositeLeg: {fileID: 1977786314}
   speed: 20
-  bodyPosX: 3.54
-  bodyPosZ: 1.44
   isGrounded: 1
 --- !u!114 &1763758585
 MonoBehaviour:
@@ -3932,18 +3928,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbbc2362fcc07084296f3faf58bbdaf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oppositeLeg: {fileID: 1763758582}
-  target: {fileID: 1710738957}
-  body: {fileID: 1822564898}
-  groundTarget: {fileID: 655782055}
-  airTarget: {fileID: 1101852684}
-  tip: {fileID: 395272522}
   ground:
     serializedVersion: 2
     m_Bits: 1024
+  body: {fileID: 1822564898}
+  target: {fileID: 1710738958}
+  groundTarget: {fileID: 655782056}
+  airTarget: {fileID: 1101852684}
+  tip: {fileID: 395272523}
+  oppositeLeg: {fileID: 1763758582}
   speed: 20
-  bodyPosX: -3.24
-  bodyPosZ: -2.5
   isGrounded: 1
 --- !u!114 &1977786317
 MonoBehaviour:
@@ -6632,18 +6626,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbbc2362fcc07084296f3faf58bbdaf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oppositeLeg: {fileID: 1100870985}
-  target: {fileID: 1445460915}
-  body: {fileID: 1822564898}
-  groundTarget: {fileID: 1773159430}
-  airTarget: {fileID: 2025398909}
-  tip: {fileID: 7258577637033545531}
   ground:
     serializedVersion: 2
     m_Bits: 1024
+  body: {fileID: 1822564898}
+  target: {fileID: 1445460916}
+  groundTarget: {fileID: 1773159431}
+  airTarget: {fileID: 2025398909}
+  tip: {fileID: 1348905488598072513}
+  oppositeLeg: {fileID: 1100870985}
   speed: 20
-  bodyPosX: -3.55
-  bodyPosZ: 1.44
   isGrounded: 1
 --- !u!1 &6675618264177762782
 GameObject:

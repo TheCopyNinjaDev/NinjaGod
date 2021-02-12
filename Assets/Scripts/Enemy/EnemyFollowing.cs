@@ -21,7 +21,7 @@ public class EnemyFollowing : MonoBehaviour
         //player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    private void LateUpdate()
+    private void Update()
     {
         if (Input.GetKey("p"))
         {

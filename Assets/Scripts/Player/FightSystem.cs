@@ -49,7 +49,6 @@ public class FightSystem : MonoBehaviour
 
 
         // Attacking
-        attackTime += Time.deltaTime;
         if (Input.GetButtonDown("Fire1") && combonum < 3 && !scFPS.isRunning)
         {
             Attack();
@@ -105,20 +104,16 @@ public class FightSystem : MonoBehaviour
         animator.SetTrigger(attackList[combonum]);
         combonum++;
         reset = 0f;
+    }
 
-        //Detect enemies in range of attack
+    //Damage enemies
+    public void DealDamage()
+    {
         Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayer);
-
-        //Damage enemies
-        if (animator.GetCurrentAnimatorStateInfo(0).length <= attackTime)
-        {
-
-            foreach (Collider enemy in hitEnemies)
+        foreach (Collider enemy in hitEnemies)
             {
                 enemy.SendMessage("ApplyDamage", 20f);
             }
-            attackTime = 0f;
-        }
     }
 
     // Resets the combo if time is up
@@ -131,12 +126,12 @@ public class FightSystem : MonoBehaviour
         }
         if (combonum == 3)
         {
-            resetTime = 0f;
+            resetTime = 0;
             combonum = 0;
         }
         else
         {
-            resetTime = 1f;
+            resetTime = animator.GetCurrentAnimatorStateInfo(0).length;
         }
     }
 

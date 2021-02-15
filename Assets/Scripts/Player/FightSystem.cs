@@ -17,7 +17,7 @@ public class FightSystem : MonoBehaviour
 
     [SerializeField]
     private Animator animator;
-    
+
     private ScFPSController scFPS;
 
     // Combo variables
@@ -42,7 +42,7 @@ public class FightSystem : MonoBehaviour
         {
             Block();
         }
-        else if(Input.GetMouseButtonUp(1))
+        else if (Input.GetMouseButtonUp(1))
         {
             UnBlock();
         }
@@ -61,13 +61,13 @@ public class FightSystem : MonoBehaviour
         kunaiTime += Time.deltaTime;
         if (Input.GetButton("Throw"))
         {
-            if(kunaiTime > cooldown)
+            if (kunaiTime > cooldown)
             {
                 ThrowKunai();
             }
         }
 
-        
+
     }
 
     private void LateUpdate()
@@ -110,14 +110,14 @@ public class FightSystem : MonoBehaviour
         Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayer);
 
         //Damage enemies
-        if (attackTime >= animator.GetCurrentAnimatorStateInfo(0).length)
+        if (animator.GetCurrentAnimatorStateInfo(0).length <= attackTime)
         {
+
             foreach (Collider enemy in hitEnemies)
             {
                 enemy.SendMessage("ApplyDamage", 20f);
-                print("DealDamage");
-                attackTime = 0f;
             }
+            attackTime = 0f;
         }
     }
 
@@ -125,7 +125,7 @@ public class FightSystem : MonoBehaviour
     private void ResetCombo()
     {
         if (reset > resetTime)
-        {   
+        {
             animator.SetTrigger("Reset");
             combonum = 0;
         }

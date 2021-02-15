@@ -6,9 +6,13 @@ public class TakeDamage : MonoBehaviour
 {
     [SerializeField] private Healthbar healthbar;
 
-    private void Start()
+    private void Awake()
     {
         
+    }
+    private void Update() 
+    {
+        CheckDeath();
     }
 
     public void ApplyDamage(float damage)
@@ -16,4 +20,10 @@ public class TakeDamage : MonoBehaviour
         healthbar.health -= damage;
         healthbar.UpdateHealth();
     }
+
+    private void CheckDeath()
+    {
+        if(healthbar.health <= 0)
+            GameObject.FindObjectOfType<EnemyAI>().Die();
+    }    
 }

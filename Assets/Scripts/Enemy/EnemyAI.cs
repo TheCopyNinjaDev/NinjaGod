@@ -4,13 +4,11 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
-    public NavMeshAgent agent;
+    private NavMeshAgent agent;
 
-    public Transform player;
+    private Transform player;
 
     public LayerMask whatIsGround, whatIsPlayer;
-
-    public float health;
 
     //Patroling
     public Vector3 walkPoint;
@@ -23,24 +21,30 @@ public class EnemyAI : MonoBehaviour
 
     //States
     public float sightRange, attackRange;
-    public bool playerInSightRange, playerInAttackRange;
+    private bool playerInSightRange, playerInAttackRange;
+
+    private bool alive = true;
 
     private Animator animator;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        agent = GetComponent<NavMeshAgent>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     private void Update()
     {
         //Check for sight and attack range
-        playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
+        if(alive)
+        {
+            playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
-
         if (!playerInSightRange && !playerInAttackRange) Patroling();
         if (playerInSightRange && !playerInAttackRange) ChasePlayer();
         if (playerInAttackRange && playerInSightRange) AttackPlayer();
+        }
     }
 
     private void Patroling()
@@ -101,15 +105,11 @@ public class EnemyAI : MonoBehaviour
         alreadyAttacked = false;
     }
 
-    public void TakeDamage(int damage)
+    public void Die()
     {
-        health -= damage;
-
-        if (health <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
-    }
-    private void DestroyEnemy()
-    {
-        Destroy(gameObject);
+        alive = false;
+        animator.SetTrigger("Die");
+        Destroy(gameObject, 30);
     }
 
     private void OnDrawGizmosSelected()

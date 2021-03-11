@@ -37,13 +37,13 @@ public class EnemyAI : MonoBehaviour
     private void Update()
     {
         //Check for sight and attack range
-        if(alive)
+        if (alive)
         {
             playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
-        playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
-        if (!playerInSightRange && !playerInAttackRange) Patroling();
-        if (playerInSightRange && !playerInAttackRange) ChasePlayer();
-        if (playerInAttackRange && playerInSightRange) AttackPlayer();
+            playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
+            //if (!playerInSightRange && !playerInAttackRange) Patroling();
+            //if (playerInSightRange && !playerInAttackRange) ChasePlayer();
+            //if (playerInAttackRange && playerInSightRange) AttackPlayer();
         }
     }
 
@@ -74,7 +74,6 @@ public class EnemyAI : MonoBehaviour
         if (Physics.Raycast(walkPoint, -transform.up, 2f, whatIsGround))
             walkPointSet = true;
     }
-
     private void ChasePlayer()
     {
         agent.SetDestination(player.position);
@@ -82,7 +81,6 @@ public class EnemyAI : MonoBehaviour
         animator.SetBool("Moving", true);
         animator.SetFloat("speed", 2);
     }
-
     private void AttackPlayer()
     {
         //Make sure enemy doesn't move
@@ -104,19 +102,10 @@ public class EnemyAI : MonoBehaviour
     {
         alreadyAttacked = false;
     }
-
     public void Die()
     {
         alive = false;
         animator.SetTrigger("Die");
         Destroy(gameObject, 30);
-    }
-
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackRange);
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, sightRange);
     }
 }

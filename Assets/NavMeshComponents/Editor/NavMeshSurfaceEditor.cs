@@ -108,6 +108,7 @@ namespace UnityEditor.AI
             AssetDatabase.CreateAsset(surface.navMeshData, combinedAssetPath);
         }
 
+        [System.Obsolete]
         static NavMeshData GetNavMeshAssetToDelete(NavMeshSurface navSurface)
         {
             var prefabType = PrefabUtility.GetPrefabType(navSurface);
@@ -121,6 +122,7 @@ namespace UnityEditor.AI
             return navSurface.navMeshData;
         }
 
+        [System.Obsolete]
         void ClearSurface(NavMeshSurface navSurface)
         {
             var assetToDelete = GetNavMeshAssetToDelete(navSurface);
@@ -141,6 +143,7 @@ namespace UnityEditor.AI
             return new Bounds(navSurface.transform.position, navSurface.size);
         }
 
+        [System.Obsolete]
         public override void OnInspectorGUI()
         {
             if (s_Styles == null)
@@ -361,6 +364,7 @@ namespace UnityEditor.AI
                 , surface.transform.position, surface.transform.rotation);
         }
 
+        [System.Obsolete]
         static void UpdateAsyncBuildOperations()
         {
             foreach (var oper in s_BakeOperations)

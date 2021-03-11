@@ -361,6 +361,7 @@ namespace UnityEngine.AI
         }
 
 #if UNITY_EDITOR
+        [System.Obsolete]
         bool UnshareNavMeshAsset()
         {
             // Nothing to unshare
@@ -389,12 +390,16 @@ namespace UnityEngine.AI
             return false;
         }
 
+        [System.Obsolete]
         void OnValidate()
         {
             if (UnshareNavMeshAsset())
             {
                 Debug.LogWarning("Duplicating NavMeshSurface does not duplicate the referenced navmesh data", this);
                 m_NavMeshData = null;
+            }
+            else
+            {
             }
 
             var settings = NavMesh.GetSettingsByID(m_AgentTypeID);

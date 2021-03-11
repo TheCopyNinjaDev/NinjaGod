@@ -146,7 +146,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 20ca368cb1127764081a598c0618bc5c, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -301,7 +301,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 20ca368cb1127764081a598c0618bc5c, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -409,7 +409,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 20ca368cb1127764081a598c0618bc5c, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -566,7 +566,7 @@ MonoBehaviour:
   groundTarget: {fileID: 2737206081055474603}
   airTarget: {fileID: 2737206081322730745}
   tip: {fileID: 2737206081735600024}
-  oppositeLeg: {fileID: 2737206080619266275}
+  oppositeLeg: {fileID: 9085175799989449154}
   speed: 20
   isGrounded: 1
 --- !u!1 &2737206080587327959
@@ -629,7 +629,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 20ca368cb1127764081a598c0618bc5c, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -816,7 +816,7 @@ MonoBehaviour:
   groundTarget: {fileID: 2737206081463594881}
   airTarget: {fileID: 2737206080950480677}
   tip: {fileID: 2737206082260975202}
-  oppositeLeg: {fileID: 2737206080556469983}
+  oppositeLeg: {fileID: 2737206080951462496}
   speed: 20
   isGrounded: 1
 --- !u!1 &2737206080726025082
@@ -1021,7 +1021,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 20ca368cb1127764081a598c0618bc5c, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1323,7 +1323,7 @@ MonoBehaviour:
   groundTarget: {fileID: 2737206081967475252}
   airTarget: {fileID: 2737206081677092320}
   tip: {fileID: 2737206080616202638}
-  oppositeLeg: {fileID: 9085175799989449154}
+  oppositeLeg: {fileID: 2737206080619266275}
   speed: 20
   isGrounded: 1
 --- !u!1 &2737206081055474600
@@ -1705,7 +1705,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2737206081400429371}
-  m_LocalRotation: {x: -0, y: -0.04845826, z: -0, w: -0.99882525}
+  m_LocalRotation: {x: -0, y: -0.048457578, z: 0, w: -0.9988253}
   m_LocalPosition: {x: 12.355757, y: 0.69, z: 41.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1932,7 +1932,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 20ca368cb1127764081a598c0618bc5c, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2191,7 +2191,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 20ca368cb1127764081a598c0618bc5c, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2317,7 +2317,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 20ca368cb1127764081a598c0618bc5c, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2677,7 +2677,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 20ca368cb1127764081a598c0618bc5c, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2849,7 +2849,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 20ca368cb1127764081a598c0618bc5c, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3276,6 +3276,6 @@ MonoBehaviour:
   groundTarget: {fileID: 2737206080547003182}
   airTarget: {fileID: 2737206080831651156}
   tip: {fileID: 3982523512476476392}
-  oppositeLeg: {fileID: 2737206080951462496}
+  oppositeLeg: {fileID: 2737206080556469983}
   speed: 20
   isGrounded: 1

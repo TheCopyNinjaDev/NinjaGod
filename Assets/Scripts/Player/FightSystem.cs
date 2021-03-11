@@ -27,7 +27,6 @@ public class FightSystem : MonoBehaviour
     private float reset;
     private float cooldown = 1f;
     private float kunaiTime = 0;
-    private float attackTime = 0f;
 
     private void Start()
     {

@@ -27,6 +27,8 @@ public class EnemyAI : MonoBehaviour
 
     private Animator animator;
 
+    private float fillingSpeed = 0.2f;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -39,11 +41,15 @@ public class EnemyAI : MonoBehaviour
         //Check for sight and attack range
         if (alive)
         {
-            playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
+            if(GetComponent<FieldOfView>().visibleTargets.Count > 0)
+            {
+                GetComponent<SpotIndicator>().FillTheSign(fillingSpeed);
+            }
+            playerInSightRange = GetComponent<SpotIndicator>().isSpotted() ? true : false;
             playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
             //if (!playerInSightRange && !playerInAttackRange) Patroling();
-            //if (playerInSightRange && !playerInAttackRange) ChasePlayer();
-            //if (playerInAttackRange && playerInSightRange) AttackPlayer();
+            if (playerInSightRange && !playerInAttackRange) ChasePlayer();
+            if (playerInAttackRange && playerInSightRange) AttackPlayer();
         }
     }
 
@@ -76,6 +82,7 @@ public class EnemyAI : MonoBehaviour
     }
     private void ChasePlayer()
     {
+        GetComponent<FieldOfView>().viewAngle = 360f;
         agent.SetDestination(player.position);
         agent.speed = 10;
         animator.SetBool("Moving", true);

@@ -45,6 +45,10 @@ public class EnemyAI : MonoBehaviour
             {
                 GetComponent<SpotIndicator>().FillTheSign(fillingSpeed);
             }
+            else
+            {
+                GetComponent<SpotIndicator>().UnfillTheSign(fillingSpeed + 0.5f);
+            }
             playerInSightRange = GetComponent<SpotIndicator>().isSpotted() ? true : false;
             playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
             //if (!playerInSightRange && !playerInAttackRange) Patroling();

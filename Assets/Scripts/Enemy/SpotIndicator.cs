@@ -15,6 +15,12 @@ public class SpotIndicator : MonoBehaviour
             spotSign.fillAmount += fillingSpeed * Time.deltaTime; 
     }
 
+    public void UnfillTheSign(float unfillingSpeed)
+    {
+        if(spotSign.fillAmount > 0)
+            spotSign.fillAmount -= unfillingSpeed * Time.deltaTime;
+    }
+
     public bool isSpotted()
     {
         if(spotSign.fillAmount == 1.0f)

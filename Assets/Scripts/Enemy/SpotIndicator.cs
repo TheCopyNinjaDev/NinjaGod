@@ -8,6 +8,38 @@ public class SpotIndicator : MonoBehaviour
     [SerializeField]
     private Image spotSign;
 
+    private bool isTriggered;
+
+    private void Update() 
+    {
+        if(spotSign.fillAmount > 0 && spotSign.fillAmount < 1.0f)
+        {
+            spotSign.color = Color.yellow;
+        }
+        else if(spotSign.fillAmount == 1.0f)
+        {
+            spotSign.color = Color.red;
+        }    
+    }
+    public bool IsTriggered
+    {
+        get{ return isTriggered; }
+        set
+        {
+            if(spotSign.fillAmount > 0 && spotSign.fillAmount < 1.0f)
+                isTriggered = true;
+            else
+                isTriggered = false;
+        }
+    }
+
+    public bool IsSpotted()
+    {
+            if(spotSign.fillAmount == 1.0f)
+                return true;
+            else
+                return false;
+    }
 
     public void FillTheSign(float fillingSpeed)
     {
@@ -19,13 +51,5 @@ public class SpotIndicator : MonoBehaviour
     {
         if(spotSign.fillAmount > 0)
             spotSign.fillAmount -= unfillingSpeed * Time.deltaTime;
-    }
-
-    public bool isSpotted()
-    {
-        if(spotSign.fillAmount == 1.0f)
-            return true;
-        else
-            return false;
     }
 }

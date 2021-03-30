@@ -8,7 +8,7 @@ public class Kunai : MonoBehaviour
     [HideInInspector]
     public bool _readyToTeleport;
 
-    public float speed;
+    public float speed = 100;
 
     private Rigidbody _rb;
     private bool _readyToStick = false;
@@ -21,7 +21,6 @@ public class Kunai : MonoBehaviour
 
     private void Start()
     {
-
         _rb.AddRelativeForce(Vector3.up * speed);
     }
 

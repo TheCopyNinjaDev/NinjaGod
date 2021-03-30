@@ -5,58 +5,67 @@ using UnityEngine.AI;
 public class EnemyAI : MonoBehaviour
 {
     private NavMeshAgent agent;
-
     private Transform player;
-
     public LayerMask whatIsGround, whatIsPlayer;
-
     //Patroling
     public Vector3 walkPoint;
     bool walkPointSet;
     public float walkPointRange;
-
     //Attacking
     public float timeBetweenAttacks;
     bool alreadyAttacked;
-
     //States
     public float sightRange, attackRange;
-    private bool playerInSightRange, playerInAttackRange;
-
+    private bool playerInSightRange, playerInAttackRange, playerIsNoticed;
     private bool alive = true;
-
     private Animator animator;
-
-    private float fillingSpeed = 0.2f;
+    private float fillingSpeed = 1f;
+    private SpotIndicator spotIndicator;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        spotIndicator = GetComponent<SpotIndicator>();
     }
 
     private void Update()
     {
-        //Check for sight and attack range
+        /*Check if npc is alive*/
         if (alive)
         {
-            if(GetComponent<FieldOfView>().visibleTargets.Count > 0)
-            {
-                GetComponent<SpotIndicator>().FillTheSign(fillingSpeed);
-            }
-            else
-            {
-                GetComponent<SpotIndicator>().UnfillTheSign(fillingSpeed + 0.5f);
-            }
-            playerInSightRange = GetComponent<SpotIndicator>().IsSpotted() ? true : false;
+            ControlSpotSign();
+            ResetDestination();
+            playerIsNoticed = spotIndicator.IsTriggered();
+            playerInSightRange = spotIndicator.IsSpotted() || playerInAttackRange;
             playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
-            //if (!playerInSightRange && !playerInAttackRange) Patroling();
+            if (!playerInSightRange && !playerInAttackRange) Patroling();
+            if (playerIsNoticed && !playerInAttackRange) CheckForPlayer();
             if (playerInSightRange && !playerInAttackRange) ChasePlayer();
             if (playerInAttackRange && playerInSightRange) AttackPlayer();
         }
     }
 
+    bool posSetted = false;
+    Vector3 previosPlayersPos = Vector3.zero;
+    private void CheckForPlayer()
+    {
+        if (!posSetted)
+        {
+            previosPlayersPos = player.position;
+            posSetted = true;
+        }
+        agent.SetDestination(previosPlayersPos);
+        agent.speed = 5;
+        animator.SetBool("Moving", true);
+        animator.SetFloat("speed", 1);
+    }
+    private void ResetDestination()
+    {
+        if(spotIndicator.isUnnoticed())
+            posSetted = false;
+    }
     private void Patroling()
     {
         if (!walkPointSet) SearchWalkPoint();
@@ -118,5 +127,16 @@ public class EnemyAI : MonoBehaviour
         alive = false;
         animator.SetTrigger("Die");
         Destroy(gameObject, 30);
+    }
+    private void ControlSpotSign()
+    {
+        if (GetComponent<FieldOfView>().visibleTargets.Count > 0)
+        {
+            spotIndicator.FillTheSign(fillingSpeed);
+        }
+        else
+        {
+            spotIndicator.UnfillTheSign(0);
+        }
     }
 }

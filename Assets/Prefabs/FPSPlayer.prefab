@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 776578466219699718}
   - component: {fileID: 776578466219699721}
   - component: {fileID: 234767379}
+  - component: {fileID: 1964819401}
   m_Layer: 9
   m_Name: Hand_R
   m_TagString: Untagged
@@ -330,6 +331,18 @@ MonoBehaviour:
   - m_Rig: {fileID: 143050457}
     m_Active: 1
   m_Effectors: []
+--- !u!114 &1964819401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776578466219699722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d2482ccdbdf064ea7a52291817ca84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &788268546305503480
 GameObject:
   m_ObjectHideFlags: 0
@@ -6354,7 +6367,7 @@ GameObject:
   - component: {fileID: 788268547630103268}
   - component: {fileID: 788268547630103267}
   - component: {fileID: 1439935398733641453}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FPSPlayer
   m_TagString: Player
   m_Icon: {fileID: 0}

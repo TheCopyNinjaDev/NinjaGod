@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class CirculasMenu : MonoBehaviour
 {
-    public Image[] circlePieces; 
     public List<MenuButton> buttons = new List<MenuButton>();
     private Vector2 _mousePosition;
     private readonly Vector2 _fromVector2M = new Vector2(.5f, 1f);
@@ -24,10 +23,6 @@ public class CirculasMenu : MonoBehaviour
     private void Update()
     {
         GetCurrentMenuItem();
-        if(Input.GetKeyUp("l"))
-            AddItem();
-        if(Input.GetKey("k"))
-            ButtonAction();
     }
 
     private void GetCurrentMenuItem()
@@ -44,31 +39,12 @@ public class CirculasMenu : MonoBehaviour
         _oldMenuItem = curMenuItem;
         buttons[curMenuItem].sceneimage.color = buttons[curMenuItem].HighlightedColor;
     }
-    
 
-    public void AddItem()
+
+    private void AddItem()
     {
-        if (menuItems >= circlePieces.Length) return;
-        circlePieces[menuItems].gameObject.SetActive(true);
-        buttons.Add(new MenuButton(menuItems));
-        menuItems = buttons.Count;
-        foreach (var piece in circlePieces)
-        {
-            piece.fillAmount = 1.0f / menuItems;
-        }
-
-        var rotZ = 180;
-        for (int i = 0; i < circlePieces.Length; i++)
-        {
-            circlePieces[i].gameObject.GetComponent<RectTransform>().rotation = Quaternion.Euler(0, 0, rotZ);
-            rotZ -= 360 / menuItems;
-            buttons[i].sceneimage = circlePieces[i];
-        }
-        
-        foreach(var button in buttons)
-        {
-            button.sceneimage.color = button.NormalColor;
-        }
+        /* TO-DO
+         place image of new kunai or smth*/
         
     }
 

@@ -29,7 +29,7 @@ public class ScFPSController : MonoBehaviour
 
 
     [HideInInspector]
-    public bool canMove = true;
+    public static bool CanMove = true;
     [HideInInspector]
     public Vector3 characterVelocity;
     [HideInInspector]
@@ -65,18 +65,18 @@ public class ScFPSController : MonoBehaviour
         rightHandAnimator.SetBool("isRunning", isRunning);
 
 
-        float curSpeedX = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Vertical") : 0;
-        float curSpeedY = canMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Horizontal") : 0;
+        float curSpeedX = CanMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Vertical") : 0;
+        float curSpeedY = CanMove ? (isRunning ? runningSpeed : walkingSpeed) * Input.GetAxis("Horizontal") : 0;
         float movementDirectionY = _moveDirection.y;
         _moveDirection = (_forward * curSpeedX) + (_right * curSpeedY);
 
         // Press Left Shift to run
-        if (canMove && !_isCrouching && !FightSystem.isFighting)
+        if (CanMove && !_isCrouching && !FightSystem.isFighting)
         {
             Run();
         }
 
-        if (Input.GetButton("Jump") && canMove && _characterController.isGrounded)
+        if (Input.GetButton("Jump") && CanMove && _characterController.isGrounded)
         {
             Jump();
         }
@@ -100,7 +100,7 @@ public class ScFPSController : MonoBehaviour
         _characterController.Move(_moveDirection * Time.deltaTime);
 
         // Player and Camera rotation
-        if (canMove)
+        if (CanMove)
         {
             _rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
             _rotationX = Mathf.Clamp(_rotationX, -lookXLimit, lookXLimit);
@@ -116,19 +116,19 @@ public class ScFPSController : MonoBehaviour
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
         //Press Left Ctrl to crouch
-        if (canMove)
+        if (CanMove)
         {
             Crouch(_characterController.isGrounded);
         }
     }
 
-    void Crouch(bool isGrounded)
+    private void Crouch(bool isGrounded)
     {
-        Ray rayUp = new Ray(transform.position, Vector3.up);
+        var rayUp = new Ray(transform.position, Vector3.up);
         Physics.Raycast(rayUp, out var hit);
         float timer = 0;
         const float timeToWait = 0.002f;
-        bool timerDone = false;
+        var timerDone = false;
 
         if (Input.GetButtonDown("Crouch") && isGrounded)
         {
@@ -147,24 +147,22 @@ public class ScFPSController : MonoBehaviour
                 timerDone = true;
             }
 
-            if (timerDone)
-            {
-                //returns from crouching
-                StandUp();
-                _isCrouching = false;
-            }
+            if (!timerDone) return;
+            //returns from crouching
+            StandUp();
+            _isCrouching = false;
         }
 
     }
 
-    void StandUp()
+    private void StandUp()
     {
         _characterController.height = 2;
         var position = transform.position;
         playerCamera.transform.position = new Vector3(position.x, position.y + 1, position.z);
     }
 
-    void Run()
+    private void Run()
     {
         if (Input.GetButtonDown("Run") && _moveDirection.normalized == _forward)
         {

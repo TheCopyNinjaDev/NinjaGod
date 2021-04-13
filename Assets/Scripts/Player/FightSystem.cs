@@ -1,43 +1,46 @@
 using System.Collections.Generic;
+using Trowable_things;
 using UnityEngine;
 
 
 public class FightSystem : MonoBehaviour
 {
-    static public bool isFighting;
+    public static bool IsFighting;
 
-    public GameObject kunai;
+    public static GameObject Kunai;
     public float resetTime;
     public Transform attackPoint;
     public LayerMask enemyLayer;
     public float attackRange;
 
-    private GameObject spawnSpot;
-    private GameObject currentKunai;
+    private GameObject _spawnSpot;
+    public static GameObject CurrentKunai;
 
     [SerializeField]
     private Animator animator;
 
-    private ScFPSController scFPS;
+    private ScFPSController _scFPS;
 
     // Combo variables
-    List<string> attackList = new List<string>(new string[] { "attack1", "attack2", "attack3" });
+    private readonly List<string> _attackList = new List<string>(new string[] { "attack1", "attack2", "attack3" });
 
-    private int combonum;
-    private float reset;
-    private float cooldown = 1f;
-    private float kunaiTime = 0;
+    private int _combonum;
+    private float _reset;
+    private const float Cooldown = 1f;
+    private float _kunaiTime = 0;
+    private static readonly int Reset = Animator.StringToHash("Reset");
+    private static readonly int IsBlocking = Animator.StringToHash("isBlocking");
 
     private void Start()
     {
-        scFPS = FindObjectOfType<ScFPSController>();
-        spawnSpot = GameObject.FindGameObjectWithTag("Throwable thing");
+        _scFPS = FindObjectOfType<ScFPSController>();
+        _spawnSpot = GameObject.FindGameObjectWithTag("Throwable thing");
     }
 
     private void Update()
     {
         // Blocking
-        if (Input.GetMouseButtonDown(1) && !scFPS.isRunning)
+        if (Input.GetMouseButtonDown(1) && !_scFPS.isRunning)
         {
             Block();
         }
@@ -48,32 +51,19 @@ public class FightSystem : MonoBehaviour
 
 
         // Attacking
-        if (Input.GetButtonDown("Fire1") && combonum < 3 && !scFPS.isRunning)
+        if (Input.GetButtonDown("Fire1") && _combonum < 3 && !_scFPS.isRunning)
         {
             Attack();
         }
-        reset += Time.deltaTime;
+        _reset += Time.deltaTime;
         ResetCombo();
 
         // Throwing Kunai
-        kunaiTime += Time.deltaTime;
-        if (Input.GetButton("Throw"))
+        _kunaiTime += Time.deltaTime;
+        if (!Input.GetButton("Throw")) return;
+        if (_kunaiTime > Cooldown)
         {
-            if (kunaiTime > cooldown)
-            {
-                ThrowKunai();
-            }
-        }
-
-
-    }
-
-    private void LateUpdate()
-    {
-        // Teleport Kunai
-        if (Input.GetKey("t") && currentKunai.gameObject.GetComponentInChildren<Kunai>()._readyToTeleport)
-        {
-            transform.position = new Vector3(currentKunai.transform.position.x, currentKunai.transform.position.y + 2, currentKunai.transform.position.z);
+            ThrowKunai();
         }
     }
 
@@ -88,45 +78,46 @@ public class FightSystem : MonoBehaviour
 
     private void Block()
     {
-        isFighting = true;
-        animator.SetBool("isBlocking", true);
+        IsFighting = true;
+        animator.SetBool(IsBlocking, true);
     }
 
     private void UnBlock()
     {
-        isFighting = false;
-        animator.SetBool("isBlocking", false);
+        IsFighting = false;
+        animator.SetBool(IsBlocking, false);
     }
 
     private void Attack()
     {
-        animator.SetTrigger(attackList[combonum]);
-        combonum++;
-        reset = 0f;
+        animator.SetTrigger(_attackList[_combonum]);
+        _combonum++;
+        _reset = 0f;
     }
 
     //Damage enemies
     public void DealDamage()
     {
-        Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayer);
-        foreach (Collider enemy in hitEnemies)
-            {
-                enemy.SendMessage("ApplyDamage", 20f);
-            }
+        // ReSharper disable once Unity.PreferNonAllocApi
+        var hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayer);
+        foreach (var enemy in hitEnemies)
+        {
+            enemy.SendMessage("ApplyDamage", 20f);
+        }
     }
 
     // Resets the combo if time is up
     private void ResetCombo()
     {
-        if (reset > resetTime)
+        if (_reset > resetTime)
         {
-            animator.SetTrigger("Reset");
-            combonum = 0;
+            animator.SetTrigger(Reset);
+            _combonum = 0;
         }
-        if (combonum == 3)
+        if (_combonum == 3)
         {
             resetTime = 0;
-            combonum = 0;
+            _combonum = 0;
         }
         else
         {
@@ -136,9 +127,9 @@ public class FightSystem : MonoBehaviour
 
     private void ThrowKunai()
     {
-        GameObject newKunai = Instantiate(kunai, spawnSpot.transform.position, spawnSpot.transform.rotation);
-        currentKunai = newKunai;
-        kunaiTime = 0;
+        var newKunai = Instantiate(Kunai, _spawnSpot.transform.position, _spawnSpot.transform.rotation);
+        CurrentKunai = newKunai;
+        _kunaiTime = 0;
         Destroy(newKunai, 30);
     }
 }

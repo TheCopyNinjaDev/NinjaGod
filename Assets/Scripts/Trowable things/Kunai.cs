@@ -1,57 +1,58 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
-public class Kunai : MonoBehaviour
+namespace Trowable_things
 {
-    [HideInInspector]
-    public bool _readyToTeleport;
+    public class Kunai : MonoBehaviour
+    {
+        [FormerlySerializedAs("_readyToTeleport")] [HideInInspector]
+        public bool readyToTeleport;
 
-    public float speed = 100;
+        public float speed = 100;
 
-    private Rigidbody _rb;
-    private bool _readyToStick = false;
+        protected Rigidbody _rb;
+        protected bool _readyToStick = false;
     
 
-    private void Awake()
-    {
-        _rb = GetComponent<Rigidbody>();
-    }
-
-    private void Start()
-    {
-        _rb.AddRelativeForce(Vector3.up * speed);
-    }
-
-
-    private void OnTriggerExit(Collider other)
-    {
-        if(other.gameObject.tag == "Player")
+        protected virtual void Awake()
         {
-            _readyToStick = true;
+            _rb = GetComponent<Rigidbody>();
+        }
+
+        protected virtual void Start()
+        {
+            _rb.AddRelativeForce(Vector3.up * speed);
+        }
+
+
+        protected virtual void OnTriggerExit(Collider other)
+        {
+            if(other.gameObject.CompareTag("Player"))
+            {
+                _readyToStick = true;
+            }
+        }
+
+        protected virtual void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.CompareTag("Player"))
+            {
+                _readyToStick = false;
+            }
+        }
+
+        protected virtual void OnCollisionEnter(Collision collision)
+        {
+            if (_readyToStick)
+            {
+                _rb.constraints  = RigidbodyConstraints.FreezeAll;
+                readyToTeleport = true;
+            }
+            if (collision.gameObject.CompareTag("Enemy"))
+            {
+                Destroy(gameObject, 1);
+            }
         }
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            _readyToStick = false;
-        }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (_readyToStick)
-        {
-           _rb.constraints  = RigidbodyConstraints.FreezeAll;
-            _readyToTeleport = true;
-        }
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            Destroy(gameObject, 1);
-        }
-    }
-
 }

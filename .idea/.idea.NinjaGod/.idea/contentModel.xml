@@ -246,6 +246,7 @@
           <e p="Trowable things" t="Include">
             <e p="CirculasMenu.cs" t="Include" />
             <e p="Kunai.cs" t="Include" />
+            <e p="TeleportKunai.cs" t="Include" />
           </e>
         </e>
         <e p="SimpleHealthBar" t="Include">

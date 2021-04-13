@@ -5310,7 +5310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &560638119
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5367,6 +5367,9 @@ MonoBehaviour:
     NormalColor: {r: 0, g: 0, b: 0, a: 1}
     HighlightedColor: {r: 1, g: 0.017761644, b: 0, a: 1}
     PressedColor: {r: 1, g: 0.739583, b: 0, a: 1}
+  kunais:
+  - {fileID: 1751878101860677052, guid: a7686dfbabdc5ac498741afcd3f56d23, type: 3}
+  - {fileID: 6403144047010638393, guid: 168e130baba563d46b2dd385a097a82c, type: 3}
   menuItems: 4
   curMenuItem: 0
 --- !u!1001 &564740462

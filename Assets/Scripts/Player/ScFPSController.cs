@@ -39,8 +39,6 @@ public class ScFPSController : MonoBehaviour
     {
         _characterController = GetComponent<CharacterController>();
         
-         
-
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -71,7 +69,7 @@ public class ScFPSController : MonoBehaviour
         _moveDirection = (_forward * curSpeedX) + (_right * curSpeedY);
 
         // Press Left Shift to run
-        if (CanMove && !_isCrouching && !FightSystem.isFighting)
+        if (CanMove && !_isCrouching && !FightSystem.IsFighting)
         {
             Run();
         }
@@ -88,9 +86,9 @@ public class ScFPSController : MonoBehaviour
 
         characterVelocity.x = isRunning ? runningSpeed : walkingSpeed;
 
-        // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
-        // when the moveDirection is multiplied by deltaTime). This is because gravity should be applied
-        // as an acceleration (ms^-2)
+        /* Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
+            when the moveDirection is multiplied by deltaTime). This is because gravity should be applied
+            as an acceleration (ms^-2) */
         if (!_characterController.isGrounded)
         {
             _moveDirection.y -= gravity * Time.deltaTime;

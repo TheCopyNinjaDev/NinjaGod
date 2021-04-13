@@ -128,7 +128,10 @@ public class FightSystem : MonoBehaviour
     private void ThrowKunai()
     {
         var newKunai = Instantiate(Kunai, _spawnSpot.transform.position, _spawnSpot.transform.rotation);
-        CurrentKunai = newKunai;
+        if (newKunai.TryGetComponent(out TeleportKunai kunai))
+        {
+            CurrentKunai = newKunai;
+        }
         _kunaiTime = 0;
         Destroy(newKunai, 30);
     }

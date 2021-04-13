@@ -7,7 +7,7 @@ namespace Trowable_things
     public class Kunai : MonoBehaviour
     {
         [FormerlySerializedAs("_readyToTeleport")] [HideInInspector]
-        public bool readyToTeleport;
+
 
         public float speed = 100;
 
@@ -47,7 +47,6 @@ namespace Trowable_things
             if (_readyToStick)
             {
                 _rb.constraints  = RigidbodyConstraints.FreezeAll;
-                readyToTeleport = true;
             }
             if (collision.gameObject.CompareTag("Enemy"))
             {

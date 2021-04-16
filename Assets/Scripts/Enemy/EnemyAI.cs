@@ -9,14 +9,15 @@ public class EnemyAI : MonoBehaviour
     public LayerMask whatIsGround, whatIsPlayer;
     //Patroling
     public Vector3 walkPoint;
-    bool walkPointSet;
+    private bool _walkPointSet;
     public float walkPointRange;
     //Attacking
     public float timeBetweenAttacks;
-    bool alreadyAttacked;
+
+    private bool _alreadyAttacked;
     //States
     public float sightRange, attackRange;
-    private bool playerInSightRange, playerInAttackRange, playerIsNoticed;
+    private bool _playerInSightRange, _playerInAttackRange, _playerIsNoticed;
     private bool alive = true;
     private Animator animator;
     private float fillingSpeed = 1f;
@@ -37,26 +38,26 @@ public class EnemyAI : MonoBehaviour
         {
             ControlSpotSign();
             ResetDestination();
-            playerIsNoticed = spotIndicator.IsTriggered();
-            playerInSightRange = spotIndicator.IsSpotted() || playerInAttackRange;
-            playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
-            if (!playerInSightRange && !playerInAttackRange) Patroling();
-            if (playerIsNoticed && !playerInAttackRange) CheckForPlayer();
-            if (playerInSightRange && !playerInAttackRange) ChasePlayer();
-            if (playerInAttackRange && playerInSightRange) AttackPlayer();
+            _playerIsNoticed = spotIndicator.IsTriggered();
+            _playerInSightRange = spotIndicator.IsSpotted() || _playerInAttackRange;
+            _playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
+            if (!_playerInSightRange && !_playerInAttackRange) Patroling();
+            if (_playerIsNoticed && !_playerInAttackRange) CheckForPlayer();
+            if (_playerInSightRange && !_playerInAttackRange) ChasePlayer();
+            if (_playerInAttackRange && _playerInSightRange) AttackPlayer();
         }
     }
 
-    bool posSetted = false;
-    Vector3 previosPlayersPos = Vector3.zero;
+    private bool _posSetted = false;
+    private Vector3 _previosPlayersPos = Vector3.zero;
     private void CheckForPlayer()
     {
-        if (!posSetted)
+        if (!_posSetted)
         {
-            previosPlayersPos = player.position;
-            posSetted = true;
+            _previosPlayersPos = player.position;
+            _posSetted = true;
         }
-        agent.SetDestination(previosPlayersPos);
+        agent.SetDestination(_previosPlayersPos);
         agent.speed = 5;
         animator.SetBool("Moving", true);
         animator.SetFloat("speed", 1);
@@ -64,20 +65,20 @@ public class EnemyAI : MonoBehaviour
     private void ResetDestination()
     {
         if(spotIndicator.isUnnoticed())
-            posSetted = false;
+            _posSetted = false;
     }
     private void Patroling()
     {
-        if (!walkPointSet) SearchWalkPoint();
+        if (!_walkPointSet) SearchWalkPoint();
 
-        if (walkPointSet)
+        if (_walkPointSet)
             agent.SetDestination(walkPoint);
 
         Vector3 distanceToWalkPoint = transform.position - walkPoint;
 
         //Walkpoint reached
         if (distanceToWalkPoint.magnitude < 1f)
-            walkPointSet = false;
+            _walkPointSet = false;
     }
     private void SearchWalkPoint()
     {
@@ -91,7 +92,7 @@ public class EnemyAI : MonoBehaviour
         walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
 
         if (Physics.Raycast(walkPoint, -transform.up, 2f, whatIsGround))
-            walkPointSet = true;
+            _walkPointSet = true;
     }
     private void ChasePlayer()
     {
@@ -108,19 +109,19 @@ public class EnemyAI : MonoBehaviour
         animator.SetBool("Moving", false);
 
 
-        if (!alreadyAttacked)
+        if (!_alreadyAttacked)
         {
             ///Attack code here
             animator.SetTrigger("Attack");
             ///End of attack code
 
-            alreadyAttacked = true;
+            _alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
     }
     private void ResetAttack()
     {
-        alreadyAttacked = false;
+        _alreadyAttacked = false;
     }
     public void Die()
     {

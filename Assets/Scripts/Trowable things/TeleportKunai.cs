@@ -17,9 +17,9 @@ namespace Trowable_things
 
         protected override void OnCollisionEnter(Collision collision)
         {
-            if (_readyToStick)
+            if (ReadyToStick)
             {
-                _rb.constraints  = RigidbodyConstraints.FreezeAll;
+                Rb.constraints  = RigidbodyConstraints.FreezeAll;
                 _readyToTeleport = true;
             }
             if (collision.gameObject.CompareTag("Enemy"))

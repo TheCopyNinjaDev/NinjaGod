@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/FightSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FightSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Town.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Town.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trowable things/TeleportKunai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/TeleportKunai.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +40,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/ScFPSController.cs" />
       <option value="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/CirculasMenu.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/TeleportKunai.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/FightSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/MissileKunai.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m9KvqNfIj9TVBvwOKkSXTSM6l0" />
@@ -114,7 +119,9 @@
       <workItem from="1610485303141" duration="9000" />
       <workItem from="1617559998322" duration="7717000" />
       <workItem from="1618332852379" duration="3932000" />
-      <workItem from="1618341106283" duration="1499000" />
+      <workItem from="1618341106283" duration="1740000" />
+      <workItem from="1618415348828" duration="1272000" />
+      <workItem from="1618608081355" duration="3121000" />
     </task>
     <servers />
   </component>

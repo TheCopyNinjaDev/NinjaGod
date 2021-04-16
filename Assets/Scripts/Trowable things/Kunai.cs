@@ -6,23 +6,22 @@ namespace Trowable_things
 {
     public class Kunai : MonoBehaviour
     {
-        [FormerlySerializedAs("_readyToTeleport")] [HideInInspector]
 
 
         public float speed = 100;
 
-        protected Rigidbody _rb;
-        protected bool _readyToStick = false;
+        protected Rigidbody Rb;
+        protected bool ReadyToStick = false;
     
 
         protected virtual void Awake()
         {
-            _rb = GetComponent<Rigidbody>();
+            Rb = GetComponent<Rigidbody>();
         }
 
         protected virtual void Start()
         {
-            _rb.AddRelativeForce(Vector3.up * speed);
+            Rb.AddRelativeForce(Vector3.up * speed);
         }
 
 
@@ -30,7 +29,7 @@ namespace Trowable_things
         {
             if(other.gameObject.CompareTag("Player"))
             {
-                _readyToStick = true;
+                ReadyToStick = true;
             }
         }
 
@@ -38,19 +37,15 @@ namespace Trowable_things
         {
             if (other.gameObject.CompareTag("Player"))
             {
-                _readyToStick = false;
+                ReadyToStick = false;
             }
         }
 
         protected virtual void OnCollisionEnter(Collision collision)
         {
-            if (_readyToStick)
+            if (ReadyToStick)
             {
-                _rb.constraints  = RigidbodyConstraints.FreezeAll;
-            }
-            if (collision.gameObject.CompareTag("Enemy"))
-            {
-                Destroy(gameObject, 1);
+                Rb.constraints  = RigidbodyConstraints.FreezeAll;
             }
         }
     }

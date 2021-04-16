@@ -59,7 +59,7 @@ public class WallRunnig : MonoBehaviour
         _scFPSController.gravity = 5f;
         zRotation = side;
         _scFPSController.playerCamera.transform.Rotate(new Vector3(0, 0, zRotation));
-        if (Input.GetButton("Jump") && _scFPSController.canMove)
+        if (Input.GetButton("Jump") && ScFPSController.CanMove)
         {
             WallJump();
         }

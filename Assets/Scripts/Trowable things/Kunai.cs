@@ -1,57 +1,52 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
-public class Kunai : MonoBehaviour
+namespace Trowable_things
 {
-    [HideInInspector]
-    public bool _readyToTeleport;
+    public class Kunai : MonoBehaviour
+    {
 
-    public float speed = 100;
 
-    private Rigidbody _rb;
-    private bool _readyToStick = false;
+        public float speed = 100;
+
+        protected Rigidbody Rb;
+        protected bool ReadyToStick = false;
     
 
-    private void Awake()
-    {
-        _rb = GetComponent<Rigidbody>();
-    }
-
-    private void Start()
-    {
-        _rb.AddRelativeForce(Vector3.up * speed);
-    }
-
-
-    private void OnTriggerExit(Collider other)
-    {
-        if(other.gameObject.tag == "Player")
+        protected virtual void Awake()
         {
-            _readyToStick = true;
+            Rb = GetComponent<Rigidbody>();
+        }
+
+        protected virtual void Start()
+        {
+            Rb.AddRelativeForce(Vector3.up * speed);
+        }
+
+
+        protected virtual void OnTriggerExit(Collider other)
+        {
+            if(other.gameObject.CompareTag("Player"))
+            {
+                ReadyToStick = true;
+            }
+        }
+
+        protected virtual void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.CompareTag("Player"))
+            {
+                ReadyToStick = false;
+            }
+        }
+
+        protected virtual void OnCollisionEnter(Collision collision)
+        {
+            if (ReadyToStick)
+            {
+                Rb.constraints  = RigidbodyConstraints.FreezeAll;
+            }
         }
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            _readyToStick = false;
-        }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (_readyToStick)
-        {
-           _rb.constraints  = RigidbodyConstraints.FreezeAll;
-            _readyToTeleport = true;
-        }
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            Destroy(gameObject, 1);
-        }
-    }
-
 }

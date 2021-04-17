@@ -29,7 +29,7 @@ namespace Trowable_things
 
         private void FixedUpdate()
         {
-            Vector3.MoveTowards(transform.position, _targetedEnemy.position, speed * Time.deltaTime);
+            //Vector3.MoveTowards(transform.position, _targetedEnemy.position, speed * Time.deltaTime);
         }
     }
 }

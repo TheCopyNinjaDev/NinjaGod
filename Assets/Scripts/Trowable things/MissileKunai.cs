@@ -24,12 +24,12 @@ namespace Trowable_things
         {
             base.OnCollisionEnter(collision);
             if(collision.collider.CompareTag("Enemy"))
-                Debug.Log("Hit");
+                Debug.Log("Hited");
         }
 
         private void FixedUpdate()
         {
-            //Vector3.MoveTowards(transform.position, _targetedEnemy.position, speed * Time.deltaTime);
+            Vector3.MoveTowards(transform.position, _targetedEnemy.position, speed * Time.deltaTime);
         }
     }
 }

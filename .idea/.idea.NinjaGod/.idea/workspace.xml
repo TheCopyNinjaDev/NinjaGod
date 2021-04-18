@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FPSPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FPSPlayer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Kunais/Kunai.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Kunais/Kunai.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Kunais/MissileKunai.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Kunais/MissileKunai.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Kunais/TeleportKunai.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Kunais/TeleportKunai.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Town.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Town.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trowable things/MissileKunai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/MissileKunai.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +30,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/GUICOntroller.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/WallRunnig.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/GUIController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/ScFPSController.cs" />
       <option value="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/CirculasMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/TeleportKunai.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/FightSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/ScFPSController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/MissileKunai.cs" />
     </changedPaths>
   </component>
@@ -84,10 +74,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="16060">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="23272">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="16060" />
+      <option name="pid" value="23272" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -128,7 +118,8 @@
       <workItem from="1618608081355" duration="3121000" />
       <workItem from="1618614277374" duration="148000" />
       <workItem from="1618690606167" duration="6365000" />
-      <workItem from="1618741637814" duration="4810000" />
+      <workItem from="1618741637814" duration="5321000" />
+      <workItem from="1618777432781" duration="1176000" />
     </task>
     <servers />
   </component>

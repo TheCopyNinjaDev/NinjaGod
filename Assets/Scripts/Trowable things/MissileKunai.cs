@@ -31,9 +31,16 @@ namespace Trowable_things
             {
                 var targetedEnemyindex = Random.Range(0, _enemies.Length);
                 _targetedEnemy = _enemies[targetedEnemyindex].transform;
-                Rb.useGravity = false;
                 var direction = _targetedEnemy.position - transform.position;
-                Rb.AddForce(direction * missileSpeed);
+                if (Vector3.Angle(transform.forward, direction) < 90)
+                {
+                    Rb.useGravity = false;
+                    Rb.AddForce(direction * missileSpeed);
+                }
+                else
+                {
+                    base.FixedUpdate();
+                }
             }
             else
             {

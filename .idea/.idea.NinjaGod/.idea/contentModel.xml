@@ -8,6 +8,26 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AssetStoreOriginals" t="Include">
+          <e p="_SNAPS_PrototypingAssets" t="Include">
+            <e p="About" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="ReadmeEditor.cs" t="Include" />
+                </e>
+                <e p="Readme.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Editor" t="Include">
+                <e p="PackageChecker" t="Include">
+                  <e p="PackageChecker.cs" t="Include" />
+                  <e p="PackageImportList.txt" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="BOXOPHOBIC" t="Include">
           <e p="Skybox Cubemap Extended" t="Include">
             <e p="Core" t="Include">

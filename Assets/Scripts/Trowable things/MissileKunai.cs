@@ -11,13 +11,11 @@ namespace Trowable_things
     {
         private GameObject[] _enemies;
         private Transform _targetedEnemy;
+        [SerializeField] private float missileSpeed = 10;
         
         protected override void Start()
         {
-            base.Start();
             _enemies = GameObject.FindGameObjectsWithTag("Enemy");
-            var targetedEnemyindex = Random.Range(0, _enemies.Length);
-            _targetedEnemy = _enemies[targetedEnemyindex].transform;
         }
 
         protected override void OnCollisionEnter(Collision collision)
@@ -27,9 +25,27 @@ namespace Trowable_things
                 Debug.Log("Hit");
         }
 
-        private void FixedUpdate()
+        protected new void FixedUpdate()
         {
-            Vector3.MoveTowards(transform.position, _targetedEnemy.position, speed * Time.deltaTime);
+            if (_enemies.Length > 0)
+            {
+                var targetedEnemyindex = Random.Range(0, _enemies.Length);
+                _targetedEnemy = _enemies[targetedEnemyindex].transform;
+                var direction = _targetedEnemy.position - transform.position;
+                if (Vector3.Angle(transform.forward, direction) < 90)
+                {
+                    Rb.useGravity = false;
+                    Rb.AddForce(direction * missileSpeed);
+                }
+                else
+                {
+                    base.FixedUpdate();
+                }
+            }
+            else
+            {
+                base.FixedUpdate();
+            }
         }
     }
 }

@@ -189,12 +189,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875547136}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.412, z: 1.09}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.58799994, z: 1.0899997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 788268547630103264}
-  m_RootOrder: 3
+  m_Father: {fileID: 788268547489698459}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &1875547138
 CapsuleCollider:
@@ -6200,6 +6200,7 @@ Transform:
   m_Children:
   - {fileID: 788268547395817543}
   - {fileID: 543450651605974246}
+  - {fileID: 1875547137}
   m_Father: {fileID: 788268547630103264}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6388,7 +6389,6 @@ Transform:
   - {fileID: 788268547489698459}
   - {fileID: 788268547431807349}
   - {fileID: 788268547664818141}
-  - {fileID: 1875547137}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6434,7 +6434,6 @@ MonoBehaviour:
   initialFov: 90
   runFov: 95
   rightHandAnimator: {fileID: 776578466219699718}
-  canMove: 1
   characterVelocity: {x: 0, y: 0, z: 0}
   isRunning: 0
 --- !u!114 &788268547630103269
@@ -6465,7 +6464,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33001758bbd526f4c8e1f06d1940c468, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kunai: {fileID: 1751878101860677052, guid: a7686dfbabdc5ac498741afcd3f56d23, type: 3}
   resetTime: 0
   attackPoint: {fileID: 1875547137}
   enemyLayer:

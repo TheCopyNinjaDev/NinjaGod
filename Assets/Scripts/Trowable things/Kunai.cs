@@ -21,7 +21,7 @@ namespace Trowable_things
 
         protected virtual void Start()
         {
-            Rb.AddRelativeForce(Vector3.up * speed);
+            
         }
 
 
@@ -47,6 +47,11 @@ namespace Trowable_things
             {
                 Rb.constraints  = RigidbodyConstraints.FreezeAll;
             }
+        }
+
+        protected void FixedUpdate()
+        {
+            Rb.AddRelativeForce(Vector3.up * speed);
         }
     }
 }

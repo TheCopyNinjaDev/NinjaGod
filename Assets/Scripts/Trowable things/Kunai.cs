@@ -12,7 +12,7 @@ namespace Trowable_things
 
         protected Rigidbody Rb;
         protected bool ReadyToStick = false;
-    
+
 
         protected virtual void Awake()
         {
@@ -21,7 +21,7 @@ namespace Trowable_things
 
         protected virtual void Start()
         {
-            
+            GameObject.Find("GUI").GetComponent<KunaiInventory>().SpendKunai(0);
         }
 
 

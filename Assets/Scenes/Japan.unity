@@ -8059,14 +8059,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8602669896209569974, guid: 039e6f3325aa17642b1ba2f5ccc24142, type: 3}
-      propertyPath: kunais.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8602669896209569974, guid: 039e6f3325aa17642b1ba2f5ccc24142, type: 3}
-      propertyPath: kunais.Array.data[3]
-      value: 
-      objectReference: {fileID: 3589361896137696211, guid: 54c235c03375ac144b1892baca3974a5, type: 3}
     - target: {fileID: 8602669897115371747, guid: 039e6f3325aa17642b1ba2f5ccc24142, type: 3}
       propertyPath: m_Name
       value: GUI

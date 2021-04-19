@@ -133,6 +133,22 @@
             </e>
           </e>
         </e>
+        <e p="EffectExamples" t="Include">
+          <e p="Shared" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="DecalDestroyer.cs" t="Include" />
+              <e p="ExtinguishableFire.cs" t="Include" />
+              <e p="GunAim.cs" t="Include" />
+              <e p="GunShoot.cs" t="Include" />
+              <e p="ParticleCollision.cs" t="Include" />
+              <e p="ParticleExamples.cs" t="Include" />
+              <e p="ParticleMenu.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="SurfaceShader_VC.shader" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Five Seamless Tileable Ground Textures" t="Include">
           <e p="read me.txt" t="Include" />
         </e>
@@ -269,6 +285,9 @@
             <e p="Kunai.cs" t="Include" />
             <e p="MissileKunai.cs" t="Include" />
             <e p="TeleportKunai.cs" t="Include" />
+          </e>
+          <e p="VFX" t="Include">
+            <e p="DestroyParticles.cs" t="Include" />
           </e>
         </e>
         <e p="SimpleHealthBar" t="Include">

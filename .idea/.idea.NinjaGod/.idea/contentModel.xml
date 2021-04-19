@@ -265,6 +265,7 @@
           </e>
           <e p="Trowable things" t="Include">
             <e p="CirculasMenu.cs" t="Include" />
+            <e p="ExplosiveKunai.cs" t="Include" />
             <e p="Kunai.cs" t="Include" />
             <e p="MissileKunai.cs" t="Include" />
             <e p="TeleportKunai.cs" t="Include" />

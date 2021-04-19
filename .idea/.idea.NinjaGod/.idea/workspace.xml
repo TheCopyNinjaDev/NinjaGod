@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_04_2021_1_35__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_04_2021_1_35__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_04_2021_1_38__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_04_2021_1_38__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Kunais/ExplosiveKunai.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Kunais/ExplosiveKunai.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/ExplosiveKunai.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/ExplosiveKunai.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trowable things/MissileKunai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/MissileKunai.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Rebase.Settings">
-    <option name="NEW_BASE" value="missileKunai" />
+    <option name="NEW_BASE" value="origin/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -42,17 +46,22 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/TeleportKunai.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/FightSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/ScFPSController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/MissileKunai.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/ExplosiveKunai.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m9KvqNfIj9TVBvwOKkSXTSM6l0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
@@ -127,6 +136,9 @@
       <workItem from="1618690606167" duration="6365000" />
       <workItem from="1618741637814" duration="5321000" />
       <workItem from="1618777432781" duration="1176000" />
+      <workItem from="1618789020280" duration="517000" />
+      <workItem from="1618789568779" duration="610000" />
+      <workItem from="1618834086562" duration="1833000" />
     </task>
     <servers />
   </component>
@@ -148,6 +160,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

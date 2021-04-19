@@ -49,7 +49,7 @@ namespace Trowable_things
             }
         }
 
-        protected void FixedUpdate()
+        protected virtual void FixedUpdate()
         {
             Rb.AddRelativeForce(Vector3.up * speed);
         }

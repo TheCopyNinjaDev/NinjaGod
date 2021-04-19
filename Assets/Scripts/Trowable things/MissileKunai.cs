@@ -25,7 +25,7 @@ namespace Trowable_things
                 Debug.Log("Hit");
         }
 
-        protected new void FixedUpdate()
+        protected override void FixedUpdate()
         {
             if (_enemies.Length > 0)
             {
@@ -42,6 +42,7 @@ namespace Trowable_things
                     base.FixedUpdate();
                 }
             }
+            
             else
             {
                 base.FixedUpdate();

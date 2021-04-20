@@ -17,6 +17,7 @@ namespace Trowable_things
         {
             _enemies = GameObject.FindGameObjectsWithTag("Enemy");
         }
+        
 
         protected override void OnCollisionEnter(Collision collision)
         {

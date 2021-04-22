@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Experimental.Rendering;
 
 [RequireComponent(typeof(CharacterController))]
 
@@ -10,6 +11,7 @@ public class ScFPSController : MonoBehaviour
     public float gravity = 20.0f;
     public Camera playerCamera;
     public Camera armCamera;
+    public Camera sixthSenseCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
     public ParticleSystem runEffects;
@@ -57,8 +59,9 @@ public class ScFPSController : MonoBehaviour
             isRunning = false;
             runEffects.Stop();
         }
-
-
+        
+        if (Input.GetKeyDown(KeyCode.V))
+            SixthSense();
 
         rightHandAnimator.SetBool("isRunning", isRunning);
 
@@ -118,6 +121,7 @@ public class ScFPSController : MonoBehaviour
         {
             Crouch(_characterController.isGrounded);
         }
+        
     }
 
     private void Crouch(bool isGrounded)
@@ -182,5 +186,10 @@ public class ScFPSController : MonoBehaviour
     public void Jump()
     {
         _moveDirection.y = jumpSpeed;
+    }
+
+    public void SixthSense()
+    {
+        sixthSenseCamera.enabled = !sixthSenseCamera.enabled;
     }
 }

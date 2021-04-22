@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/KunaiInventory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/KunaiInventory.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Beige_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Beige_snaps004.mat" afterDir="false" />
@@ -134,9 +135,11 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9984">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="pid" value="9984" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
@@ -186,6 +189,9 @@
       <workItem from="1618789568779" duration="610000" />
       <workItem from="1618834086562" duration="3793000" />
       <workItem from="1618839199373" duration="30000" />
+      <workItem from="1618857171606" duration="2300000" />
+      <workItem from="1618909219929" duration="33000" />
+      <workItem from="1618910602068" duration="63000" />
       <workItem from="1618857171606" duration="2181000" />
       <workItem from="1618695137161" duration="2181000" />
       <workItem from="1618699553452" duration="296000" />

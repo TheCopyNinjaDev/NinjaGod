@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Trowable_things;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,12 +14,16 @@ public class CirculasMenu : MonoBehaviour
     private readonly Vector2 _centerCircle = new Vector2(.5f, .5f);
     private Vector2 _toVector2M;
     public int menuItems;
-    public int curMenuItem;
+    static public int CurMenuItem;
     private int _oldMenuItem;
+    
+    /*[Temporary zone]*/
+    [SerializeField] private Image kunaiSelected;
+    [SerializeField] private Color[] kunaiColorUI;
 
     private void Awake() 
     {
-        curMenuItem = 0;
+        CurMenuItem = 0;
         _oldMenuItem = 0;
         FightSystem.Kunai = kunais[0];
         gameObject.SetActive(false);
@@ -28,6 +34,8 @@ public class CirculasMenu : MonoBehaviour
         GetCurrentMenuItem();
         if(Input.GetMouseButton(0))
             ButtonAction();
+        
+        
     }
 
     private void GetCurrentMenuItem()
@@ -40,11 +48,11 @@ public class CirculasMenu : MonoBehaviour
             angle += 360;
         if(menuItems > 0)
             // ReSharper disable once PossibleLossOfFraction
-            curMenuItem = (int)(angle / (360 / menuItems));
-        if (curMenuItem == _oldMenuItem) return;
+            CurMenuItem = (int)(angle / (360 / menuItems));
+        if (CurMenuItem == _oldMenuItem) return;
         buttons[_oldMenuItem].sceneimage.color = buttons[_oldMenuItem].NormalColor;
-        _oldMenuItem = curMenuItem;
-        buttons[curMenuItem].sceneimage.color = buttons[curMenuItem].HighlightedColor;
+        _oldMenuItem = CurMenuItem;
+        buttons[CurMenuItem].sceneimage.color = buttons[CurMenuItem].HighlightedColor;
     }
 
 
@@ -58,9 +66,13 @@ public class CirculasMenu : MonoBehaviour
     // Click response
     private void ButtonAction()
     {
-        buttons[curMenuItem].sceneimage.color = buttons[curMenuItem].PressedColor;  // Color change
-        // The action
-        FightSystem.Kunai = kunais[curMenuItem];
+        buttons[CurMenuItem].sceneimage.color = buttons[CurMenuItem].PressedColor;  // Color change
+        FightSystem.Kunai = kunais[CurMenuItem]; // The action
+        
+        
+        //[Temporary zone] showing the color of selected kunai
+        kunaiSelected.color = kunaiColorUI[CurMenuItem];
+        
     }
 }
 [System.Serializable]

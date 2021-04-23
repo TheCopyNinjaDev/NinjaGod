@@ -15,6 +15,11 @@ namespace Trowable_things
             _player = GameObject.FindWithTag("Player").transform;
         }
 
+        protected override void Start()
+        {
+            KunaiInventory.SpendKunai(1);
+        }
+
         protected override void OnCollisionEnter(Collision collision)
         {
             if (ReadyToStick)

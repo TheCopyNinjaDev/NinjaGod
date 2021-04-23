@@ -6,7 +6,12 @@ public class ExplosiveKunai : Kunai
     [SerializeField] private float _explosionRadius = 10;
     [SerializeField] private float _explosionForce = 500;
     [SerializeField] private ParticleSystem _explosion;
-    
+
+    protected override void Start()
+    {
+        KunaiInventory.SpendKunai(3);
+    }
+
     protected override void OnCollisionEnter(Collision collision)
     {
         if (!ReadyToStick) return;

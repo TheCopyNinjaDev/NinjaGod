@@ -8,6 +8,9 @@ namespace Trowable_things
     public class KunaiInventory: MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI textUsual;
+        [SerializeField] private TextMeshProUGUI textTeleport;
+        [SerializeField] private TextMeshProUGUI textMissile;
+        [SerializeField] private TextMeshProUGUI textExplosive;
         
         [SerializeField] private int quantityUsual = 3;
         [SerializeField] private int quantityTeleport = 3;
@@ -18,6 +21,9 @@ namespace Trowable_things
         private void Update()
         {
             textUsual.text = "x" + quantityUsual;
+            textTeleport.text = "x" + quantityTeleport;
+            textMissile.text = "x" + quantityMissile;
+            textExplosive.text = "x" + quantityExplosive;
         }
 
         public void SpendKunai(int kunai)
@@ -26,6 +32,15 @@ namespace Trowable_things
             {
                 case 0:
                     quantityUsual--;
+                    break;
+                case 1:
+                    quantityTeleport--;
+                    break;
+                case 2:
+                    quantityMissile--;
+                    break;
+                case 3:
+                    quantityExplosive--;
                     break;
             }
         }

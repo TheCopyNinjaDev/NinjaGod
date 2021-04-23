@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_Update_at_19_04_2021_16_20__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_Update_at_19_04_2021_16_20__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trowable things/ExplosiveKunai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/ExplosiveKunai.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trowable things/KunaiInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/KunaiInventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trowable things/MissileKunai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/MissileKunai.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trowable things/TeleportKunai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/TeleportKunai.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" afterDir="false" />
@@ -70,6 +74,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10564ED1-54D6-47E1-94BE-F4AEF8878649/7e/4f7f13a8/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Trowable things/KunaiInventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10564ED1-54D6-47E1-94BE-F4AEF8878649/ac/71a30ebd/Component.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -78,7 +83,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/WallRunnig.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/GUIController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/CirculasMenu.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/TeleportKunai.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/FightSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/ScFPSController.cs" />
@@ -89,8 +93,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/ExplosiveKunai.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/VFX/DestroyParticles.cs" />
       <option value="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/KunaiInventory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/KunaiInventory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/TeleportKunai.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/MissileKunai.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/ExplosiveKunai.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m9KvqNfIj9TVBvwOKkSXTSM6l0" />

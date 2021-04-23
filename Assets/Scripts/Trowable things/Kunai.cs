@@ -21,7 +21,7 @@ namespace Trowable_things
 
         protected virtual void Start()
         {
-            GameObject.Find("GUI").GetComponent<KunaiInventory>().SpendKunai(0);
+            KunaiInventory.SpendKunai(0);
         }
 
 

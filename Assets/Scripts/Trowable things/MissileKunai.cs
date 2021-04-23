@@ -16,7 +16,7 @@ namespace Trowable_things
         protected override void Start()
         {
             _enemies = GameObject.FindGameObjectsWithTag("Enemy");
-            GameObject.Find("GUI").GetComponent<KunaiInventory>().SpendKunai(2);
+            KunaiInventory.SpendKunai(2);
         }
         
 

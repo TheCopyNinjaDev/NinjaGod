@@ -9,7 +9,7 @@ public class ExplosiveKunai : Kunai
 
     protected override void Start()
     {
-        GameObject.Find("GUI").GetComponent<KunaiInventory>().SpendKunai(3);
+        KunaiInventory.SpendKunai(3);
     }
 
     protected override void OnCollisionEnter(Collision collision)

@@ -17,7 +17,7 @@ namespace Trowable_things
 
         protected override void Start()
         {
-            GameObject.Find("GUI").GetComponent<KunaiInventory>().SpendKunai(1);
+            KunaiInventory.SpendKunai(1);
         }
 
         protected override void OnCollisionEnter(Collision collision)

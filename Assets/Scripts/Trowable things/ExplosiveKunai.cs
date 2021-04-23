@@ -1,29 +1,32 @@
-using Trowable_things;
 using UnityEngine;
+using UnityEngine.Serialization;
 
-public class ExplosiveKunai : Kunai
+namespace Trowable_things
 {
-    [SerializeField] private float _explosionRadius = 10;
-    [SerializeField] private float _explosionForce = 500;
-    [SerializeField] private ParticleSystem _explosion;
-
-    protected override void Start()
+    public class ExplosiveKunai : Kunai
     {
-        KunaiInventory.SpendKunai(3);
-    }
+        [FormerlySerializedAs("_explosionRadius")] [SerializeField] private float explosionRadius = 10;
+        [FormerlySerializedAs("_explosionForce")] [SerializeField] private float explosionForce = 500;
+        [FormerlySerializedAs("_explosion")] [SerializeField] private ParticleSystem explosion;
 
-    protected override void OnCollisionEnter(Collision collision)
-    {
-        if (!ReadyToStick) return;
-        Rb.constraints  = RigidbodyConstraints.FreezeAll;
-        var things = Physics.OverlapSphere(transform.position, _explosionRadius);
-        foreach (var thing in things)
+        protected override void Start()
         {
-            if(thing.GetComponent<Rigidbody>())
-                thing.GetComponent<Rigidbody>().AddExplosionForce(_explosionForce, transform.position, _explosionRadius);
+            KunaiInventory.SpendKunai(3);
         }
 
-        Instantiate(_explosion, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        protected override void OnCollisionEnter(Collision collision)
+        {
+            if (!ReadyToStick) return;
+            Rb.constraints  = RigidbodyConstraints.FreezeAll;
+            var things = Physics.OverlapSphere(transform.position, explosionRadius);
+            foreach (var thing in things)
+            {
+                if(thing.GetComponent<Rigidbody>())
+                    thing.GetComponent<Rigidbody>().AddExplosionForce(explosionForce, transform.position, explosionRadius);
+            }
+
+            Instantiate(explosion, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
     }
 }

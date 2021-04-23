@@ -1,415 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="" />
     <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_04_2021_1_35__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_04_2021_1_35__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_04_2021_1_38__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_04_2021_1_38__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/DebrisParticle.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/DebrisParticle.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/EmbersParticle.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/EmbersParticle.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/FlameParticle.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/FlameParticle.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/FlameRoundYellowParticle.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/FlameRoundYellowParticle.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/IgnitionFlameParticle.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/IgnitionFlameParticle.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/LightningParticle.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/LightningParticle.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/PlasmaExplosionParticle.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/PlasmaExplosionParticle.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/PlasmaFireParticle.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/PlasmaFireParticle.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/ShockWaveParticle.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/ShockWaveParticle.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/SmokeDarkParticle.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/SmokeDarkParticle.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/SmokeLightParticle.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/SmokeLightParticle.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/BigExplosionEffect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/BigExplosionEffect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/DrippingFlames.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/DrippingFlames.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/FlameThrowerEffect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/FlameThrowerEffect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesEffects.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesEffects.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/PlasmaExplosionEffect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/PlasmaExplosionEffect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/RibbonSmoke.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/RibbonSmoke.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/SmallExplosionEffect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/SmallExplosionEffect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/SmokeEffect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/SmokeEffect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/TorchEffect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/TorchEffect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/WallFlames.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Prefabs/WallFlames.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/DebrisParticleSheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/DebrisParticleSheet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/FlameParticleSheet.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/FlameParticleSheet.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/FlameRoundGreyParticleSheet.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/FlameRoundGreyParticleSheet.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/FlameRoundParticleSheet.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/FlameRoundParticleSheet.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/LightningParticle.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/LightningParticle.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/RoundSoftParticle.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/RoundSoftParticle.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/SmokePuff02ParticleSheet.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/SmokePuff02ParticleSheet.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/SmokePuffNormalSheet.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/SmokePuffNormalSheet.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/SmokePuffParticleSheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Textures/SmokePuffParticleSheet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Animations/GunFire.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Animations/GunFire.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Animations/GunIdle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Animations/GunIdle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Controllers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Controllers/Gun.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Animation/Controllers/Gun.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Fonts/Roboto-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Fonts/Roboto-Thin.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Fonts/RobotoCondensed-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Fonts/RobotoCondensed-Bold.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/Background.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/Background.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/DarkDefault.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/DarkDefault.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/FleshSurface.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/FleshSurface.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/MetalSurface.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/MetalSurface.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/SandSurface.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/SandSurface.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/Skybox.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/Skybox.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/StoneSurface.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/StoneSurface.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/WoodSurface.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/WoodSurface.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/BackGround.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/BackGround.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/FPSWeapon.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/FPSWeapon.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/LowMan.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/LowMan.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/MazeLowMan.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/MazeLowMan.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/No Name.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/No Name.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/ShooterFPSWeapon.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/ShooterFPSWeapon.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Character.physicMaterial" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Character.physicMaterial.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Meat.physicMaterial" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Meat.physicMaterial.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Sand.physicMaterial" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Sand.physicMaterial.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilled.physicMaterial" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilled.physicMaterial.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Wood.physicMaterial" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/PhysicsMaterials/Wood.physicMaterial.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Extinguish.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Extinguish.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Flesh.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Flesh.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Metal.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Metal.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/ParticlesLight.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/ParticlesLight.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Sand.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Sand.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Stone.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Stone.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/WaterFilled.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/WaterFilled.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Wood.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Prefabs/Wood.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/GunAim.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/GunAim.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/GunShoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/GunShoot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Shaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Sprites/UnityLogoSprite.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Sprites/UnityLogoSprite.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/BackgroundAlbedo.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/BackgroundAlbedo.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/CloudsAlpha.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/CloudsAlpha.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/CloudsNormals.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/CloudsNormals.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/CloudsOcclusion.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/CloudsOcclusion.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/StoneAlbedo.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/StoneAlbedo.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/StoneNormals.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/StoneNormals.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/WoodAlbedo.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/WoodAlbedo.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/WoodNormals.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/WoodNormals.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/fleshNormals.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/fleshNormals.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/wood_tiled_02_a.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/wood_tiled_02_a.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/wood_tiled_02_n.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/wood_tiled_02_n.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/wood_tiled_02_o.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Textures/wood_tiled_02_o.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/SmokeTrail.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/EffectExamples/SmokeTrail.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact Grenade.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact Grenade.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Concrete.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Concrete.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Dirt.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Dirt.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Glass.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Glass.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Grass.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Grass.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Metal.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Metal.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Sand.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Sand.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Snow.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Snow.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Stones.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Stones.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Wood.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Impact on Wood.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw10.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw10.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw2.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw3.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw3.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw4.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw4.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw5.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw5.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw6.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw6.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw7.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw7.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw8.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw8.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw9.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Different sounds/Throw9.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade10.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade10.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade10Short.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade10Short.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade1Short.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade1Short.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade2.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade2Short.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade2Short.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade3.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade3.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade3Short.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade3Short.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade4.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade4.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade4Short.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade4Short.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade5.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade5.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade5Short.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade5Short.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade6.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade6.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade6Short.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade6Short.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade7.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade7.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade7Short.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade7Short.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade8.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade8.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade8Short.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade8Short.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade9.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade9.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade9Short.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Grenade Sound FX/Grenade/Grenade9Short.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/VFX/SmallExplosionEffect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/VFX/SmallExplosionEffect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VFX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VFX/DestroyParticles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VFX/DestroyParticles.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTree.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTree.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTreeVariation.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTreeVariation.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Rock.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Rock.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Terrain.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Terrain.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - TreeTrunk.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - TreeTrunk.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Wood.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Wood.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Glass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Dirt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Dirt.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Grass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Grass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Sand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Sand.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Tiles_1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Tiles_1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Tiles_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Tiles_2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Tiles_Broken.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Ground/Ground_Tiles_Broken.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Houses_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Houses_2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Rock.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Rock.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Water.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BrokenVector/LowPolyBrickHouses/Materials/Water.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character Pack/Materials/samuzai_animation_ok-13 - Default.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character Pack/Materials/samuzai_animation_ok-13 - Default.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character Pack/Materials/samuzai_animation_ok-19 - Default1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character Pack/Materials/samuzai_animation_ok-19 - Default1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character Pack/Materials/samuzai_animation_ok-20 - Default.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character Pack/Materials/samuzai_animation_ok-20 - Default.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character Pack/Texture/Materials/body_dif.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character Pack/Texture/Materials/body_dif.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character Pack/Texture/Materials/sword_dm.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character Pack/Texture/Materials/sword_dm.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DungeonCharacters/Skeletons_demo/models/Materials/DS_skeleton_standard.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DungeonCharacters/Skeletons_demo/models/Materials/DS_skeleton_standard.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DungeonCharacters/Skeletons_demo/models/Materials/DemoEquipment.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DungeonCharacters/Skeletons_demo/models/Materials/DemoEquipment.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Brown Stony Light.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Brown Stony Light.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Brown Stony.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Brown Stony.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Grass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Grass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Grey Stones.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Grey Stones.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Sandy Orange.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Sandy Orange.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Sandy.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Sandy.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Water Deep Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Water Deep Blue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Water Light Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Five Seamless Tileable Ground Textures/Materials/Water Light Blue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX/Demo/Assets/CFXFree_Demo_Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX/Demo/Assets/CFXFree_Demo_Ground.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX/Materials/CFX_T_Text_Boom.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX/Materials/CFX_T_Text_Boom.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Katana 4K/_Assets/material/mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Katana 4K/_Assets/material/mat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/Materials/build_building_02_a.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/Materials/build_building_02_a.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/Materials/prop_fence_02_a.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/Materials/prop_fence_02_a.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/Materials/wood_tiled_02_a.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/Materials/wood_tiled_02_a.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/Materials/wood_tiled_03_a.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/Materials/wood_tiled_03_a.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_building_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_building_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_building_01_darker.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_building_01_darker.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_building_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_building_02.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_building_02_darker.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_building_02_darker.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_fence_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_fence_02.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_roofbeams_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_roofbeams_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_strawroof_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_strawroof_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_strawroof_cutout_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Buildings/mat_strawroof_cutout_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Beard.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Beard.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Body.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Dragonblade.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Dragonblade.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Dress.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Dress.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Model.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Model.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Robot_Color 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Robot_Color 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Robot_Color.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Robot_Color.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Skin.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/Skin.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/challenger_AO_1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/challenger_AO_1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/challenger_head_albedo2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/CharacterResources/Materials/challenger_head_albedo2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Effects/Leaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Effects/Leaves.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Effects/Materials/273937.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Effects/Materials/273937.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/Materials/build_tower_02_a 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/Materials/build_tower_02_a 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/Materials/wood_d.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/Materials/wood_d.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/Materials/wood_tiled_01_a.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/Materials/wood_tiled_01_a.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/Materials/wood_tiled_01_n.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/Materials/wood_tiled_01_n.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/Materials/wood_tiled_02_a.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/Materials/wood_tiled_02_a.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_barrel_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_barrel_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_boardwalk_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_boardwalk_02.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_boat_scaffold_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_boat_scaffold_02.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_boulder_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_boulder_02.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_build_village_fence_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_build_village_fence_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_building_03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_building_03.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_crane_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_crane_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_crane_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_crane_02.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_crane_03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_crane_03.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_crane_04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_crane_04.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_plank_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_plank_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_shield_04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_shield_04.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_shield_05.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_shield_05.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_sword_shovel_halberd_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_sword_shovel_halberd_02.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_torch_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_torch_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_tower_04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_tower_04.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_tower_05.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_tower_05.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_tower_06.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Props/mat_tower_06.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Terrain/Materials/terrain_wetmud_01_a.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Terrain/Materials/terrain_wetmud_01_a.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Terrain/TerrainME.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/DemoResources/Terrain/TerrainME.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/Effect12/GoldParticles.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/Effect12/GoldParticles.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/IceRGB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/IceRGB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/SmokeTile4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/SmokeTile4.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Blade.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Blade.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Handler.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Handler.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/MissileKunai.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/MissileKunai.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Parts.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Parts.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Slaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Slaves.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Teeth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Teeth.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/_and_Text.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/_and_Text.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/_laves_Text.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/_laves_Text.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/_love_Text.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/_love_Text.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Kunai/Materials/Kunai_LP_Wrap_Metallic_png-Kunai_LP_Wrap_Roughness_png@chann.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Kunai/Materials/Kunai_LP_Wrap_Metallic_png-Kunai_LP_Wrap_Roughness_png@chann.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Beige_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Beige_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Black_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Black_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Brown_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Brown_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Dark Blue_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Dark Blue_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/DarkGrey01_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/DarkGrey01_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Glass_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Glass_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Green_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Green_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Grey01_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Grey01_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Grey02_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Grey02_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Grey03_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Grey03_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/LightGrey01_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/LightGrey01_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/LightGrey02_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/LightGrey02_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Metal_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Metal_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Red_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Red_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/White_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/White_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Yellow_snaps004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Yellow_snaps004.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/FlameRoundYellowParticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/FlameRoundYellowParticle.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/PlasmaExplosionParticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/FireExplosionEffects/Materials/PlasmaExplosionParticle.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/Background.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/Background.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/DarkDefault.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/DarkDefault.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/FleshSurface.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/FleshSurface.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/MetalSurface.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/MetalSurface.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/SandSurface.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/SandSurface.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/StoneSurface.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/StoneSurface.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/WoodSurface.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Materials/WoodSurface.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/MazeLowMan.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/MazeLowMan.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/No Name.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/No Name.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/ShooterFPSWeapon.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/Shared/Models/Materials/ShooterFPSWeapon.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EffectExamples/SmokeTrail.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EffectExamples/SmokeTrail.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FPSPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FPSPlayer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo parkour.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo parkour.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ScFPSController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ScFPSController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trowable things/MissileKunai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/MissileKunai.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Terrain/New Terrain Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/New Terrain Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SixthSense test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SixthSense test.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Kunais/ExplosiveKunai.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Kunais/ExplosiveKunai.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trowable things/ExplosiveKunai.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trowable things/ExplosiveKunai.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -429,6 +56,10 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10564ED1-54D6-47E1-94BE-F4AEF8878649/7e/4f7f13a8/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10564ED1-54D6-47E1-94BE-F4AEF8878649/ac/71a30ebd/Component.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -469,9 +100,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">

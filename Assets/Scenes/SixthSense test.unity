@@ -321,10 +321,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 788268547489698460, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 788268547630103264, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -369,29 +365,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 788268547630103266, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
-      propertyPath: sixthSenseCamera
-      value: 
-      objectReference: {fileID: 1940379789}
     - target: {fileID: 788268547630103270, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
       propertyPath: m_Name
       value: FPSPlayer
-      objectReference: {fileID: 0}
-    - target: {fileID: 4072124499411228137, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
-      propertyPath: m_RendererIndex
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4176768962985989545, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
-      propertyPath: m_TagString
-      value: MainCamera
-      objectReference: {fileID: 0}
-    - target: {fileID: 5329610055413390594, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6107704086139547373, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
@@ -553,11 +529,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!20 &1940379789 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 8758562335646498794, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
-  m_PrefabInstance: {fileID: 619280322}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1966302072
 PrefabInstance:
   m_ObjectHideFlags: 0

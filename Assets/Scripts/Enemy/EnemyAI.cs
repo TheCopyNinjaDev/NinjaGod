@@ -4,8 +4,8 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
-    private NavMeshAgent agent;
-    private Transform player;
+    private NavMeshAgent _agent;
+    private Transform _player;
     public LayerMask whatIsGround, whatIsPlayer;
     //Patroling
     public Vector3 walkPoint;
@@ -18,28 +18,28 @@ public class EnemyAI : MonoBehaviour
     //States
     public float sightRange, attackRange;
     private bool _playerInSightRange, _playerInAttackRange, _playerIsNoticed;
-    private bool alive = true;
-    private Animator animator;
+    private bool _alive = true;
+    private Animator _animator;
     private float fillingSpeed = 1f;
-    private SpotIndicator spotIndicator;
+    private SpotIndicator _spotIndicator;
 
     private void Awake()
     {
-        animator = GetComponent<Animator>();
-        agent = GetComponent<NavMeshAgent>();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-        spotIndicator = GetComponent<SpotIndicator>();
+        _animator = GetComponent<Animator>();
+        _agent = GetComponent<NavMeshAgent>();
+        _player = GameObject.FindGameObjectWithTag("Player").transform;
+        _spotIndicator = GetComponent<SpotIndicator>();
     }
 
     private void Update()
     {
         /*Check if npc is alive*/
-        if (alive)
+        if (_alive)
         {
             ControlSpotSign();
             ResetDestination();
-            _playerIsNoticed = spotIndicator.IsTriggered();
-            _playerInSightRange = spotIndicator.IsSpotted() || _playerInAttackRange;
+            _playerIsNoticed = _spotIndicator.IsTriggered();
+            _playerInSightRange = _spotIndicator.IsSpotted() || _playerInAttackRange;
             _playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
             if (!_playerInSightRange && !_playerInAttackRange) Patroling();
             if (_playerIsNoticed && !_playerInAttackRange) CheckForPlayer();
@@ -50,21 +50,26 @@ public class EnemyAI : MonoBehaviour
 
     private bool _posSetted = false;
     private Vector3 _previosPlayersPos = Vector3.zero;
+    private static readonly int Moving = Animator.StringToHash("Moving");
+    private static readonly int Speed = Animator.StringToHash("speed");
+    private static readonly int Attack = Animator.StringToHash("Attack");
+    private static readonly int Die1 = Animator.StringToHash("Die");
+
     private void CheckForPlayer()
     {
         if (!_posSetted)
         {
-            _previosPlayersPos = player.position;
+            _previosPlayersPos = _player.position;
             _posSetted = true;
         }
-        agent.SetDestination(_previosPlayersPos);
-        agent.speed = 5;
-        animator.SetBool("Moving", true);
-        animator.SetFloat("speed", 1);
+        _agent.SetDestination(_previosPlayersPos);
+        _agent.speed = 5;
+        _animator.SetBool(Moving, true);
+        _animator.SetFloat(Speed, 1);
     }
     private void ResetDestination()
     {
-        if(spotIndicator.isUnnoticed())
+        if(_spotIndicator.IsUnnoticed())
             _posSetted = false;
     }
     private void Patroling()
@@ -72,7 +77,7 @@ public class EnemyAI : MonoBehaviour
         if (!_walkPointSet) SearchWalkPoint();
 
         if (_walkPointSet)
-            agent.SetDestination(walkPoint);
+            _agent.SetDestination(walkPoint);
 
         Vector3 distanceToWalkPoint = transform.position - walkPoint;
 
@@ -82,14 +87,15 @@ public class EnemyAI : MonoBehaviour
     }
     private void SearchWalkPoint()
     {
-        animator.SetFloat("speed", 1);
-        animator.SetBool("Moving", true);
+        _animator.SetFloat(Speed, 1);
+        _animator.SetBool(Moving, true);
 
         //Calculate random point in range
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
         float randomX = Random.Range(-walkPointRange, walkPointRange);
 
-        walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
+        var position = transform.position;
+        walkPoint = new Vector3(position.x + randomX, position.y, position.z + randomZ);
 
         if (Physics.Raycast(walkPoint, -transform.up, 2f, whatIsGround))
             _walkPointSet = true;
@@ -97,23 +103,22 @@ public class EnemyAI : MonoBehaviour
     private void ChasePlayer()
     {
         GetComponent<FieldOfView>().viewAngle = 360f;
-        agent.SetDestination(player.position);
-        agent.speed = 10;
-        animator.SetBool("Moving", true);
-        animator.SetFloat("speed", 2);
+        _agent.SetDestination(_player.position);
+        _agent.speed = 10;
+        _animator.SetBool(Moving, true);
+        _animator.SetFloat(Speed, 2);
     }
+    // ReSharper disable Unity.PerformanceAnalysis
     private void AttackPlayer()
     {
         //Make sure enemy doesn't move
-        agent.SetDestination(transform.position);
-        animator.SetBool("Moving", false);
+        _agent.SetDestination(transform.position);
+        _animator.SetBool(Moving, false);
 
 
         if (!_alreadyAttacked)
         {
-            ///Attack code here
-            animator.SetTrigger("Attack");
-            ///End of attack code
+            _animator.SetTrigger(Attack);
 
             _alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
@@ -125,19 +130,20 @@ public class EnemyAI : MonoBehaviour
     }
     public void Die()
     {
-        alive = false;
-        animator.SetTrigger("Die");
+        _alive = false;
+        _animator.SetTrigger(Die1);
         Destroy(gameObject, 30);
     }
+    // ReSharper disable Unity.PerformanceAnalysis
     private void ControlSpotSign()
     {
         if (GetComponent<FieldOfView>().visibleTargets.Count > 0)
         {
-            spotIndicator.FillTheSign(fillingSpeed);
+            _spotIndicator.FillTheSign(fillingSpeed);
         }
         else
         {
-            spotIndicator.UnfillTheSign(0);
+            _spotIndicator.UnfillTheSign(0);
         }
     }
 }

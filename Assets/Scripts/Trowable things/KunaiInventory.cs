@@ -29,7 +29,7 @@ namespace Trowable_things
             textExplosive.text = "x" + QuantityExplosive;
             
             /*[Temporary zone]*/
-            var selectedKunai = CirculasMenu.CurMenuItem;
+            var selectedKunai = CirculasMenu.SelectedItem;
             kunaiQuantity.text = selectedKunai switch
             {
                 0 => "x" + QuantityUsual,

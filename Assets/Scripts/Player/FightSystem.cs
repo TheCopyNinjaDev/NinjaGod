@@ -127,7 +127,7 @@ public class FightSystem : MonoBehaviour
 
     private void ThrowKunai()
     {
-        var selectedKunai = CirculasMenu.CurMenuItem;
+        var selectedKunai = CirculasMenu.SelectedItem;
         var quantity = selectedKunai switch
         {
             0 => KunaiInventory.QuantityUsual,

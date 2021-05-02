@@ -20,6 +20,7 @@ namespace Trowable_things
         /*[Temporary zone]*/
         [SerializeField] private Image kunaiSelected;
         [SerializeField] private Color[] kunaiColorUI;
+         protected internal static int SelectedItem;
 
         private void Awake() 
         {
@@ -72,7 +73,7 @@ namespace Trowable_things
         
             //[Temporary zone] showing the color of selected kunai
             kunaiSelected.color = kunaiColorUI[CurMenuItem];
-        
+            SelectedItem = CurMenuItem;
         }
     }
     [System.Serializable]

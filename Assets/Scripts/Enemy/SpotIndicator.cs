@@ -18,7 +18,7 @@ public class SpotIndicator : MonoBehaviour
             spotSign.color = Color.red;
         }
     }
-    public bool isUnnoticed()
+    public bool IsUnnoticed()
     {
         return spotSign.fillAmount == 0;
     }

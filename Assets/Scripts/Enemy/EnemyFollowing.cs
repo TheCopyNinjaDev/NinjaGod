@@ -5,17 +5,17 @@ using UnityEngine.AI;
 
 public class EnemyFollowing : MonoBehaviour
 {
-    private NavMeshAgent agent;
-    private GameObject player;
+    private NavMeshAgent _agent;
+    private GameObject _player;
 
     private void Start()
     {
-        agent = GetComponent<NavMeshAgent>();
-        player = GameObject.FindGameObjectWithTag("Player");
+        _agent = GetComponent<NavMeshAgent>();
+        _player = GameObject.FindGameObjectWithTag("Player");
     }
 
     private void Update()
     {
-        agent.SetDestination(player.transform.position);
+        _agent.SetDestination(_player.transform.position);
     }
 }

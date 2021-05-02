@@ -14,28 +14,28 @@ namespace Trowable_things
         /*[Temporary zone]*/
         [SerializeField] private TextMeshProUGUI kunaiQuantity;
 
-        private static int _quantityUsual = 3;
-        private static int _quantityTeleport = 3;
-        private static int _quantityMissile = 3;
-        private static int _quantityExplosive = 3;
+        protected internal static int QuantityUsual = 3;
+        protected internal static int QuantityTeleport = 3;
+        protected internal static int QuantityMissile = 3;
+        protected internal static int QuantityExplosive = 3;
 
 
 
         private void Update()
         {
-            textUsual.text = "x" + _quantityUsual;
-            textTeleport.text = "x" + _quantityTeleport;
-            textMissile.text = "x" + _quantityMissile;
-            textExplosive.text = "x" + _quantityExplosive;
+            textUsual.text = "x" + QuantityUsual;
+            textTeleport.text = "x" + QuantityTeleport;
+            textMissile.text = "x" + QuantityMissile;
+            textExplosive.text = "x" + QuantityExplosive;
             
             /*[Temporary zone]*/
-            var selectedKunai = CirculasMenu.CurMenuItem;
+            var selectedKunai = CirculasMenu.SelectedItem;
             kunaiQuantity.text = selectedKunai switch
             {
-                0 => "x" + _quantityUsual,
-                1 => "x" + _quantityTeleport,
-                2 => "x" + _quantityMissile,
-                3 => "x" + _quantityExplosive,
+                0 => "x" + QuantityUsual,
+                1 => "x" + QuantityTeleport,
+                2 => "x" + QuantityMissile,
+                3 => "x" + QuantityExplosive,
                 _ => kunaiQuantity.text
             };
         }
@@ -45,16 +45,16 @@ namespace Trowable_things
             switch (kunai)
             {
                 case 0:
-                    _quantityUsual--;
+                    QuantityUsual--;
                     break;
                 case 1:
-                    _quantityTeleport--;
+                    QuantityTeleport--;
                     break;
                 case 2:
-                    _quantityMissile--;
+                    QuantityMissile--;
                     break;
                 case 3:
-                    _quantityExplosive--;
+                    QuantityExplosive--;
                     break;
             }
         }

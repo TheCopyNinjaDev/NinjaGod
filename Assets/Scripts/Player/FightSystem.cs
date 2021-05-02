@@ -127,12 +127,29 @@ public class FightSystem : MonoBehaviour
 
     private void ThrowKunai()
     {
-        var newKunai = Instantiate(Kunai, _spawnSpot.transform.position, _spawnSpot.transform.rotation);
-        if (newKunai.TryGetComponent(out TeleportKunai kunai))
+        var selectedKunai = CirculasMenu.CurMenuItem;
+        var quantity = selectedKunai switch
         {
-            CurrentKunai = newKunai;
+            0 => KunaiInventory.QuantityUsual,
+            1 => KunaiInventory.QuantityTeleport,
+            2 => KunaiInventory.QuantityMissile,
+            3 => KunaiInventory.QuantityExplosive,
+            _ => 0
+        };
+        if (quantity > 0)
+        {
+            var newKunai = Instantiate(Kunai, _spawnSpot.transform.position, _spawnSpot.transform.rotation);
+            if (newKunai.TryGetComponent(out TeleportKunai kunai))
+            {
+                CurrentKunai = newKunai;
+            }
+            _kunaiTime = 0;
+            Destroy(newKunai, 30); 
         }
-        _kunaiTime = 0;
-        Destroy(newKunai, 30);
+        else
+        {
+            print("no kunais of this type");
+        }
+        
     }
 }

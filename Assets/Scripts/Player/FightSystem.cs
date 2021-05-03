@@ -30,11 +30,19 @@ public class FightSystem : MonoBehaviour
     private float _kunaiTime = 0;
     private static readonly int Reset = Animator.StringToHash("Reset");
     private static readonly int IsBlocking = Animator.StringToHash("isBlocking");
+    
+    /*Styles zone need rework after adding changing styles*/
+    private TrailRenderer fireKatanaTrail;
+    /*End of styles zone need rework after adding changing styles*/
 
     private void Start()
     {
         _scFPS = FindObjectOfType<ScFPSController>();
         _spawnSpot = GameObject.FindGameObjectWithTag("Throwable thing");
+        
+        /*Styles zone need rework after adding changing styles*/
+        fireKatanaTrail = GameObject.Find("FireKatana").GetComponentInChildren<TrailRenderer>();
+        /*End of styles zone need rework after adding changing styles*/
     }
 
     private void Update()
@@ -93,7 +101,20 @@ public class FightSystem : MonoBehaviour
         animator.SetTrigger(_attackList[_combonum]);
         _combonum++;
         _reset = 0f;
+        
+        /*Styles zone need rework after adding changing styles*/
+        fireKatanaTrail.emitting = true;
+        Invoke(nameof(EndEmmit), fireKatanaTrail.time);
+        /*End of styles zone need rework after adding changing styles*/
     }
+    
+    /*Styles zone need rework after adding changing styles*/
+    private void EndEmmit()
+    {
+        fireKatanaTrail.emitting = false;
+    }
+        
+    /*End of styles zone need rework after adding changing styles*/
 
     //Damage enemies
     public void DealDamage()

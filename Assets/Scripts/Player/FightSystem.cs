@@ -113,7 +113,6 @@ public class FightSystem : MonoBehaviour
     {
         fireKatanaTrail.emitting = false;
     }
-        
     /*End of styles zone need rework after adding changing styles*/
 
     //Damage enemies

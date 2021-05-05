@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Mesh_MeshEffect.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Mesh_MeshEffect.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/FightSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FightSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +31,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10564ED1-54D6-47E1-94BE-F4AEF8878649/ac/71a30ebd/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Games/NinjaGod/Assets/EffectExamples.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10564ED1-54D6-47E1-94BE-F4AEF8878649/7e/4f7f13a8/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.3.2/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Games/NinjaGod/Assets/EffectExamples.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Trowable things/KunaiInventory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Games/NinjaGod/Assets/EffectExamples.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Games/NinjaGod/Assets/EffectExamples.meta" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -58,6 +60,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/CirculasMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/VFX/ElementsController.cs" />
       <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.3.2/Runtime/UniversalRenderPipeline.cs" />
+      <option value="$PROJECT_DIR$/Temp/GeneratedFromGraph-FireTrail.shader" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/FightSystem.cs" />
     </changedPaths>
   </component>
@@ -163,6 +166,8 @@
       <workItem from="1618869602384" duration="4391000" />
       <workItem from="1619956201405" duration="3070000" />
       <workItem from="1620045051543" duration="2267000" />
+      <workItem from="1620077362073" duration="671000" />
+      <workItem from="1620079409580" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="SixthSense works!">
       <created>1618879705526</created>

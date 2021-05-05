@@ -35,6 +35,7 @@ public class FightSystem : MonoBehaviour
     {
         _scFPS = FindObjectOfType<ScFPSController>();
         _spawnSpot = GameObject.FindGameObjectWithTag("Throwable thing");
+        
     }
 
     private void Update()
@@ -94,6 +95,8 @@ public class FightSystem : MonoBehaviour
         _combonum++;
         _reset = 0f;
     }
+    
+
 
     //Damage enemies
     public void DealDamage()

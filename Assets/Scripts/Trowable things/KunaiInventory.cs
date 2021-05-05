@@ -17,7 +17,7 @@ namespace Trowable_things
         protected internal static int QuantityUsual = 3;
         protected internal static int QuantityTeleport = 3;
         protected internal static int QuantityMissile = 3;
-        protected internal static int QuantityExplosive = 3;
+        protected internal static int QuantityExplosive = 100;
 
 
 

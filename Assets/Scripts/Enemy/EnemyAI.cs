@@ -50,10 +50,11 @@ public class EnemyAI : MonoBehaviour
 
     private bool _posSetted = false;
     private Vector3 _previosPlayersPos = Vector3.zero;
-    private static readonly int Moving = Animator.StringToHash("Moving");
-    private static readonly int Speed = Animator.StringToHash("speed");
-    private static readonly int Attack = Animator.StringToHash("Attack");
-    private static readonly int Die1 = Animator.StringToHash("Die");
+    // private static readonly int Moving = Animator.StringToHash("Moving");
+    // private static readonly int Speed = Animator.StringToHash("speed");
+    // private static readonly int Attack = Animator.StringToHash("Attack");
+    // private static readonly int Die1 = Animator.StringToHash("Die");
+    private static readonly int Forward = Animator.StringToHash("Forward");
 
     private void CheckForPlayer()
     {
@@ -63,9 +64,8 @@ public class EnemyAI : MonoBehaviour
             _posSetted = true;
         }
         _agent.SetDestination(_previosPlayersPos);
-        _agent.speed = 5;
-        _animator.SetBool(Moving, true);
-        _animator.SetFloat(Speed, 1);
+        //_agent.speed = 5;
+        _animator.SetFloat(Forward, 0.2f);
     }
     private void ResetDestination()
     {
@@ -87,8 +87,7 @@ public class EnemyAI : MonoBehaviour
     }
     private void SearchWalkPoint()
     {
-        _animator.SetFloat(Speed, 1);
-        _animator.SetBool(Moving, true);
+        _animator.SetFloat(Forward, 0.2f);
 
         //Calculate random point in range
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
@@ -104,21 +103,20 @@ public class EnemyAI : MonoBehaviour
     {
         GetComponent<FieldOfView>().viewAngle = 360f;
         _agent.SetDestination(_player.position);
-        _agent.speed = 10;
-        _animator.SetBool(Moving, true);
-        _animator.SetFloat(Speed, 2);
+        //_agent.speed = 10;
+        _animator.SetFloat(Forward, 1);
     }
     // ReSharper disable Unity.PerformanceAnalysis
     private void AttackPlayer()
     {
         //Make sure enemy doesn't move
         _agent.SetDestination(transform.position);
-        _animator.SetBool(Moving, false);
+        _animator.SetFloat(Forward, 0);
 
 
         if (!_alreadyAttacked)
         {
-            _animator.SetTrigger(Attack);
+            //_animator.SetTrigger(Attack);
 
             _alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
@@ -131,7 +129,7 @@ public class EnemyAI : MonoBehaviour
     public void Die()
     {
         _alive = false;
-        _animator.SetTrigger(Die1);
+        //_animator.SetTrigger(Die1);
         Destroy(gameObject, 30);
     }
     // ReSharper disable Unity.PerformanceAnalysis

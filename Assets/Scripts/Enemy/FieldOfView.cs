@@ -16,7 +16,7 @@ public class FieldOfView : MonoBehaviour
 
     private void Start() 
     {
-        StartCoroutine("FindTargetsWithDelay", .2f);    
+        StartCoroutine(nameof(FindTargetsWithDelay), .2f);    
     }
 
     private void Update() 
@@ -24,7 +24,7 @@ public class FieldOfView : MonoBehaviour
         viewRadius = gameObject.GetComponent<EnemyAI>().sightRange;  
     }
 
-    IEnumerator FindTargetsWithDelay(float delay)
+    private IEnumerator FindTargetsWithDelay(float delay)
     {
         while(true)
         {

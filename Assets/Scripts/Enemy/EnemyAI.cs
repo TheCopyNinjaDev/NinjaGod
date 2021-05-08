@@ -20,7 +20,7 @@ public class EnemyAI : MonoBehaviour
     private bool _playerInSightRange, _playerInAttackRange, _playerIsNoticed;
     private bool _alive = true;
     private Animator _animator;
-    private float fillingSpeed = 1f;
+    private const float FillingSpeed = 1f;
     private SpotIndicator _spotIndicator;
 
     private void Awake()
@@ -137,7 +137,7 @@ public class EnemyAI : MonoBehaviour
     {
         if (GetComponent<FieldOfView>().visibleTargets.Count > 0)
         {
-            _spotIndicator.FillTheSign(fillingSpeed);
+            _spotIndicator.FillTheSign(FillingSpeed);
         }
         else
         {

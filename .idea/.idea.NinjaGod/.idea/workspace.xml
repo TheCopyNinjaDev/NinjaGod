@@ -1,7 +1,428 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="" />
+    <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/crouch idle.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/crouch idle.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/crouch to standing idle.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/crouch to standing idle.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing block idle.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing block idle.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing block react large.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing block react large.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing disarm over shoulder.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing disarm over shoulder.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing disarm underarm.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing disarm underarm.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing idle looking ver. 1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing idle looking ver. 1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing idle looking ver. 2.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing idle looking ver. 2.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing idle.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing idle.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing jump.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing jump.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee attack 360 high.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee attack 360 high.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee attack 360 low.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee attack 360 low.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee attack backhand.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee attack backhand.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee attack downward.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee attack downward.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee attack horizontal.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee attack horizontal.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee attack kick ver. 1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee attack kick ver. 1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee attack kick ver. 2.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee attack kick ver. 2.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee combo attack ver. 1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee combo attack ver. 1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee combo attack ver. 2.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee combo attack ver. 2.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee combo attack ver. 3.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee combo attack ver. 3.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee run jump attack.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing melee run jump attack.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing react large from left.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing react large from left.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing react large from right.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing react large from right.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing react large gut.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing react large gut.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing run back.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing run back.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing run forward.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing run forward.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing taunt battlecry.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing taunt battlecry.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing taunt chest thump.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing taunt chest thump.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing turn left 90.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing turn left 90.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing turn right 90.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing turn right 90.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk back.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk back.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk forward.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk forward.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk left.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk left.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk right.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk right.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed equip over shoulder.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed equip over shoulder.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed equip underarm.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed equip underarm.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed idle looking ver. 1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed idle looking ver. 1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed idle looking ver. 2.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed idle looking ver. 2.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed idle.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed idle.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed jump running.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed jump running.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed jump.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed jump.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed run back.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed run back.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed run forward.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed run forward.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed turn left 90.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed turn left 90.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed turn right 90.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed turn right 90.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed walk back.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed walk back.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed walk forward.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/unarmed walk forward.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/xbot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/xbot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Bolt_1_4_15_Source.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Bolt_1_4_15_Source.zip.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Antlr3.Runtime.defines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Antlr3.Runtime.defines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Editor.defines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Editor.defines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Editor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Editor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Editor.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.defines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.defines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.defines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.defines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.defines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.defines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Editor.defines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Editor.defines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Editor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Editor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Editor.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Runtime.defines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Runtime.defines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Runtime.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Bolt.State.Runtime.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ionic.Zip.defines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ionic.Zip.defines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ionic.Zip.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ionic.Zip.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ionic.Zip.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ionic.Zip.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.defines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.defines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.defines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.defines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.defines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.defines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.defines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.defines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Platforms.defines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Platforms.defines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Platforms.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Platforms.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Platforms.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/Ludiq.Platforms.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/MiscUtil.defines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/MiscUtil.defines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/MiscUtil.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/MiscUtil.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/MiscUtil.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/MiscUtil.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/YamlDotNet.defines" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/YamlDotNet.defines.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/YamlDotNet.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/YamlDotNet.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/YamlDotNet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/YamlDotNet.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Assemblies/sqlite3.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/Bolt.Core.root" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/Bolt.Core.root.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/Generated.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/Generated/ProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/Generated/ProjectSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/Generated/Variables.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/Generated/Variables/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/Generated/Variables/Resources/ApplicationVariables.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/Generated/Variables/Resources/ApplicationVariables.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/Generated/Variables/Resources/SavedVariables.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/Generated/Variables/Resources/SavedVariables.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/IconMap.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/IconMap/Bolt.AnimatorMessageListener.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/IconMap/Bolt.AnimatorMessageListener.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/IconMap/Bolt.GlobalMessageListener.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/IconMap/Bolt.GlobalMessageListener.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/IconMap/Bolt.SceneVariables.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/IconMap/Bolt.SceneVariables.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/IconMap/Bolt.UnityMessageListener.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/IconMap/Bolt.UnityMessageListener.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/IconMap/Bolt.Variables.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/IconMap/Bolt.Variables.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/IconMap/Bolt.VariablesAsset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/IconMap/Bolt.VariablesAsset.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/IconMap/Bolt.VariablesSaver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Core/IconMap/Bolt.VariablesSaver.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Flow.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Flow/Bolt.Flow.root" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Flow/Bolt.Flow.root.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Flow/Generated.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Flow/Generated/ProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Flow/Generated/ProjectSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Flow/Generated/UnitOptions.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Flow/Generated/UnitOptions.db.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Flow/IconMap.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Flow/IconMap/Bolt.FlowMachine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Flow/IconMap/Bolt.FlowMachine.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Flow/IconMap/Bolt.FlowMacro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.Flow/IconMap/Bolt.FlowMacro.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.State.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.State/Bolt.State.root" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.State/Bolt.State.root.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.State/Generated.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.State/Generated/ProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.State/Generated/ProjectSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.State/IconMap.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.State/IconMap/Bolt.StateMachine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.State/IconMap/Bolt.StateMachine.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.State/IconMap/Bolt.StateMacro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.State/IconMap/Bolt.StateMacro.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Bolt.root" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Bolt.root.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/0. READ ME FIRST.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/0. READ ME FIRST.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/1. Introduction.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/1. Introduction/1. Installation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/1. Introduction/1. Installation.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/1. Introduction/2. Configuration.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/1. Introduction/2. Configuration.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/1. Introduction/3. Windows &amp; Shortcuts.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/1. Introduction/3. Windows &amp; Shortcuts.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/1. Introduction/4. Updates &amp; Backups.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/1. Introduction/4. Updates &amp; Backups.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/1. Introduction/5. Documentation.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/1. Introduction/5. Documentation.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/2. Basic Concepts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/2. Basic Concepts/1. Types.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/2. Basic Concepts/1. Types.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/2. Basic Concepts/2. Variables.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/2. Basic Concepts/2. Variables.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/2. Basic Concepts/3. Graphs, Machines &amp; Macros.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/2. Basic Concepts/3. Graphs, Machines &amp; Macros.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/2. Basic Concepts/4. Groups.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/2. Basic Concepts/4. Groups.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/3. Flow Graphs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/3. Flow Graphs/1. Units &amp; Ports.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/3. Flow Graphs/1. Units &amp; Ports.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/3. Flow Graphs/2. Connections &amp; Relations.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/3. Flow Graphs/2. Connections &amp; Relations.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/3. Flow Graphs/3. Predictive &amp; Live Debugging.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/3. Flow Graphs/3. Predictive &amp; Live Debugging.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/3. Flow Graphs/4. Super Units.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/3. Flow Graphs/4. Super Units.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/4. State Graphs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/4. State Graphs/1. Flow States &amp; Super States.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/4. State Graphs/1. Flow States &amp; Super States.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/4. State Graphs/2. Transitions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/4. State Graphs/2. Transitions.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/4. State Graphs/3. State Units.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/Documentation/4. State Graphs/3. State Units.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/LICENSES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Bolt/LICENSES.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/Microsoft.Build.Conversion.v3.5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/Microsoft.Build.Conversion.v3.5.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/Microsoft.Build.Engine.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/Microsoft.Build.Engine.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/Microsoft.Build.Framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/Microsoft.Build.Framework.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/Microsoft.Build.Utilities.v3.5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/Microsoft.Build.Utilities.v3.5.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/Microsoft.VisualC.STLCLR.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/Microsoft.VisualC.STLCLR.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.AddIn.Contract.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.AddIn.Contract.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.AddIn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.AddIn.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.ComponentModel.DataAnnotations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.ComponentModel.DataAnnotations.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Configuration.Install.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Configuration.Install.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Configuration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Configuration.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Core.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.DataSetExtensions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.DataSetExtensions.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.Entity.Design.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.Entity.Design.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.Entity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.Entity.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.Linq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.Linq.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.Services.Client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.Services.Client.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.Services.Design.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.Services.Design.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.Services.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.Services.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.SqlXml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.SqlXml.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Data.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Deployment.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.DirectoryServices.AccountManagement.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.DirectoryServices.AccountManagement.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.DirectoryServices.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.DirectoryServices.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Drawing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Drawing.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.EnterpriseServices.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.EnterpriseServices.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.IdentityModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.IdentityModel.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Management.Instrumentation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Management.Instrumentation.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Management.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Management.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Messaging.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Messaging.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Net.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Net.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Printing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Printing.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Runtime.Remoting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Runtime.Remoting.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Runtime.Serialization.Formatters.Soap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Runtime.Serialization.Formatters.Soap.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Runtime.Serialization.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Runtime.Serialization.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Security.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.ServiceModel.Web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.ServiceModel.Web.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.ServiceModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.ServiceModel.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.ServiceProcess.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.ServiceProcess.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Transactions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Transactions.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.Abstractions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.Abstractions.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.DynamicData.Design.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.DynamicData.Design.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.DynamicData.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.DynamicData.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.Entity.Design.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.Entity.Design.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.Entity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.Entity.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.Extensions.Design.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.Extensions.Design.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.Extensions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.Extensions.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.Routing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.Routing.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.Services.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Web.Services.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Windows.Forms.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Windows.Forms.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Windows.Presentation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Windows.Presentation.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.WorkflowServices.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.WorkflowServices.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Xml.Linq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Xml.Linq.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.Xml.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/System.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/mscorlib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/DotNetDocumentation/mscorlib.xml.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/Generated.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/Generated/ProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/Generated/ProjectSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/Ludiq.Core.root" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Core/Ludiq.Core.root.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Graphs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Graphs/Generated.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Graphs/Generated/ProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Graphs/Generated/ProjectSettings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Graphs/Ludiq.Graphs.root" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.Graphs/Ludiq.Graphs.root.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq/Ludiq.root" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ludiq/Ludiq/Ludiq.root.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Macros.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Macros/EnemyAI.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Macros/EnemyAI.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Samurai.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Samurai.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FieldOfView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/FieldOfView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,9 +473,10 @@
       <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.3.2/Runtime/UniversalRenderPipeline.cs" />
       <option value="$PROJECT_DIR$/Temp/GeneratedFromGraph-FireTrail.shader" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/FightSystem.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/FieldOfView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/KunaiInventory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/FieldOfView.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m9KvqNfIj9TVBvwOKkSXTSM6l0" />
@@ -99,10 +521,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9036">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="9036" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />

@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Adaptive Performance.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Adaptive Performance/AdaptivePerformanceGeneralSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Adaptive Performance/AdaptivePerformanceGeneralSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Adaptive Performance/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Samurai.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Samurai.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Stable Sword Outward Slash.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Stable Sword Outward Slash.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Stable Sword Outward Slash.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Stable Sword Outward Slash.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Macros/EnemyAI.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Macros/EnemyAI.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" afterDir="false" />
@@ -170,7 +174,8 @@
       <workItem from="1620045051543" duration="2267000" />
       <workItem from="1620077362073" duration="671000" />
       <workItem from="1620079409580" duration="265000" />
-      <workItem from="1620507741861" duration="1268000" />
+      <workItem from="1620507741861" duration="1289000" />
+      <workItem from="1620519876623" duration="761000" />
     </task>
     <task id="LOCAL-00001" summary="SixthSense works!">
       <created>1618879705526</created>

@@ -22,12 +22,12 @@ public class NPCAnimManager : MonoBehaviour
 
     private void Update() 
     {
-        if (_agent.speed == 1)
+        if (_agent.speed == 2)
         {
             _animator.SetBool(Moving, true);
             _animator.SetFloat(Speed, 1);
         }
-        else if(_agent.speed == 2)
+        else if(_agent.speed == 5)
         {
             _animator.SetBool(Moving, true);
             _animator.SetFloat(Speed, 2);

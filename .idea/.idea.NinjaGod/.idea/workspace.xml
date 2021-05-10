@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/LookAtPlayer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/LookAtPlayer.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Samurai.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Samurai.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Macros/EnemyAI.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Macros/EnemyAI.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animator/ThirdPersonAnimatorController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/LookAtPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/LookAtPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +62,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/KunaiInventory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/FieldOfView.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/LookAtPlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m9KvqNfIj9TVBvwOKkSXTSM6l0" />
@@ -108,10 +108,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17388">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="7840">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="17388" />
+      <option name="pid" value="7840" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -172,7 +172,9 @@
       <workItem from="1620079409580" duration="265000" />
       <workItem from="1620507741861" duration="1289000" />
       <workItem from="1620519876623" duration="803000" />
-      <workItem from="1620559556932" duration="3741000" />
+      <workItem from="1620559556932" duration="3768000" />
+      <workItem from="1620597900342" duration="738000" />
+      <workItem from="1620604470630" duration="1791000" />
     </task>
     <task id="LOCAL-00001" summary="SixthSense works!">
       <created>1618879705526</created>

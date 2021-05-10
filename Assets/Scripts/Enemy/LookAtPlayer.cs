@@ -15,9 +15,10 @@ namespace Enemy
         private void Update()
         {
             var dir = _playerPos.position - transform.position;
+            // When player is not in attack zone npc need to rotate to him
             if (Vector3.Angle(dir, transform.forward) > 45)
             {
-                Vector3.RotateTowards(transform.forward, dir, 30, 30);
+                
             }
         }
     }

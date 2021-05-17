@@ -46,7 +46,7 @@ public class NPCAnimManager : MonoBehaviour
         var delta = new Vector3(_playerPos.position.x - transform.position.x, 0.0f, _playerPos.position.z - transform.position.z);
  
         var rotation = Quaternion.LookRotation(delta);
-        transform.rotation = rotation;
+        //transform.rotation = rotation;
 
     }
 }

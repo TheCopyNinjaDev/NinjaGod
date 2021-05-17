@@ -313,7 +313,7 @@ MonoBehaviour:
     m_WorldUpType: 0
     m_WorldUpObject: {fileID: 0}
     m_WorldUpAxis: 2
-    m_MaintainOffset: 0
+    m_MaintainOffset: 1
     m_ConstrainedAxes:
       x: 1
       y: 1
@@ -2554,7 +2554,6 @@ GameObject:
   - component: {fileID: 9113531824384692248}
   - component: {fileID: 9113531824384692254}
   - component: {fileID: 9113531824384692253}
-  - component: {fileID: 9113531824384692255}
   m_Layer: 0
   m_Name: AIThirdPersonController
   m_TagString: Untagged
@@ -2624,6 +2623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83a5e9496a6154345baf381d982fe5de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isRotating: 0
 --- !u!114 &9113531824384692252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2637,7 +2637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"DistanceTrigger","value":{"$content":"DistanceTrigger","$type":"System.String"},"$version":"A"},{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AttackStatLength","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"Attacked","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"DistanceTrigger","value":{"$content":"DistanceTrigger","$type":"System.String"},"$version":"A"},{"name":"AttackTrigger","value":{"$content":"AttackTrigger","$type":"System.String"},"$version":"A"},{"name":"RotationTrigger","value":{"$content":"RotationTrigger","$type":"System.String"},"$version":"A"},{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AttackRange","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2024965595}
 --- !u!114 &9113531824384692253
@@ -2663,7 +2663,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9113531824384692247}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2d8418b0b9634b1892b0268dd9c2743, type: 3}
   m_Name: 
@@ -2749,18 +2749,6 @@ MonoBehaviour:
   - {fileID: 9113531824384843017}
   - {fileID: 9113531824384881761}
   - {fileID: 9113531824384845161}
---- !u!114 &9113531824384692255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9113531824384692247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3a7a7713e64475d9faf07d658be87d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &9113531824384692377
 GameObject:
   m_ObjectHideFlags: 0

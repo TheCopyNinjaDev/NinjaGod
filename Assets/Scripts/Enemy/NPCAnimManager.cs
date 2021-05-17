@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Bolt;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class NPCAnimManager : MonoBehaviour
 {
+    public bool isRotating;
+    
     private Rigidbody _rb;
     private Animator _animator;
     private NavMeshAgent _agent;
@@ -12,7 +15,6 @@ public class NPCAnimManager : MonoBehaviour
     private static readonly int Moving = Animator.StringToHash("Moving");
     private static readonly int Speed = Animator.StringToHash("speed");
     private Transform _playerPos;
-    private static readonly int Turn = Animator.StringToHash("Turn");
 
 
     private void Awake() 
@@ -40,14 +42,11 @@ public class NPCAnimManager : MonoBehaviour
             _animator.SetBool(Moving, false);
             _animator.SetFloat(Speed, 0);
         }
-           
         
-        var dir = _playerPos.position - transform.position;
-        // When player is not in attack zone npc need to rotate to him
-        if (Vector3.Angle(dir, transform.forward) > 45)
-        {
-            _agent.speed = 2;
-            _animator.SetFloat(Turn, 0.25f);
-        }
+        var delta = new Vector3(_playerPos.position.x - transform.position.x, 0.0f, _playerPos.position.z - transform.position.z);
+ 
+        var rotation = Quaternion.LookRotation(delta);
+        transform.rotation = rotation;
+
     }
 }

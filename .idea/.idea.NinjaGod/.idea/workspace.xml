@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing turn left 90.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing turn left 90.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing turn right 90.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing turn right 90.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Samurai.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Samurai.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Stable Sword Outward Slash.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Stable Sword Outward Slash.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Macros/EnemyAI.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Macros/EnemyAI.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/LookAtPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/LookAtPlayer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,10 +110,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="7840">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="7840" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -174,7 +176,11 @@
       <workItem from="1620519876623" duration="803000" />
       <workItem from="1620559556932" duration="3768000" />
       <workItem from="1620597900342" duration="738000" />
-      <workItem from="1620604470630" duration="1791000" />
+      <workItem from="1620604470630" duration="1904000" />
+      <workItem from="1620685375585" duration="1282000" />
+      <workItem from="1620754660739" duration="3561000" />
+      <workItem from="1620828374288" duration="1000" />
+      <workItem from="1621266402039" duration="3037000" />
     </task>
     <task id="LOCAL-00001" summary="SixthSense works!">
       <created>1618879705526</created>

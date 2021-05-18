@@ -153,7 +153,7 @@ Transform:
   - {fileID: 1780429783}
   - {fileID: 1243129908}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &254750124
 PrefabInstance:
@@ -216,7 +216,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &384194848
 Transform:
   m_ObjectHideFlags: 0
@@ -230,7 +230,7 @@ Transform:
   m_Children:
   - {fileID: 1090677051}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -18.005, z: 0}
 --- !u!1 &655751525
 GameObject:
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 655751528}
   - component: {fileID: 655751526}
   - component: {fileID: 655751527}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LookRotation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -282,7 +282,7 @@ MonoBehaviour:
     m_SourceObjects:
       m_Length: 1
       m_Item0:
-        transform: {fileID: 2024965595}
+        transform: {fileID: 0}
         weight: 1
       m_Item1:
         transform: {fileID: 0}
@@ -486,6 +486,63 @@ Transform:
   m_Father: {fileID: 384194848}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1165709961
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 788268547630103264, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 788268547630103264, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.5526037
+      objectReference: {fileID: 0}
+    - target: {fileID: 788268547630103264, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 788268547630103264, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.9442716
+      objectReference: {fileID: 0}
+    - target: {fileID: 788268547630103264, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 788268547630103264, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 788268547630103264, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 788268547630103264, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 788268547630103264, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 788268547630103264, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 788268547630103264, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 788268547630103270, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
+      propertyPath: m_Name
+      value: FPSPlayer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
 --- !u!1 &1243129907
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,101 +915,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &2024965591
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2024965595}
-  - component: {fileID: 2024965594}
-  - component: {fileID: 2024965593}
-  - component: {fileID: 2024965592}
-  m_Layer: 6
-  m_Name: Player
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &2024965592
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024965591}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &2024965593
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024965591}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &2024965594
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024965591}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &2024965595
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2024965591}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.23, y: 0.98, z: 9.88}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2048406536
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,6 +974,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2087858956 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 788268547630103270, guid: f59b6de3d5ff2d34383b45f0cdbe76b3, type: 3}
+  m_PrefabInstance: {fileID: 1165709961}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2120767492
 GameObject:
   m_ObjectHideFlags: 0
@@ -1041,7 +1008,7 @@ Transform:
   m_Children:
   - {fileID: 254750125}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!195 &9113531824365137363
 NavMeshAgent:
@@ -1293,7 +1260,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384802119}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1309,7 +1276,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384880483}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandMiddle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1325,7 +1292,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384860155}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1341,7 +1308,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384843017}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightToe2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1357,7 +1324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384780877}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightToe1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1373,7 +1340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384794077}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1389,7 +1356,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384855975}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1405,7 +1372,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384835187}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandRing4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1421,7 +1388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384772369}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandMiddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1437,7 +1404,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384837145}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanSpine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1453,7 +1420,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384827851}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1469,7 +1436,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384781501}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandRing3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1485,7 +1452,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384802371}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandRing3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1501,7 +1468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384895491}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLowerLip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1517,7 +1484,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384864295}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandPinky2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1533,7 +1500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384802063}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1549,7 +1516,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384780847}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandPinky2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1565,7 +1532,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384876893}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1581,7 +1548,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384860113}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightLowerLip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1597,7 +1564,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384859833}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandMiddle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1613,7 +1580,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384855637}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1629,7 +1596,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384869231}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1645,7 +1612,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384786827}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1661,7 +1628,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384774407}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandRing2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1677,7 +1644,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384801783}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1693,7 +1660,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384839159}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1709,7 +1676,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384873037}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandMiddle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1725,7 +1692,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384900633}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1741,7 +1708,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384872705}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandPinky4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1757,7 +1724,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384885219}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanSkeleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1773,7 +1740,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384849633}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1789,7 +1756,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384847063}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightCorner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1805,7 +1772,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384896727}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandMiddle4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1821,7 +1788,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384829803}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1837,7 +1804,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384891689}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1853,7 +1820,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384899909}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandPinky1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1869,7 +1836,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384883789}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandPinky3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1885,7 +1852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384879495}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandRing4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1901,7 +1868,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384852143}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanHips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1917,7 +1884,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384849943}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanNeck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1933,7 +1900,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384847617}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandMiddle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1949,7 +1916,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384896995}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1965,7 +1932,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384890999}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftToe1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1981,7 +1948,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384884719}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1997,7 +1964,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384900111}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanJaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2014,7 +1981,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9113531824384832321}
   - component: {fileID: 9113531824381512161}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanGlasses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2030,7 +1997,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384838533}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2046,7 +2013,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384836835}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2062,7 +2029,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384900987}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandMiddle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2078,7 +2045,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384835487}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2094,7 +2061,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384859207}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanSpine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2110,7 +2077,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384850363}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandMiddle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2126,7 +2093,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384842151}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandRing2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2142,7 +2109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384893169}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2158,7 +2125,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384852057}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2174,7 +2141,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384879797}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightBlink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2190,7 +2157,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384772943}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftBlink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2206,7 +2173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384885515}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandPinky1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2222,7 +2189,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384784345}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2238,7 +2205,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384881761}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftBrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2254,7 +2221,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384889601}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2270,7 +2237,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384845161}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightBrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2286,7 +2253,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384831841}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandRing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2302,7 +2269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384875567}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2318,7 +2285,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384859697}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2334,7 +2301,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384773177}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftUpperLip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2350,7 +2317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384856803}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightUpperLip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2366,7 +2333,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384829875}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanUpperLip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2382,7 +2349,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384875259}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2398,7 +2365,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384788401}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandPinky3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2414,7 +2381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384872313}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftCorner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2430,7 +2397,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384896823}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2447,7 +2414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9113531824384887347}
   - component: {fileID: 9113531824381447487}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2463,7 +2430,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384857545}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHandPinky4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2479,7 +2446,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384896951}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2495,7 +2462,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384898453}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2511,7 +2478,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384782979}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2527,7 +2494,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384854057}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanSpine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2554,9 +2521,9 @@ GameObject:
   - component: {fileID: 9113531824384692248}
   - component: {fileID: 9113531824384692254}
   - component: {fileID: 9113531824384692253}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AIThirdPersonController
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2623,7 +2590,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83a5e9496a6154345baf381d982fe5de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isRotating: 0
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!114 &9113531824384692252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2637,9 +2606,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"DistanceTrigger","value":{"$content":"DistanceTrigger","$type":"System.String"},"$version":"A"},{"name":"AttackTrigger","value":{"$content":"AttackTrigger","$type":"System.String"},"$version":"A"},{"name":"RotationTrigger","value":{"$content":"RotationTrigger","$type":"System.String"},"$version":"A"},{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AttackRange","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"DistanceTrigger","value":{"$content":"DistanceTrigger","$type":"System.String"},"$version":"A"},{"name":"AttackTrigger","value":{"$content":"AttackTrigger","$type":"System.String"},"$version":"A"},{"name":"PickAttackPlaceTrigger","value":{"$content":"PickAttackPlaceTrigger","$type":"System.String"},"$version":"A"},{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AttackRange","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 2024965595}
+    - {fileID: 2087858956}
 --- !u!114 &9113531824384692253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2758,7 +2727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384790143}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftToe2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2774,7 +2743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384777125}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanHead1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2790,7 +2759,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384876661}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanLeftLowerLip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2806,7 +2775,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384834165}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2822,7 +2791,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9113531824384839745}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EthanRightHandRing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3849,7 +3818,7 @@ Transform:
   m_GameObject: {fileID: 9113531824384692247}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.018, y: -0.00000035762787, z: 2.554}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.6674, y: 2.6674, z: 2.6674}
   m_Children:
   - {fileID: 1278428796}
   - {fileID: 9113531824384887347}

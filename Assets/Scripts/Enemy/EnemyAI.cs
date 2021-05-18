@@ -1,6 +1,9 @@
 
+using System;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
+using Random = UnityEngine.Random;
 
 public class EnemyAI : MonoBehaviour
 {
@@ -141,4 +144,7 @@ public class EnemyAI : MonoBehaviour
             _spotIndicator.UnfillTheSign(0);
         }
     }
+
+
+    
 }

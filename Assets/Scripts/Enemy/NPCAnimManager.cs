@@ -61,6 +61,6 @@ public class NPCAnimManager : MonoBehaviour
         }
         
         Handles.color = Color.red;
-        Handles.DrawWireDisc(origin, Vector3.up, 5);
+        Handles.DrawWireDisc(origin, Vector3.up, 6);
     }
 }

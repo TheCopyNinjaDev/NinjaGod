@@ -1,6 +1,9 @@
 
+using System;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
+using Random = UnityEngine.Random;
 
 public class EnemyAI : MonoBehaviour
 {
@@ -14,20 +17,21 @@ public class EnemyAI : MonoBehaviour
     //Attacking
     public float timeBetweenAttacks;
 
-    private bool _alreadyAttacked;
+    private bool _alreadyAttacked = false;
     //States
     public float sightRange, attackRange;
     private bool _playerInSightRange, _playerInAttackRange, _playerIsNoticed;
     private bool _alive = true;
     private Animator _animator;
-    private float fillingSpeed = 1f;
+    private const float FillingSpeed = 1f;
     private SpotIndicator _spotIndicator;
 
     private void Awake()
     {
         _animator = GetComponent<Animator>();
         _agent = GetComponent<NavMeshAgent>();
-        _player = GameObject.FindGameObjectWithTag("Player").transform;
+        if(GameObject.FindGameObjectWithTag("Player"))
+            _player = GameObject.FindGameObjectWithTag("Player").transform;
         _spotIndicator = GetComponent<SpotIndicator>();
     }
 
@@ -50,8 +54,7 @@ public class EnemyAI : MonoBehaviour
 
     private bool _posSetted = false;
     private Vector3 _previosPlayersPos = Vector3.zero;
-    private static readonly int Moving = Animator.StringToHash("Moving");
-    private static readonly int Speed = Animator.StringToHash("speed");
+
     private static readonly int Attack = Animator.StringToHash("Attack");
     private static readonly int Die1 = Animator.StringToHash("Die");
 
@@ -64,8 +67,7 @@ public class EnemyAI : MonoBehaviour
         }
         _agent.SetDestination(_previosPlayersPos);
         _agent.speed = 5;
-        _animator.SetBool(Moving, true);
-        _animator.SetFloat(Speed, 1);
+        
     }
     private void ResetDestination()
     {
@@ -79,7 +81,7 @@ public class EnemyAI : MonoBehaviour
         if (_walkPointSet)
             _agent.SetDestination(walkPoint);
 
-        Vector3 distanceToWalkPoint = transform.position - walkPoint;
+        var distanceToWalkPoint = transform.position - walkPoint;
 
         //Walkpoint reached
         if (distanceToWalkPoint.magnitude < 1f)
@@ -87,12 +89,10 @@ public class EnemyAI : MonoBehaviour
     }
     private void SearchWalkPoint()
     {
-        _animator.SetFloat(Speed, 1);
-        _animator.SetBool(Moving, true);
 
         //Calculate random point in range
-        float randomZ = Random.Range(-walkPointRange, walkPointRange);
-        float randomX = Random.Range(-walkPointRange, walkPointRange);
+        var randomZ = Random.Range(-walkPointRange, walkPointRange);
+        var randomX = Random.Range(-walkPointRange, walkPointRange);
 
         var position = transform.position;
         walkPoint = new Vector3(position.x + randomX, position.y, position.z + randomZ);
@@ -105,15 +105,13 @@ public class EnemyAI : MonoBehaviour
         GetComponent<FieldOfView>().viewAngle = 360f;
         _agent.SetDestination(_player.position);
         _agent.speed = 10;
-        _animator.SetBool(Moving, true);
-        _animator.SetFloat(Speed, 2);
     }
     // ReSharper disable Unity.PerformanceAnalysis
     private void AttackPlayer()
     {
         //Make sure enemy doesn't move
         _agent.SetDestination(transform.position);
-        _animator.SetBool(Moving, false);
+        _agent.speed = 0;
 
 
         if (!_alreadyAttacked)
@@ -139,11 +137,14 @@ public class EnemyAI : MonoBehaviour
     {
         if (GetComponent<FieldOfView>().visibleTargets.Count > 0)
         {
-            _spotIndicator.FillTheSign(fillingSpeed);
+            _spotIndicator.FillTheSign(FillingSpeed);
         }
         else
         {
             _spotIndicator.UnfillTheSign(0);
         }
     }
+
+
+    
 }

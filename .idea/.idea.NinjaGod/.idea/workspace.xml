@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Mesh_MeshEffect.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Mesh_MeshEffect.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shaders.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/FightSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FightSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk back.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk back.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk forward.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk forward.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk left.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk left.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk right.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk right.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Samurai.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Samurai.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Macros/EnemyAI.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Macros/EnemyAI.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/VFX/DestroyParticles.cs" />
       <option value="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/GUIController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyFollowing.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/SpiderRigging.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/SpotIndicator.cs" />
@@ -56,12 +57,16 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/Kunai.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/ExplosiveKunai.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/ExplosiveKunai.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/KunaiInventory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/CirculasMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/VFX/ElementsController.cs" />
       <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.3.2/Runtime/UniversalRenderPipeline.cs" />
       <option value="$PROJECT_DIR$/Temp/GeneratedFromGraph-FireTrail.shader" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/FightSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/KunaiInventory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/FieldOfView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/LookAtPlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m9KvqNfIj9TVBvwOKkSXTSM6l0" />
@@ -168,6 +173,17 @@
       <workItem from="1620045051543" duration="2267000" />
       <workItem from="1620077362073" duration="671000" />
       <workItem from="1620079409580" duration="265000" />
+      <workItem from="1620507741861" duration="1289000" />
+      <workItem from="1620519876623" duration="803000" />
+      <workItem from="1620559556932" duration="3768000" />
+      <workItem from="1620597900342" duration="738000" />
+      <workItem from="1620604470630" duration="1904000" />
+      <workItem from="1620685375585" duration="1282000" />
+      <workItem from="1620754660739" duration="3561000" />
+      <workItem from="1620828374288" duration="1000" />
+      <workItem from="1621266402039" duration="4208000" />
+      <workItem from="1621350922244" duration="5232000" />
+      <workItem from="1621433826496" duration="1500000" />
     </task>
     <task id="LOCAL-00001" summary="SixthSense works!">
       <created>1618879705526</created>

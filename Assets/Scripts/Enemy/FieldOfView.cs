@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class FieldOfView : MonoBehaviour
@@ -16,15 +17,15 @@ public class FieldOfView : MonoBehaviour
 
     private void Start() 
     {
-        StartCoroutine("FindTargetsWithDelay", .2f);    
+        StartCoroutine(nameof(FindTargetsWithDelay), .2f);    
     }
 
     private void Update() 
     {
-        viewRadius = gameObject.GetComponent<EnemyAI>().sightRange;  
+        //viewRadius = gameObject.GetComponent<EnemyAI>().sightRange;  
     }
 
-    IEnumerator FindTargetsWithDelay(float delay)
+    private IEnumerator FindTargetsWithDelay(float delay)
     {
         while(true)
         {
@@ -33,22 +34,20 @@ public class FieldOfView : MonoBehaviour
         }        
     }
 
-    void FindVisibleTargets()
+    private void FindVisibleTargets()
     {
         visibleTargets.Clear();
-        Collider[] playerInView = Physics.OverlapSphere(transform.position, viewRadius, playerMask);
-        foreach(Collider player in playerInView)
+        var playerInView = Physics.OverlapSphere(transform.position, viewRadius, playerMask);
+        foreach (var target in from player in playerInView
+            select player.transform 
+            into target 
+            let dir2Target = (target.position - transform.position).normalized 
+            where Vector3.Angle(transform.forward, dir2Target) < viewAngle / 2 
+            let dist2Target = Vector3.Distance(target.position, transform.position)
+            where !Physics.Raycast(transform.position, dir2Target, dist2Target, obstacleMask)
+            select target)
         {
-            Transform target = player.transform;
-            Vector3 dir2Target = (target.position - transform.position).normalized;
-            if(Vector3.Angle(transform.forward, dir2Target) < viewAngle / 2)
-            {
-                float dist2Target = Vector3.Distance(target.position, transform.position);
-                if(!Physics.Raycast(transform.position, dir2Target, dist2Target, obstacleMask))
-                {
-                    visibleTargets.Add(target);
-                }
-            }
+            visibleTargets.Add(target);
         }
     }
 

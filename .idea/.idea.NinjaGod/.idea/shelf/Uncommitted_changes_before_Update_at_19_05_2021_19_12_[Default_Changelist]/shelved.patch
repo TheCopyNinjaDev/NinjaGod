@@ -1,0 +1,73 @@
+Index: Assets/Ludiq/Assemblies/sqlite3.dll.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Ludiq/Assemblies/sqlite3.dll.meta b/Assets/Ludiq/Assemblies/sqlite3.dll.meta
+new file mode 100644
+--- /dev/null	(date 1621440742138)
++++ b/Assets/Ludiq/Assemblies/sqlite3.dll.meta	(date 1621440742138)
+@@ -0,0 +1,27 @@
++fileFormatVersion: 2
++guid: 51eca72aa1c192e4a8cb63dad47e4a61
++PluginImporter:
++  externalObjects: {}
++  serializedVersion: 2
++  iconMap: {}
++  executionOrder: {}
++  defineConstraints: []
++  isPreloaded: 0
++  isOverridable: 0
++  isExplicitlyReferenced: 0
++  validateReferences: 1
++  platformData:
++  - first:
++      Any: 
++    second:
++      enabled: 1
++      settings: {}
++  - first:
++      Editor: Editor
++    second:
++      enabled: 0
++      settings:
++        DefaultValueInitialized: true
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: Assets/Ludiq/Assemblies.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Ludiq/Assemblies.meta b/Assets/Ludiq/Assemblies.meta
+new file mode 100644
+--- /dev/null	(date 1621440742135)
++++ b/Assets/Ludiq/Assemblies.meta	(date 1621440742135)
+@@ -0,0 +1,8 @@
++fileFormatVersion: 2
++guid: 8b176de9d8f00ea45b621fe7a164f7d6
++folderAsset: yes
++DefaultImporter:
++  externalObjects: {}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: Assets/Ludiq.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Ludiq.meta b/Assets/Ludiq.meta
+new file mode 100644
+--- /dev/null	(date 1621440742132)
++++ b/Assets/Ludiq.meta	(date 1621440742132)
+@@ -0,0 +1,8 @@
++fileFormatVersion: 2
++guid: 1f1c25471478ca44a9cb263d6a501f6a
++folderAsset: yes
++DefaultImporter:
++  externalObjects: {}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 

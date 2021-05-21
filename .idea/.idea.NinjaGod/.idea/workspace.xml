@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/BasicAINPC.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/BasicAINPC.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk back.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk back.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk forward.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk forward.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk left.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk left.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk right.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing walk right.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Samurai.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Samurai.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Macros/EnemyAI.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Macros/EnemyAI.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom.unity" afterDir="false" />
@@ -67,6 +65,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/LookAtPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BasicAINPC.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m9KvqNfIj9TVBvwOKkSXTSM6l0" />
@@ -184,6 +183,8 @@
       <workItem from="1621266402039" duration="4208000" />
       <workItem from="1621350922244" duration="5232000" />
       <workItem from="1621433826496" duration="1500000" />
+      <workItem from="1621524871820" duration="2017000" />
+      <workItem from="1621622000646" duration="744000" />
     </task>
     <task id="LOCAL-00001" summary="SixthSense works!">
       <created>1618879705526</created>

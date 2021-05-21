@@ -42,6 +42,7 @@ public class NPCAnimManager : MonoBehaviour
             _animator.SetBool(Moving, false);
             _animator.SetFloat(Speed, 0);
         }
+        
     }
     
     /*Debug zone*/

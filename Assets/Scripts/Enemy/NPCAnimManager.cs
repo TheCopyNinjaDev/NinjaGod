@@ -18,30 +18,11 @@ public class NPCAnimManager : MonoBehaviour
     
 
 
-    private void Awake() 
-    {
-        _playerPos = GameObject.FindWithTag("Player").transform;
-        _animator = GetComponent<Animator>();
-        _agent = GetComponent<NavMeshAgent>();
-    }
+    
 
     private void Update() 
     {
-        if (_agent.speed == 2)
-        {
-            _animator.SetBool(Moving, true);
-            _animator.SetFloat(Speed, 0.5f);
-        }
-        else if(_agent.speed == 5)
-        {
-            _animator.SetBool(Moving, true);
-            _animator.SetFloat(Speed, 1);
-        }
-        else
-        {
-            _animator.SetBool(Moving, false);
-            _animator.SetFloat(Speed, 0);
-        }
+        
         
     }
     

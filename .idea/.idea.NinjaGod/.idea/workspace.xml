@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/VFX/Shaders/KamuiMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/VFX/Shaders/KamuiMaterial.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/ChasingBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/ChasingBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/VFX/KamuiEffect.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/VFX/KamuiEffect.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/VFX/Shaders/KamuiRotation.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/VFX/Shaders/KamuiRotation.shadergraph" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +191,7 @@
       <workItem from="1621524871820" duration="2017000" />
       <workItem from="1621622000646" duration="8142000" />
       <workItem from="1621682498712" duration="10311000" />
+      <workItem from="1622228085001" duration="965000" />
     </task>
     <task id="LOCAL-00001" summary="SixthSense works!">
       <created>1618879705526</created>

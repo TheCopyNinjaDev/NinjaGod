@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/AttackBehavior.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/AttackBehavior.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/AttackSelectorBehavior.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/AttackSelectorBehavior.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/ChasingBehavior.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/CombatBehavior.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/CombatBehavior.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/IDLEBehavior.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/IDLEBehavior.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing idle looking ver. 1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Pro Melee Axe Pack/standing idle looking ver. 1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Enemy/Samurai.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Enemy/Samurai.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FPSPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FPSPlayer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Katanas/Katana (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Katanas/Katana (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom/NavMesh-NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AITrainingRoom/NavMesh-NavMesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/Chasing.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/Chasing.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/ChasingBehavior.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/NPCAnimManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/ChasingBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/ChasingBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +66,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Rotation.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/AttackSelectorBehavior.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/AttackBehavior.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/ChasingBehavior.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/IDLEBehavior.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/CombatBehavior.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/ChasingBehavior.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m9KvqNfIj9TVBvwOKkSXTSM6l0" />
@@ -204,7 +188,7 @@
       <workItem from="1621433826496" duration="1500000" />
       <workItem from="1621524871820" duration="2017000" />
       <workItem from="1621622000646" duration="8142000" />
-      <workItem from="1621682498712" duration="6083000" />
+      <workItem from="1621682498712" duration="10311000" />
     </task>
     <task id="LOCAL-00001" summary="SixthSense works!">
       <created>1618879705526</created>

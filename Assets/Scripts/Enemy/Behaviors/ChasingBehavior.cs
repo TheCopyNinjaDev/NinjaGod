@@ -14,6 +14,7 @@ namespace Enemy.Behaviors
         private static readonly int Moving = Animator.StringToHash("Moving");
         private static readonly int Speed = Animator.StringToHash("speed");
         private static readonly int InAttackRange = Animator.StringToHash("InAttackRange");
+        private static readonly int Turn = Animator.StringToHash("Turn");
 
 
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -32,8 +33,27 @@ namespace Enemy.Behaviors
         {
             _playerTransform = GameObject.FindWithTag("Player").transform;
 
+            var transform = animator.transform;
+            var vectorToNextPosition = _agent.steeringTarget - transform.position;
+            
+            // Turning while Running
+            if (Vector2.Dot(transform.forward, vectorToNextPosition) > 0)
+            {
+                animator.SetFloat(Turn, -1);
+            }
+            else if(Vector2.Dot(transform.forward, vectorToNextPosition) < 0)
+            {
+                animator.SetFloat(Turn, 1);
+            }
+            else
+            {
+                animator.SetFloat(Turn, 0);
+            }
             
             
+            
+            
+            // Checking distance to the player
             if (Vector2.Distance(animator.transform.position, _playerTransform.position) <= IDLEBehavior.attackRange && _agent.remainingDistance <= _agent.stoppingDistance)
             {
                 animator.SetBool(Moving, false);

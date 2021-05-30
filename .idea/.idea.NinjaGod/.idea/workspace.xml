@@ -2,7 +2,249 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f3d2450-9ab5-4605-9fe4-0525f7cd8036" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Animation/Demo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Animation/Demo/Presentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Animation/Demo/Presentation/Camera.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Animation/Demo/Presentation/Camera.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Animation/Demo/Presentation/Camera.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Normal.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Normal/brick_normal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Normal/cracked_normal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Normal/cracked_normal.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Normal/diagonal_normal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Normal/diagonal_normal.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/BrickWall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/BrickWall2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall10.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall10.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall11.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall11.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall12.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall12.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall5.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall5.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall6.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall6.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall7.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall7.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall8.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/BrickWall9.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/RustyTiles 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/RustyTiles 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/RustyTiles.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/Materials/RustyTiles.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/RustyTiles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/RustyTiles.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/RustyTiles_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/RustyTiles_normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/globe1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/globe1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/Texture/grid.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Art/source.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo10.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo10.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo11.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo12.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo13.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo14.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo15.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo16.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo16.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo5.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo5.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo6.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo6.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo7.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo7.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/CodeDemo8.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/Grab.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/CodeDemo/Grab.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo10.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo10.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo11.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo11.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo12.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo13.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo14.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo15.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo15.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo16.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo16.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo5.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo8.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo8.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/ConfigurationDemo/ConfigDemo9.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/GrabDistortionLWRP.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/PresentationDemo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/PresentationDemo/Explosion.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/PresentationDemo/Fire.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/PresentationDemo/FireDummy.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/PresentationDemo/FireDummy.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/PresentationDemo/Portal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/PresentationDemo/Trail.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/PresentationDemo/Trail.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/PresentationDemo/Trail.physicMaterial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/PresentationDemo/Window.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/PresentationDemo/WindowTexture.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/PresentationDemo/ZoomCircular.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/PresentationDemo/ZoomRectangular.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/PresentationDemo/ZoomRectangular.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/RTDistortionMaster.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/RTDistortionMaster.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/RTDistortionMasterTexture.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/RTDistortionMasterTexture.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/SetupDemo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/SetupDemo/SetupPart3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/SetupDemo/SetupPart4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Materials/SetupDemo/SetupPart4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Prefabs/DistortionPlane.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scenes/Demo Code.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scenes/Demo Code.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scenes/Demo CodeSettings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scenes/Demo CodeSettings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scenes/Demo Configuration.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scenes/Demo Configuration.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scenes/Demo PresentationSettings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scenes/Demo PresentationSettings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scenes/Demo Setup.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scenes/Demo Setup.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/AnimatedNormalMap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/AnimatedNormalMap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo1.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo10.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo15.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo15.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo3.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo4.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo4.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo5.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo6.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo6.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo7.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo7.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo8.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo8.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo9.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Code/CodeDemo9.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Configuration.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Configuration/CameraPath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Configuration/CameraPath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Configuration/ConfigurationDemo8.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/MoveBetween.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/MoveBetween.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Presentation/BounceSphere.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Presentation/BounceSphere.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Presentation/Explosion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Presentation/Explosion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Presentation/Gate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Presentation/Portal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Presentation/Portal.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Presentation/RotateToCamera.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Presentation/RotateToCamera.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Rotate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Demo/Rotate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/Editor/RenderTextureCameraEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/ScreenShotTool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Scripts/ScreenShotTool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/GrabDistortion.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/GrabDistortion/DistortionCG.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/GrabDistortion/DistortionCG.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/GrabDistortion/GrabDistortion.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/GrabDistortion/GrabDistortion.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/GrabDistortion/GrabDistortionBlended.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/GrabDistortion/GrabDistortionRing.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/GrabDistortion/GrabDistortionRingBlended.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/GrabDistortion/Legacy/GrabDistortion.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/GrabDistortion/Legacy/GrabDistortion.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/GrabDistortion/Legacy/GrabDistortionBlended.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/GrabDistortion/Legacy/GrabDistortionHDR.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/GrabDistortion/Legacy/GrabDistortionRing.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/GrabDistortion/Legacy/GrabDistortionRing.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/GrabDistortion/Legacy/GrabDistortionRingBlended.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/ImageDistortion.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/ImageDistortion/ImageDistortionAlpha.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/ImageDistortion/ImageDistortionAlpha.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/ImageDistortion/ImageDistortionBasic.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/ImageDistortion/ImageDistortionBasic.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/ImageDistortion/ImageDistortionColor.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/ImageDistortion/ImageDistortionColor.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/LWRP.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/LWRP/DistortionCG.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/LWRP/GrabDistortionLWRP.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/LWRP/GrabDistortionLWRP.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/LWRP/GrabLWRP.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/LWRP/GrabLWRP.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/DistortionCG.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/DistortionCG.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/Legacy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/Legacy/DistortionCG.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/Legacy/RTDistortionMaster.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/Legacy/RTDistortionMasterBlended.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/Legacy/RTDistortionMasterHDR.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/Legacy/RTDistortionMasterTexture.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/Legacy/RTDistortionMasterTexture.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/RTDistortion.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/RTDistortion.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/RTDistortionCircle.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/RTDistortionCombined.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/RTDistortionCombined.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/RTDistortionMaster.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/RTDistortionMasterBlended.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/RTDistortionMasterHDR.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/RTDistortionMasterHDR.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/RTDistortionMasterTexture.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/RTDistortionRing.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/RTDistortionRingBlended.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DistortionShaderPack/Shader/RTDistortion/RTDistortionRingBlended.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/Effect7/Distortion.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/Effect7/Distortion.shadergraph.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinjaGod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/Effect7/Distortion.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/Effect7/Distortion.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/Effect7/Distortion.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/Effect7/Distortion.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/Effect7/Fire1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/Effect7/Fire1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/Effect7/Fire2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/Effect7/Fire2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/Effect7/Particle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Materials/Effect7/Particle.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Shaders/ME_DistortionPerlin.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Shaders/ME_DistortionPerlin.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Shaders/ME_GlowCutout.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Shaders/ME_GlowCutout.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Shaders/ME_GlowCutoutGradient.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Shaders/ME_GlowCutoutGradient.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Shaders/ME_Gold.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KriptoFX/MeshEffect/Shaders/ME_Gold.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Japan.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Prefabs/Flare.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Prefabs/Flare.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Prefabs/FlareMobile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Prefabs/FlareMobile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +293,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/ExplosiveKunai.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/CirculasMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/VFX/ElementsController.cs" />
-      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.3.2/Runtime/UniversalRenderPipeline.cs" />
       <option value="$PROJECT_DIR$/Temp/GeneratedFromGraph-FireTrail.shader" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/FightSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trowable things/KunaiInventory.cs" />
@@ -67,6 +308,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/IDLEBehavior.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/CombatBehavior.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Behaviors/ChasingBehavior.cs" />
+      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.3.2/Runtime/UniversalRenderPipeline.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m9KvqNfIj9TVBvwOKkSXTSM6l0" />
@@ -188,7 +430,9 @@
       <workItem from="1621622000646" duration="8142000" />
       <workItem from="1621682498712" duration="10311000" />
       <workItem from="1622228085001" duration="965000" />
-      <workItem from="1622233987603" duration="725000" />
+      <workItem from="1622233987603" duration="1129000" />
+      <workItem from="1622379219801" duration="1992000" />
+      <workItem from="1622402964190" duration="1196000" />
     </task>
     <task id="LOCAL-00001" summary="SixthSense works!">
       <created>1618879705526</created>

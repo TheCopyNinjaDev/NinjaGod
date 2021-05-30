@@ -5,7 +5,7 @@ ShaderImporter:
   defaultTextures:
   - _MainTex: {instanceID: 0}
   nonModifiableTextures: []
-  preprocessorOverride: 0
+  preprocessorOverride: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 
